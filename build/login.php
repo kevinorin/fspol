@@ -4,15 +4,15 @@
   <title>Generation On</title>  
 </head>
 <body>
-	<div id="wrapper">
-		<?php include_once("header.php"); ?>
-	
+  <div id="wrapper">
+    <?php include_once("header.php"); ?>
+  
   <!-- Banner Start -->
-  <?php include_once("banner.php"); ?>
+  <?php include_once("banner-home.php"); ?>
   
   <!-- Content Start -->
   <div id="content">
-  	<section class="img-content">
+    <section class="img-content">
       <div class="row no-col-space">
         <div class="row-sm-height">
           <div class="col-sm-6 col-sm-height col-middle">
@@ -114,7 +114,7 @@
                     </div>
                     <div class="caption">
                       <div class="teaser-icon">
-                        <em><img src="../assets/images/icon-abc.svg" alt="ABC Building Blocks" height="91" width="91"></em>
+                        <em><img src="../assets/images/icon-gift.png" alt=""></em>
                       </div>
                       <h3>Clubs for Kids & Teens</h3>
                       <P>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod.</P>
@@ -129,7 +129,7 @@
                     </div>
                     <div class="caption">
                       <div class="teaser-icon">
-                        <em><img src="../assets/images/icon-campaigns.svg" alt="Campaigns" height="91" width="91"></em>
+                        <em><img src="../assets/images/icon-gift.png" alt=""></em>
                       </div>
                       <h3>generationOn Campaigns</h3>
                       <P>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod.</P>
@@ -144,7 +144,7 @@
                     </div>
                     <div class="caption">
                       <div class="teaser-icon">
-                        <em><img src="../assets/images/icon-school.svg" alt="School" height="91" width="91"></em>
+                        <em><img src="../assets/images/icon-gift.png" alt=""></em>
                       </div>
                       <h3>School <br>Programs</h3>
                       <P>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod.</P>
@@ -159,7 +159,7 @@
                     </div>
                     <div class="caption">
                       <div class="teaser-icon">
-                        <em><img src="../assets/images/icon-lightbulb.svg" alt="Lightbulb" height="91" width="91"></em>
+                        <em><img src="../assets/images/icon-gift.png" alt=""></em>
                       </div>
                       <h3>Training<br>Courses</h3>
                       <P>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod.</P>
@@ -230,7 +230,7 @@
     </section>
   </div>
 
-	<?php include_once("footer.php"); ?>
+  <?php include_once("footer.php"); ?>
 </div><!--wrapper -->
 </body>
 </html>
