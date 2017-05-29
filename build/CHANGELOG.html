@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+<h1 id="changelog">Changelog</h1>
+
+<h2 id="3.3.7">3.3.7</h2>
+
+<ul>
+<li>Allows jQuery 3.x in bower.json. <span class="externalcitation">[#1048]</span>(https://github.com/twbs/bootstrap-sass/issues/1048)</li>
+<li>Adds the <code>style</code> and <code>sass</code> fields to package.json. <span class="externalcitation">[#1045]</span>(https://github.com/twbs/bootstrap-sass/issues/1045)</li>
+<li>Adds Eyeglass support. <span class="externalcitation">[#1007]</span>(https://github.com/twbs/bootstrap-sass/pull/1007)</li>
+</ul>
+
+<h2 id="3.3.6">3.3.6</h2>
+
+<ul>
+<li>Bumps Sass dependency to 3.3.4+ to avoid compatibility issues with @at-root.</li>
+<li>Bumps node-sass dependency to ~3.4.2 for Node.js v5 compatibility. <span class="externalcitation">[#986]</span>(https://github.com/twbs/bootstrap-sass/issues/986)</li>
+<li>Fixes breadcrumb content issues on libsass. <span class="externalcitation">[#919]</span>(https://github.com/twbs/bootstrap-sass/issues/919)</li>
+<li>Fixes a Rails 5 compatibility issue. <span class="externalcitation">[#965]</span>(https://github.com/twbs/bootstrap-sass/pull/965)</li>
+</ul>
+
+<p>Framework version: Bootstrap <strong>v3.3.6</strong></p>
+
+<h2 id="3.3.5">3.3.5</h2>
+
+<p>Fix for standalone Compass extension compatibility. <span class="externalcitation">[#914]</span>(https://github.com/twbs/bootstrap-sass/issues/914)</p>
+
+<p>Framework version: Bootstrap <strong>v3.3.5</strong></p>
+
+<h2 id="3.3.4">3.3.4</h2>
+
+<p>No Sass-specific changes.</p>
+
+<p>Framework version: Bootstrap <strong>v3.3.4</strong></p>
+
+<h2 id="3.3.3">3.3.3</h2>
+
+<p>This is a re-packaged release of 3.3.2.1 (v3.3.2+1).</p>
+
+<p>Versions are now strictly semver.
+The PATCH version may be ahead of the upstream.</p>
+
+<p>Framework version: Bootstrap <strong>v3.3.2</strong>.</p>
+
+<h2 id="3.3.2.1">3.3.2.1</h2>
+
+<ul>
+<li>Fix glyphicons regression (revert 443d5b49eac84aec1cb2f8ea173554327bfc8c14)</li>
+</ul>
+
+<h2 id="3.3.2.0">3.3.2.0</h2>
+
+<ul>
+<li>Autoprefixer is now required, and <code>autoprefixer-rails</code> is now a dependency for the ruby gem. <span class="externalcitation">[#824]</span>(https://github.com/twbs/bootstrap-sass/issues/824)</li>
+<li>Minimum precision reduced from 10 to 8 <span class="externalcitation">[#821]</span>(https://github.com/twbs/bootstrap-sass/issues/821)</li>
+<li>Requiring bootstrap JS from npm now works <span class="externalcitation">[#812]</span>(https://github.com/twbs/bootstrap-sass/issues/812)</li>
+<li>Fix Sass 3.4.x + IE10 compatibility issue <span class="externalcitation">[#803]</span>(https://github.com/twbs/bootstrap-sass/issues/803)</li>
+<li>Provide minified JS bundle <span class="externalcitation">[#777]</span>(https://github.com/twbs/bootstrap-sass/issues/777)</li>
+<li>Bower package is now at bootstrap-sass <span class="externalcitation">[#813]</span>(https://github.com/twbs/bootstrap-sass/issues/813)</li>
+</ul>
+
+<h2 id="3.3.1.0">3.3.1.0</h2>
+
+<ul>
+<li>Variables override template at templates/project/_bootstrap-variables.sass</li>
+<li>Readme: Bower + Rails configuration</li>
+</ul>
+
+<h2 id="3.3.0.1">3.3.0.1</h2>
+
+<ul>
+<li>Fix loading issue with the ruby gem version</li>
+</ul>
+
+<h2 id="3.3.0">3.3.0</h2>
+
+<ul>
+<li>Improve libsass compatibility</li>
+<li>Support using Bower package with Rails</li>
+</ul>
+
+<h2 id="3.2.0.2">3.2.0.2</h2>
+
+<p>Main bootstrap file is now a partial (_bootstrap.scss), for compatibility with Compass 1+.</p>
+
+<p>Fixed a number of bugs. <a href="https://github.com/twbs/bootstrap-sass/issues?q=is%3Aissue+is%3Aclosed+milestone%3Av3.2.0.2">Issues closed in v3.2.0.2</a>.</p>
+
+<h2 id="3.2.0.1">3.2.0.1</h2>
+
+<p>Fixed a number of bugs: <a href="https://github.com/twbs/bootstrap-sass/issues?q=is%3Aissue+is%3Aclosed+milestone%3Av3.2.0.1">Issues closed in v3.2.0.1</a>.</p>
+
+<h2 id="3.2.0.0">3.2.0.0</h2>
+
+<ul>
+<li>Assets (Sass, JS, fonts) moved from <code>vendor/assets</code> to <code>assets</code>. <code>bootstrap.js</code> now contains concatenated JS.</li>
+<li>Compass generator now copies JS and fonts, and provides a better default <code>styles.sass</code>.</li>
+<li>Compass, Sprockets, and Mincer asset path helpers are now provided in pure Sass: <code>bootstrap-compass</code>, <code>bootstrap-sprockets</code>, and <code>bootstrap-mincer</code>.
+Asset path helpers must be imported before <code>bootstrap</code>, more in Readme.</li>
+<li>Sprockets / Mincer JS manifest has been moved to <code>bootstrap-sprockets.js</code>.
+It can be required without adding Bootstrap JS directory to load path, as it now uses relative paths.</li>
+<li>Sprockets: <code>depend_on_asset</code> (<code>glyphicons.scss</code>) has been changed to <code>depend_on</code> to work around an issue with <code>depend_on_asset</code>.
+<a href="https://github.com/twbs/bootstrap-sass/issues/592#issuecomment-46570286">More information</a>.</li>
+</ul>
+
+<h2 id="3.1.1.0">3.1.1.0</h2>
+
+<ul>
+<li>Updated Bower docs</li>
+</ul>
+
+<h2 id="3.1.0.2">3.1.0.2</h2>
+
+<ul>
+<li><h1 id="523:rails3.2compatibility">523: Rails 3.2 compatibility</h1></li>
+<li>Bugfixes from upstream up to 7eb532262fbd1112215b5a547b9285794b5360ab.</li>
+</ul>
+
+<h2 id="3.1.0.1">3.1.0.1</h2>
+
+<ul>
+<li><h1 id="518:scalemixinsasscompatibilityissue">518: <code>scale</code> mixin Sass compatibility issue</h1></li>
+</ul>
+
+<h2 id="3.1.0.0">3.1.0.0</h2>
+
+<ul>
+<li>compiles with libsass master</li>
+</ul>
+
+<h2 id="3.0.2.1">3.0.2.1</h2>
+
+<ul>
+<li>fix vendor paths for compass</li>
+</ul>
+
+<h2 id="3.0.0.0">3.0.0.0</h2>
+
+<ul>
+<li>Fully automated (lots of string juggling) LESS -&gt; Sass conversion. - <em>Gleb Mazovetskiy</em></li>
+<li>Ported rake task from vwall/compass-twitter-bootstrap to convert Bootstrap upstream - <em>Peter Gumeson</em></li>
+<li>Moved javascripts to us <code>bootstrap-component.js</code> to <code>bootstrap/component.js</code> - <em>Peter Gumeson</em></li>
+</ul>
+
+<h2 id="2.3.2.2">2.3.2.2</h2>
+
+<ul>
+<li>Allow sass-rails <code>&gt;= 3.2</code> - <em>Thomas McDonald</em></li>
+</ul>
+
+<h2 id="2.3.2.1">2.3.2.1</h2>
+
+<h2 id="2.3.2.0">2.3.2.0</h2>
+
+<ul>
+<li>Update to Bootstrap 2.3.2 - <em>Dan Allen</em></li>
+</ul>
+
+<h2 id="2.3.1.3">2.3.1.3</h2>
+
+<ul>
+<li>Find the correct Sprockets context for the <code>image_path</code> function - <em>Tristan Harward, Gleb Mazovetskiy</em></li>
+</ul>
+
+<h2 id="2.3.1.2">2.3.1.2</h2>
+
+<ul>
+<li>Fix changes to image url - <em>Gleb Mazovetskiy</em></li>
+<li>Copy _variables into project on Compass install - <em>Phil Thompson</em></li>
+<li>Add <code>bootstrap-affix</code> to the Compass template file - <em>brief</em></li>
+</ul>
+
+<h2 id="2.3.1.1yanked">2.3.1.1 (yanked)</h2>
+
+<ul>
+<li>Change how image_url is handled internally - <em>Tristan Harward</em></li>
+<li>Fix some font variables not having <code>!default</code> - <em>Thomas McDonald</em></li>
+</ul>
+
+<h2 id="2.3.0.0">2.3.0.0</h2>
+
+<ul>
+<li><span class="externalcitation">[#290]</span> Update to Bootstrap 2.3.0 - <em>Tristan Harward</em></li>
+<li>Fix <code>rake:debug</code> with new file locations - <em>Thomas McDonald</em></li>
+<li>Add draft contributing document - <em>Thomas McDonald</em></li>
+<li><span class="externalcitation">[#260]</span> Add our load path to the global Sass load path - <em>Tristan Harward</em></li>
+<li><span class="externalcitation">[#275]</span> Use GitHub notation in Sass head testing gemfile - <em>Timo Schilling</em></li>
+<li><span class="externalcitation">[#279, #283]</span> Readme improvements - <em>theverything, Philip Arndt</em></li>
+</ul>
+
+<h2 id="2.2.2.0">2.2.2.0</h2>
+
+<ul>
+<li><span class="externalcitation">[#270]</span> Update to Bootstrap 2.2.2 - <em>Tristan Harward</em></li>
+<li><span class="externalcitation">[#266]</span> Add license to gemspec - <em>Peter Marsh</em></li>
+</ul>
+
+<h2 id="2.2.1.1">2.2.1.1</h2>
+
+<ul>
+<li><span class="externalcitation">[#258]</span> Use <code>bootstrap</code> prefix for <code>@import</code>ing files in <code>bootstrap/bootstrap.scss</code> - <em>Umair Siddique</em></li>
+</ul>
+
+<h2 id="2.2.1.0">2.2.1.0</h2>
+
+<ul>
+<li><span class="externalcitation">[#246]</span> Update to Bootstrap 2.2.1 - <em>Tristan Harward</em></li>
+<li><span class="externalcitation">[#246]</span> Pull Bootstrap updates from jlong/sass-twitter-bootstrap - <em>Tristan Harward</em></li>
+</ul>
+
+<h2 id="2.1.1.0">2.1.1.0</h2>
+
+<ul>
+<li>Update to Bootstrap 2.1.1</li>
+<li><span class="externalcitation">[#222]</span> Remove 100% multiplier in vertical-three-colours</li>
+<li><span class="externalcitation">[#227]</span> Fix IE component animation collapse</li>
+<li><span class="externalcitation">[#228]</span> Fix variables documentation link</li>
+<li><span class="externalcitation">[#231]</span> Made .input-block-level a class as well as mixin</li>
+</ul>
+
+<h2 id="2.1.0.1">2.1.0.1</h2>
+
+<ul>
+<li><span class="externalcitation">[#219]</span> Fix expected a color. Got: transparent.</li>
+<li><span class="externalcitation">[#207]</span> Add missing warning style for table row highlighting</li>
+<li><span class="externalcitation">[#208]</span> Use grid-input-span for input spans</li>
+</ul>
+
+<h2 id="2.1.0.0">2.1.0.0</h2>
+
+<ul>
+<li>Updated to Bootstrap 2.1</li>
+<li>Changed some mixin names to be more consistent. Nested mixins in Less are separated by a <code>-</code> when they are flattened in Sass.</li>
+</ul>
+
+<h2 id="2.0.4.1">2.0.4.1</h2>
+
+<ul>
+<li>Fix <code>.row-fluid &gt; spanX</code> nesting</li>
+<li>Small Javascript fixes for those staying on the 2.0.4 release</li>
+<li>Add <code>!default</code> to z-index variables.</li>
+</ul>
+
+<h2 id="2.0.4.0">2.0.4.0</h2>
+
+<ul>
+<li>Updated to Bootstrap 2.0.4</li>
+<li>Switched to Bootstrap 2.0.3+&#8217;s method of separating responsive files</li>
+<li><span class="externalcitation">[#149, #150]</span> Fix off by one error introduced with manual revert of media query breakpoints</li>
+<li><code>rake debug</code> and <code>rake test</code> both compile bootstrap &amp; bootstrap-responsive</li>
+</ul>
+
+<h2 id="2.0.3.1">2.0.3.1</h2>
+
+<ul>
+<li><span class="externalcitation">[#145, #146]</span> Fix button alignment in collapsing navbar as a result of an incorrect variable</li>
+</ul>
+
+<h2 id="2.0.3">2.0.3</h2>
+
+<ul>
+<li>Updated to Bootstrap 2.0.3</li>
+<li><span class="externalcitation">[#106]</span> Support for Rails &lt; 3.1 through Compass</li>
+<li><span class="externalcitation">[#132]</span> Add CI testing</li>
+<li><span class="externalcitation">[#106]</span> Support Rails w/Compass</li>
+<li><span class="externalcitation">[#134]</span> Fix support for Rails w/Compass</li>
+</ul>
+
+<h2 id="2.0.2">2.0.2</h2>
+
+<ul>
+<li><span class="externalcitation">[#86]</span> Updated to Bootstrap 2.0.2
+Things of note: static navbars now have full width. (to be fixed in 2.0.3) <code>.navbar-inner &gt; .container { width:940px; }</code> seems to work in the meanwhile</li>
+<li><span class="externalcitation">[#62]</span> Fixed asset compilation taking a <em>very</em> long time.</li>
+<li><span class="externalcitation">[#69, #79, #80]</span> (Hopefully) clarified README. Now with less cat humour.</li>
+<li><span class="externalcitation">[#91]</span> Removed doubled up Sass extensions for Rails.</li>
+<li><span class="externalcitation">[#63, #73]</span> Allow for overriding of image-path</li>
+<li>[<a href="http://stackoverflow.com/a/9909626/241212">SO</a>] Added makeFluidColumn mixin for defining fluid columns. Fluid rows must use <code>@extend .row-fluid</code>, and any column inside it can use <code>@include makeFluidColumn(num)</code>, where <code>num</code> is the number of columns. Unfortunately, there is a rather major limitation to this: margins on first-child elements must be overriden. See the attached Stack Overflow answer for more information.</li>
+</ul>
+
+<h2 id="2.0.1">2.0.1</h2>
+
+<ul>
+<li>Updated to Bootstrap 2.0.1</li>
+<li>Modified <code>@mixin opacity()</code> to take an argument <code>0...1</code> rather than <code>0...100</code> to be consistent with Compass.</li>
+</ul>
+
+<h2 id="2.0.0">2.0.0</h2>
+
+<ul>
+<li>Updated to Bootstrap 2.0.0</li>
+</ul>
+
+</body>
+</html>

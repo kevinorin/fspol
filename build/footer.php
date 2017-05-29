@@ -3,7 +3,7 @@
 	<div class="footer-top">
 		<div class="container">
 			<div class="footer-top-left">
-				<a href="#"><img src="../assets/images/footer-logo.svg" alt=""></a>
+				<a href="index.php"><img src="../assets/images/footer-logo.svg" alt=""></a>
 			</div>
 			<div class="footer-top-right">
 				<div class="social-media">
@@ -18,22 +18,22 @@
 					<ul class="clearfix">
 						<li>
 							<span>Brought to you by</span>
-							<img src="../assets/images/footer-image-1.png" alt="">
+							<a href="http://www.pointsoflight.org" target="_blank"><img src="../assets/images/footer-image-1.png" alt="Points of Light">
 						</li>
 						<li>
 							<span>Founding Partner</span>
-							<img src="../assets/images/footer-image-2.png" alt="">
+							<a href="https://corporate.hasbro.com/en-us/community-relations" target="_blank"><img src="../assets/images/footer-image-2.png" alt="Hasbro Children's Fund"></a>
 						</li>
 					</ul>
 				</div>
 				<div class="footer-menu hidden-xs">
 					<ul class="clearfix">
-						<li><a href="#">Contact Us</a></li>
-						<li><a href="#">About Us</a></li>
-						<li><a href="#">Partners</a></li>
-						<li><a href="#">For Press</a></li>
-						<li><a href="#">Privacy and Terms of Use</a></li>
-						<li><a href="#">Careers</a></li>
+						<li><a href="contact-us.php">Contact Us</a></li>
+						<li><a href="about-us.php">About Us</a></li>
+						<li><a href="partners.php">Partners</a></li>
+						<li><a href="press.php">For Press</a></li>
+						<li><a href="toc.php">Privacy and Terms of Use</a></li>
+						<li><a href="careers.php">Careers</a></li>
 					</ul>
 				</div>
 			</div>
@@ -46,9 +46,9 @@
 			</div>
 			<div class="footer-bottom-right">
 				<ul class="clearfix">
-					<li><a href="#">Points of Light</a></li>
-					<li><a href="#">Americors Alumns</a></li>
-					<li><a href="#">Corporate Institute</a></li>
+					<li><a href="http://www.pointsoflight.org" target="_blank">Points of Light</a></li>
+					<li><a href="http://www.americorpsalums.org/" target="_blank">Americors Alumns</a></li>
+					<li><a href="http://www.pointsoflight.org/corporate-institute" target="_blank">Corporate Institute</a></li>
 				</ul>
 			</div>
 		</div>

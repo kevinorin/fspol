@@ -8,10 +8,10 @@
         </div>
         <div class="navbar-header-right clearfix hidden-xs">
             <ul class="clearfix">
-              <li><a href="#">Donate Now</a></li>
-              <li><a href="#">Join generationOn</a></li>
+              <li><a href="donate.php">Donate Now</a></li>
+              <li><a href="join.php">Join generationOn</a></li>
             </ul>
-            <a href="#" class="btn btn-sm btn-white btn-outline">login</a>
+            <a href="login.php" class="btn btn-sm btn-white btn-outline">login</a>
         </div>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="show">Menu</span>

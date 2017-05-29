@@ -8,7 +8,7 @@
 		<?php include_once("header.php"); ?>
 	
   <!-- Banner Start -->
-  <?php include_once("banner.php"); ?>
+  <?php include_once("banner-home.php"); ?>
   
   <!-- Content Start -->
   <div id="content">
@@ -47,7 +47,7 @@
                   </div>
                   <div class="caption">
                     <div class="teaser-icon">
-                      <em><img src="../assets/images/icon-gift.png" alt=""></em>
+                      <em><img src="../assets/images/icon-awards.svg" alt="Stars and Ribbon" height="91" width="91"></em>
                     </div>
                     <h2 class="h2">Grants & Awards</h2>
                     <h3><a href="#">Grant Example Item <em class="fa fa-angle-right"></em></a></h3>
@@ -67,7 +67,7 @@
                   </div>
                   <div class="caption">
                     <div class="teaser-icon">
-                      <em><img src="../assets/images/icon-gift.png" alt=""></em>
+                      <em><img src="../assets/images/icon-opportunities.svg" alt="Opportunitites" height="91" width="91"></em>
                     </div>
                     <h2 class="h2">Upcoming Opportunitites</h2>
                     <h3><a href="#">Days of Service 1 <em class="fa fa-angle-right"></em></a></h3>
@@ -91,7 +91,7 @@
         <div class="container padding-none-xs">
           <div class="family-block white">
             <div class="family-icon">
-              <em><img src="../assets/images/icon-gift.png" alt=""></em>
+              <em><img src="../assets/images/icon-volunteering.svg" alt="Stars" height="91" width="91"></em>
             </div>
             <h2>Family Volunteering</h2>
             <p>Short details about the Campaign. non paenitet nullum festiviorem excogitasse ad hoc. Curabitur est gravida et libero vitae dictum. Short details about the Campaign. non paenitet nullum festiviorem excogitasse ad hoc. Curabitur est gravida et libero </p>
