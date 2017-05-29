@@ -4067,42 +4067,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/docs\/changemaker.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/build\/docs\/changemaker.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/docs\/notes.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/build\/docs\/notes.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"\/eyeglass-exports.js": {
 		"ft": 64,
 		"mi": 1,
@@ -4142,50 +4106,41 @@
 		"oAP": "\/build\/index.php",
 		"oF": 0
 		},
-	"\/javascripts\/cssua.js": {
-		"ft": 64,
-		"mi": 1,
+	"\/notes-and-documentation\/changemaker.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/build\/javascripts\/cssua.js",
+		"oAP": "\/build\/notes-and-documentation\/changemaker.html",
 		"oF": 0,
-		"sC": 3,
-		"tS": 0
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
-	"\/javascripts\/custom.js": {
-		"ft": 64,
-		"mi": 1,
+	"\/notes-and-documentation\/notes.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/build\/javascripts\/custom.js",
+		"oAP": "\/build\/notes-and-documentation\/notes.html",
 		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/javascripts\/jquery-1.12.4.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/build\/javascripts\/jquery-1.12.4.min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/javascripts\/jquery.matchHeight.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/build\/javascripts\/jquery.matchHeight.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/javascripts\/modernizr-3.3.1.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/build\/javascripts\/modernizr-3.3.1.min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/package.json": {
 		"ft": 524288,
