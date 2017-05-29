@@ -2,36 +2,36 @@
 // Custom variables
 
 // Colors
-$white:				#fff;
-$grey:				#ADADAD;
-$ltmdgrey:			#eaeaea;
-$ltgrey:			#f5f5f5;
-$dkgrey:			#58595B;
+$white: #fff;
+$grey:  #ADADAD;
+$ltmdgrey:  #eaeaea;
+$ltgrey:  #f5f5f5;
+$dkgrey:  #58595B;
 
-$blue:				#0086FA;
-$blue-30:			rgba(0,134,250,0.30);
-$dkblue:			#0065BC;
-$nevyblue:			#263746;
-$nevydkblue:		#0C457C;
-$skyblue:			#3759C1;
-$cyan:				#0066C7;
+$blue:  #0086FA;
+$blue-30: rgba(0,134,250,0.30);
+$dkblue:  #0065BC;
+$navyblue:  #263746;
+$navydkblue:  #0C457C;
+$skyblue: #3759C1;
+$cyan:  #0066C7;
 
-$purple:			#C227B9;
-$purple-30:			rgba(194,39,185,0.30);
-$dkpurple:			#450742;
-$dkmdpurple:		#621e66;
-$vrdkpurple:		#311033;
-$ltpurple:			#c027b7;
-$ltdkpurple:		#901d89;
+$purple:  #C227B9;
+$purple-30: rgba(194,39,185,0.30);
+$dkpurple:  #450742;
+$dkmdpurple:  #621e66;
+$vrdkpurple:  #311033;
+$ltpurple:  #c027b7;
+$ltdkpurple:  #901d89;
 
-$orange:			#EB5924;
-$orange-30:			rgba(235,89,36,0.30);
-$dkorange:			#B0431B;
+$orange:  #EB5924;
+$orange-30: rgba(235,89,36,0.30);
+$dkorange:  #B0431B;
 
-$green:				#95D600;
-$green-30:			rgba(149,214,0,0.30);
-$ltgreen:			#BFE666;
-$xgreen:			#93d400;
+$green: #95D600;
+$green-30:  rgba(149,214,0,0.30);
+$ltgreen: #BFE666;
+$xgreen:  #93d400;
 
 
 
@@ -99,7 +99,7 @@ $body-bg:               #fff !default;
 $text-color:            $dkgrey !default;
 
 //** Global textual link color.
-$link-color:            $nevydkblue !default;
+$link-color:            $navydkblue !default;
 //** Link hover color set via `darken()` function.
 $link-hover-color:      $blue !default;
 //** Link hover decoration.
