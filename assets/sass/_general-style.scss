@@ -1,0 +1,68 @@
+a,
+.btn,
+button{
+	@include transition(all 0.3s ease-in-out);
+}
+:focus{
+	outline:none !important;
+}
+
+.white{
+	color:$white;
+}
+.blue{
+	color:$blue;
+}
+.purple{
+	color:$purple;
+}
+.orange{
+	color:$orange;
+}
+.green{
+	color:$green;
+}
+.cyan-bg{
+	background-color:$cyan;
+}
+.navyblue-bg{
+	background-color:$nevyblue;
+}
+.light-md-grey{
+	background-color:$ltmdgrey;
+}
+
+h2, .h2{
+	line-height:39px;
+}
+h3,.h3{
+	line-height:$h3-line-height;
+}
+p{margin-bottom:29px;}
+
+.no-col-space{
+	margin:0;
+	>[class*="row-"]{
+		>[class*="col-"]{
+			padding:0;
+		}
+	}
+	>[class*="col-"]{
+		padding:0;
+	}
+}
+
+@media (min-width: $screen-xlg-min){
+	.container{width:1300px;}
+}
+
+@media (max-width: $screen-xs-max){
+	.padding-none-xs{
+		padding:0;
+	}
+	
+	h1, .h1{
+		font-size:$font-size-h1-xs;
+		line-height:43px;
+	}
+}

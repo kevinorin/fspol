@@ -1,0 +1,50 @@
+.navbar-inverse{
+	.navbar-toggle{
+		display:block;
+		position:absolute;
+		right:0;
+		top:0;
+		margin:0;
+		background-color:$vrdkpurple;
+		@include border-radius(0);
+		border:none;
+		padding:10px 20px 20px;
+		color:$white;
+		.icon-bar{
+			width:47px;
+			height:3px;
+			margin-left: auto;
+			margin-right: auto;
+			+.icon-bar{
+				margin-top:12px;
+			}
+		}
+		.show{
+			margin-bottom:10px;
+			font-size:$font-size-xsmall;
+			line-height:14px;
+			letter-spacing: letterspacing(400, $font-size-xsmall);
+			text-transform:uppercase;
+		}
+	}
+}
+
+@media (max-width: $screen-xs-max){
+	.navbar-inverse{
+		background-color:$vrdkpurple;
+		padding-bottom:6px;
+		.navbar-toggle{
+			padding:5px 10px 10px;
+			top:8px;
+			.icon-bar{
+				width:37px;
+				+.icon-bar{
+					margin-top:7px;
+				}
+			}
+		}
+	}
+	.navbar-header{
+		margin:0;
+	}
+}
