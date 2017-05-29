@@ -3471,6 +3471,12 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/build": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/build",
+		"oF": 0
+		},
 	"\/CHANGELOG.md": {
 		"cS": 0,
 		"eF": 1,
@@ -3597,6 +3603,36 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"\/prototype\/about.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/prototype\/about.php",
+		"oF": 0
+		},
+	"\/prototype\/banner.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/prototype\/banner.php",
+		"oF": 0
+		},
+	"\/prototype\/footer.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/prototype\/footer.php",
+		"oF": 0
+		},
+	"\/prototype\/head.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/prototype\/head.php",
+		"oF": 0
+		},
+	"\/prototype\/header.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/prototype\/header.php",
+		"oF": 0
 		},
 	"\/prototype\/index.php": {
 		"ft": 8192,
