@@ -4,7 +4,7 @@
     <div class="container">
         <div class="navbar-header">
             
-            <a class="navbar-brand" href="#"><img src="../assets/images/logo.svg" alt=""></a>
+            <a class="navbar-brand" href="index.php"><img src="../assets/images/logo.svg" alt=""></a>
         </div>
         <div class="navbar-header-right clearfix hidden-xs">
             <ul class="clearfix">
