@@ -275,6 +275,16 @@
 		"oAP": "\/build\/assets\/images\/.keep",
 		"oF": 0
 		},
+	"\/assets\/images\/bg-header-login-100.jpg": {
+		"ft": 16384,
+		"iS": 182183,
+		"oA": 0,
+		"oAP": "\/build\/assets\/images\/bg-header-login-100.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/assets\/images\/family-image-1.png": {
 		"ft": 32768,
 		"iS": 1243508,
@@ -1772,6 +1782,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/banner-home.php",
+		"oF": 0
+		},
+	"\/banner-login.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/banner-login.php",
 		"oF": 0
 		},
 	"\/bootstrap-sass.gemspec": {

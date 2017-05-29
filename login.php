@@ -6,6 +6,9 @@
 <body>
   <div id="wrapper">
     <?php include_once("header.php"); ?>
+
+    <!-- Banner Start -->
+    <?php include_once("banner-login.php"); ?>
   
   
   <!-- Content Start -->

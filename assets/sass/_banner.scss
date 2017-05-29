@@ -28,11 +28,25 @@
 			}
 		}
 	}
-	
+	&.login-banner{
+		.banner-text{
+			font-size:$font-size-xxxl;
+			line-height:$line-height-xxxl;
+		}
+		&.full-h-banner{
+			.banner-full-height{
+				position:relative;
+			}
+		}
+	}
 }
 
 @media (min-width: $screen-sm-min){
 	#banner{
+		&.login-banner{
+			height:880px;
+			@include background(bg-header-login-100,jpg, no-repeat, center, center);
+		}
 		&.home-banner{
 			height:880px;
 			@include background(home-banner-1,jpg, no-repeat, center, center);
