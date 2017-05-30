@@ -4411,7 +4411,7 @@
 		"oAP": "\/build\/worldreader\/assets\/img\/Community:financials_impact.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -4422,7 +4422,7 @@
 		"oAP": "\/build\/worldreader\/assets\/img\/Community_financials_impact.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -4494,7 +4494,7 @@
 		"oAP": "\/build\/worldreader\/assets\/img\/Library\/photo01.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -4548,7 +4548,7 @@
 		"oAP": "\/build\/worldreader\/assets\/img\/Lifelong\/Photo03.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -4570,7 +4570,7 @@
 		"oAP": "\/build\/worldreader\/assets\/img\/Look into the future\/02.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -4581,7 +4581,7 @@
 		"oAP": "\/build\/worldreader\/assets\/img\/Look into the future\/03.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -4592,7 +4592,7 @@
 		"oAP": "\/build\/worldreader\/assets\/img\/Look into the future\/04.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -4603,7 +4603,7 @@
 		"oAP": "\/build\/worldreader\/assets\/img\/Magnitude.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -4614,7 +4614,7 @@
 		"oAP": "\/build\/worldreader\/assets\/img\/Mobile\/4pillars.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/worldreader\/assets\/img\/Pre-reading\/impact_pre-reading.png": {
@@ -4624,7 +4624,7 @@
 		"oAP": "\/build\/worldreader\/assets\/img\/Pre-reading\/impact_pre-reading.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -4646,7 +4646,7 @@
 		"oAP": "\/build\/worldreader\/assets\/img\/Pre-reading\/Photo02.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -4657,7 +4657,7 @@
 		"oAP": "\/build\/worldreader\/assets\/img\/Pre-reading\/Photo03.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -4667,7 +4667,7 @@
 		"oA": 0,
 		"oAP": "\/build\/worldreader\/assets\/img\/Pre-reading\/Pre-Reading.svg",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -4678,7 +4678,7 @@
 		"oAP": "\/build\/worldreader\/assets\/img\/Pre-reading\/Rectangle 756.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -4689,7 +4689,7 @@
 		"oAP": "\/build\/worldreader\/assets\/img\/Pre-reading\/Rectangle 758.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -4700,7 +4700,7 @@
 		"oAP": "\/build\/worldreader\/assets\/img\/Pre-reading\/Rectangle 764.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -4711,7 +4711,7 @@
 		"oAP": "\/build\/worldreader\/assets\/img\/Schools\/Impact.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -4721,7 +4721,7 @@
 		"oA": 0,
 		"oAP": "\/build\/worldreader\/assets\/img\/Schools\/School_Reading.svg",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -4856,7 +4856,7 @@
 		"oA": 0,
 		"oAP": "\/build\/worldreader\/fonts\/BebasNeue.svg",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
