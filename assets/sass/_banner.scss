@@ -28,33 +28,40 @@
 			}
 		}
 	}
-	&.login-banner{
-		.banner-text{
-			font-size:$font-size-xxxl;
-			line-height:$line-height-xxxl;
+	&.inner-banner{
+		border-bottom:1px solid $dkmdpurple;
+		h1{
+			font-size:$font-size-xlrg;
+			line-height:$line-height-xlrg;
 		}
-		&.full-h-banner{
-			.banner-full-height{
-				position:relative;
-			}
+	}
+	.track-banner{
+		h1{
+			margin-bottom:40px;
 		}
 	}
 }
+	
 
 @media (min-width: $screen-sm-min){
 	#banner{
-		&.login-banner{
-			height:880px;
-			@include background(bg-header-login-100,jpg, no-repeat, center, center);
+		
+		@include background(dashboar-banner,jpg, no-repeat, center, center);
+		.banner-full-height{
+			position:relative;
+			height:141px;
+		}
+		.banner-text{
+			position:absolute;
+			top:50%;
+			left:0;
+			right:0;
+			@include transform(translateY(-50%), false);
 		}
 		&.home-banner{
 			height:880px;
 			@include background(home-banner-1,jpg, no-repeat, center, center);
 			.banner-text{
-				position:absolute;
-				top:50%;
-				left:0;
-				@include transform(translateY(-50%), false);
 				max-width:78%;
 			}
 			&.full-h-banner{
@@ -68,6 +75,12 @@
 		}
 		
 	}
+		.banner-left{
+		float:left;
+		}
+		.banner-right{
+			float:right;
+		}
 }
 
 @media (min-width: $screen-md-min){
@@ -91,13 +104,15 @@
 			letter-spacing: letterspacing(-3, $font-size-h1-xs);
 			margin-bottom: 28px;
 		}
+		.banner-text{
+			background-color:$dkmdpurple;
+			padding:25px 20px;
+			font-size:$font-size-md;
+			line-height:$line-height-base;
+		}
 		&.home-banner{
 			.banner-text{
 				text-aligh:center;
-				background-color:$dkmdpurple;
-				padding:25px 20px;
-				font-size:$font-size-md;
-				line-height:$line-height-base;
 				.btn-group{
 					display:block;
 					.btn{

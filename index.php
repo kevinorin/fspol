@@ -17,7 +17,7 @@
         <div class="row-sm-height">
           <div class="col-sm-6 col-sm-height col-middle">
             <div class="img-thumbnail same-height">
-              <img src="../assets/images/image-1.jpg" alt="">
+              <img src="assets/images/image-1.jpg" alt="">
             </div>
           </div>
           <div class="col-sm-6 col-sm-height col-middle cyan-bg">
@@ -34,7 +34,7 @@
         <div class="container">
           <div class="quote-block text-center">
             <div class="icon-bar">
-              <em><img src="../assets/images/icon-gift.png" alt=""></em>
+              <em><img src="assets/images/icon-gift.png" alt=""></em>
             </div>
             <p>“Quote from last year's campaign or generationOn in general - Lorem ipsum, consectetur adipiscing”</p>
           </div>
@@ -43,11 +43,11 @@
               <div class="col-sm-6">
                 <div class="thumbnail blue-box thumbnail-50">
                   <div class="thumb">
-                    <img src="../assets/images/image-2.jpg" alt="">
+                    <img src="assets/images/image-2.jpg" alt="">
                   </div>
                   <div class="caption">
-                    <div class="teaser-icon">
-                      <em><img src="../assets/images/icon-awards.svg" alt="Stars and Ribbon" height="91" width="91"></em>
+                    <div class="teaser-icon block-icon">
+                      <img src="assets/images/icon-awards.svg" alt="Stars and Ribbon" height="91" width="91">
                     </div>
                     <h2 class="h2">Grants & Awards</h2>
                     <h3><a href="#">Grant Example Item <em class="fa fa-angle-right"></em></a></h3>
@@ -63,11 +63,11 @@
               <div class="col-sm-6">
                 <div class="thumbnail purple-box thumbnail-50">
                   <div class="thumb">
-                    <img src="../assets/images/image-2.jpg" alt="">
+                    <img src="assets/images/image-2.jpg" alt="">
                   </div>
                   <div class="caption">
-                    <div class="teaser-icon">
-                      <em><img src="../assets/images/icon-opportunities.svg" alt="Opportunitites" height="91" width="91"></em>
+                    <div class="teaser-icon block-icon">
+                      <img src="assets/images/icon-opportunities.svg" alt="Opportunitites" height="91" width="91">
                     </div>
                     <h2 class="h2">Upcoming Opportunitites</h2>
                     <h3><a href="#">Days of Service 1 <em class="fa fa-angle-right"></em></a></h3>
@@ -86,12 +86,12 @@
     </section>
     <section class="family-section">
         <div  class="visible-xs family-image">
-          <img src="../assets/images/family-image-1.png" alt="">
+          <img src="assets/images/family-image-1.png" alt="">
         </div>
         <div class="container padding-none-xs">
           <div class="family-block white">
-            <div class="family-icon">
-              <em><img src="../assets/images/icon-volunteering.svg" alt="Stars" height="91" width="91"></em>
+            <div class="family-icon block-icon">
+              <em><img src="assets/images/icon-volunteering.svg" alt="Stars" height="91" width="91"></em>
             </div>
             <h2>Family Volunteering</h2>
             <p>Short details about the Campaign. non paenitet nullum festiviorem excogitasse ad hoc. Curabitur est gravida et libero vitae dictum. Short details about the Campaign. non paenitet nullum festiviorem excogitasse ad hoc. Curabitur est gravida et libero </p>
@@ -103,18 +103,18 @@
         <div class="container">
           <div class="our-program-block custom-accordian">
             <div class="section-title cust-acc-head text-center">
-              <h2 class="cust-acc-title">Our Programs <em class="fa fa-angle-down visible-xs"></em></h2>
+              <h2 class="cust-acc-title skyblue">Our Programs <em class="fa fa-angle-down visible-xs"></em></h2>
             </div>
             <div class="teaser-grid custom-accordian-body">
               <div class="row">
                 <div class="col-sm-6 col-lg-3">
                   <div class="thumbnail blue-box">
                     <div class="thumb">
-                      <img src="../assets/images/image-2.jpg" alt="">
+                      <img src="assets/images/image-2.jpg" alt="">
                     </div>
                     <div class="caption">
-                      <div class="teaser-icon">
-                        <em><img src="../assets/images/icon-abc.svg" alt="ABC Building Blocks" height="91" width="91"></em>
+                      <div class="teaser-icon block-icon">
+                        <em><img src="assets/images/icon-abc.svg" alt="ABC Building Blocks" height="91" width="91"></em>
                       </div>
                       <h3>Clubs for Kids & Teens</h3>
                       <P>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod.</P>
@@ -125,11 +125,11 @@
                 <div class="col-sm-6 col-lg-3">
                   <div class="thumbnail blue-box">
                     <div class="thumb">
-                      <img src="../assets/images/image-2.jpg" alt="">
+                      <img src="assets/images/image-2.jpg" alt="">
                     </div>
                     <div class="caption">
-                      <div class="teaser-icon">
-                        <em><img src="../assets/images/icon-campaigns.svg" alt="Campaigns" height="91" width="91"></em>
+                      <div class="teaser-icon block-icon">
+                        <em><img src="assets/images/icon-campaigns.svg" alt="Campaigns" height="91" width="91"></em>
                       </div>
                       <h3>generationOn Campaigns</h3>
                       <P>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod.</P>
@@ -140,11 +140,11 @@
                 <div class="col-sm-6 col-lg-3">
                   <div class="thumbnail blue-box">
                     <div class="thumb">
-                      <img src="../assets/images/image-2.jpg" alt="">
+                      <img src="assets/images/image-2.jpg" alt="">
                     </div>
                     <div class="caption">
-                      <div class="teaser-icon">
-                        <em><img src="../assets/images/icon-school.svg" alt="School" height="91" width="91"></em>
+                      <div class="teaser-icon block-icon">
+                        <em><img src="assets/images/icon-school.svg" alt="School" height="91" width="91"></em>
                       </div>
                       <h3>School <br>Programs</h3>
                       <P>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod.</P>
@@ -155,11 +155,11 @@
                 <div class="col-sm-6 col-lg-3">
                   <div class="thumbnail blue-box">
                     <div class="thumb">
-                      <img src="../assets/images/image-2.jpg" alt="">
+                      <img src="assets/images/image-2.jpg" alt="">
                     </div>
                     <div class="caption">
-                      <div class="teaser-icon">
-                        <em><img src="../assets/images/icon-lightbulb.svg" alt="Lightbulb" height="91" width="91"></em>
+                      <div class="teaser-icon block-icon">
+                        <em><img src="assets/images/icon-lightbulb.svg" alt="Lightbulb" height="91" width="91"></em>
                       </div>
                       <h3>Training<br>Courses</h3>
                       <P>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod.</P>
@@ -172,14 +172,14 @@
           </div>
           <div class="our-program-block feature-story custom-accordian">
             <div class="section-title cust-acc-head text-center">
-              <h2 class="cust-acc-title">Featured Stories <em class="fa fa-angle-down visible-xs"></em></h2>
+              <h2 class="cust-acc-title skyblue">Featured Stories <em class="fa fa-angle-down visible-xs"></em></h2>
             </div>
             <div class="teaser-grid custom-accordian-body">
               <div class="row">
                 <div class="col-sm-6">
                   <div class="thumbnail blue-box">
                     <div class="thumb">
-                      <img src="../assets/images/image-2.jpg" alt="">
+                      <img src="assets/images/image-2.jpg" alt="">
                     </div>
                     <div class="caption">
                       <h3>Article Title</h3>
@@ -191,7 +191,7 @@
                 <div class="col-sm-6">
                   <div class="thumbnail blue-box">
                     <div class="thumb">
-                      <img src="../assets/images/image-2.jpg" alt="">
+                      <img src="assets/images/image-2.jpg" alt="">
                     </div>
                     <div class="caption">
                       <h3>Another Article Title</h3>

@@ -1,8 +1,8 @@
 .btn{
 	color:$white;
 	text-transform:uppercase;
-	border-width:2px;
-	padding:12px 20px;
+	border-width:1px;
+	padding:13px 20px;
 	min-width:210px;
 	line-height:20px;
 	font-family:$font-family-rounded-bl;
@@ -45,9 +45,6 @@
 		border-color:$dkblue;
 		background-color:$dkblue;
 	}
-}
-
-.btn-blue{
 	&.btn-outline{
 		border-color:$blue;
 		background-color:transparent;
@@ -56,9 +53,15 @@
 		&:active{
 			background-color:$blue-30;
 		}
+		.caret{
+			border-top-color:$blue;
+		}
+	}
+	&.btn-light{
+		color:$nevyblue;
 	}
 }
-
+ 
 .btn-purple{
 	border-color:$purple;
 	background-color:$purple;
@@ -68,9 +71,6 @@
 		border-color:$dkpurple;
 		background-color:$dkpurple;
 	}
-}
-
-.btn-purple{
 	&.btn-outline{
 		border-color:$purple;
 		background-color:transparent;
@@ -138,6 +138,17 @@
 		border-color:$ltmdgrey;
 		background-color:$ltmdgrey;
 	}
+	&.btn-radius{
+		@include border-radius(16px);
+		&.btn{
+			border-width:1px;
+			line-height:14px;
+			padding:8px 5px;
+			letter-spacing:0;
+			text-transform:none;
+			font-family:$font-family-rounded;
+		}
+	}
 }
 
 .btn-grey{
@@ -154,24 +165,39 @@
 	}
 }
 
+.btn-dkgrey{
+	&.btn-outline{
+		color:$dkgrey;
+		border-color:$dkgrey;
+		background-color:transparent;
+		&:hover,
+		&:focus,
+		&:active{
+			background-color:$dkgrey;
+			color:$white;
+		}
+	}
+}
+
 .btn-xgreen{
-	color:$navyblue;
+	color:$nevyblue;
 	border-color:$xgreen;
 	background-color:$xgreen;
 	&:hover,
 	&:focus,
 	&:active{
-		color:$navyblue;
+		color:$nevyblue;
 		border-color:$ltgreen;
 		background-color:$ltgreen;
 	}
 }
 
-.btn-radius{
-	
-}
-
 .btn-group{
+	&.open{
+		.dropdown-toggle{
+			box-shadow:none;
+		}
+	}
 	.btn{
 		+.btn{
 			margin-left:10px;
@@ -189,6 +215,19 @@
 	}
 }
 
+.btn-min-lg{
+	min-width:260px;
+}
+
 @media (max-width: $screen-xs-max){
-	.btn{display:block;}
+	.btn{
+		display:block;
+		white-space: normal;
+	}
+	
+	.btn-group{
+		 > .btn{
+			float:none;
+		 }
+	}
 }

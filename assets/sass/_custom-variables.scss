@@ -2,37 +2,40 @@
 // Custom variables
 
 // Colors
-$white: #fff;
-$grey:  #ADADAD;
-$ltmdgrey:  #eaeaea;
-$ltgrey:  #f5f5f5;
-$dkgrey:  #58595B;
+$white:				#fff;
+$grey:				#ADADAD;
+$ltmdgrey:			#eaeaea;
+$ltgrey:			#f5f5f5;
+$gray-dk:			#999999;
+$dkgrey:			#58595B;
 
-$blue:  #0086FA;
-$blue-30: rgba(0,134,250,0.30);
-$dkblue:  #0065BC;
-$navyblue:  #263746;
-$navydkblue:  #0C457C;
-$skyblue: #3759C1;
-$cyan:  #0066C7;
+$blue:				#0086FA;
+$blue-30:			rgba(0,134,250,0.30);
+$dkblue:			#0065BC;
+$nevyblue:			#263746;
+$nevydkblue:		#0C457C;
+$skyblue:			#3759C1;
+$cyan:				#0066C7;
 
-$purple:  #C227B9;
-$purple-30: rgba(194,39,185,0.30);
-$dkpurple:  #450742;
-$dkmdpurple:  #621e66;
-$vrdkpurple:  #311033;
-$ltpurple:  #c027b7;
-$ltdkpurple:  #901d89;
+$purple:			#C227B9;
+$purple-30:			rgba(194,39,185,0.30);
+$dkpurple:			#450742;
+$dkmdpurple:		#622066;
+$vrdkpurple:		#311033;
+$ltpurple:			#c027b7;
+$ltdkpurple:		#901d89;
 
-$orange:  #EB5924;
-$orange-30: rgba(235,89,36,0.30);
-$dkorange:  #B0431B;
+$orange:			#EB5924;
+$orange-30:			rgba(235,89,36,0.30);
+$dkorange:			#B0431B;
 
-$green: #95D600;
-$green-30:  rgba(149,214,0,0.30);
-$ltgreen: #BFE666;
-$xgreen:  #93d400;
+$green:				#95D600;
+$green-30:			rgba(149,214,0,0.30);
+$ltgreen:			#BFE666;
+$xgreen:			#93d400;
 
+$textarea-bg:		#f2f2f2;
+$textarea-border:	#D1D3D4;
 
 
 // Font family
@@ -44,8 +47,11 @@ $font-family-rounded-bl:	'museo_sans_rounded700';
 $Brandon_light:				'brandon_grotesquelight';
 
 // Font size
+$font-size-xlrg:			38px;
 $quote-font-size:			34px;
 $sub-title-h2:				33px;
+$sub-title-h3:				26px;
+$font-size-nrmd:			30px;
 $font-size-xxxl:			25px;
 $font-size-xm:				14px;
 $font-size-xsmall:			10px;
@@ -55,6 +61,7 @@ $font-size-h2-xs:         35px !default; // ~35px
 $font-size-h3-xs:         28px !default; // ~28px
 
 // Line height
+$line-height-xlrg:			45px;
 $h3-line-height:			33px;
 $quote-line-height:			50px;
 $sub-title-h3-line-height:	40px;
@@ -64,6 +71,16 @@ $line-height-xsmall:		14px;
 // Screen width
 $screen-xlg-min:		1300px;	
 
+// Selectbox
+$color-red-error: rgb(185, 74, 72) !default;
+$color-grey-arrow: rgba(204, 204, 204, 0.2) !default;
+
+$width-default: 220px !default; // 3 960px-grid columns
+
+$zindex-select-dropdown: 1060 !default; // must be higher than a modal background (1050)
+
+//** Placeholder text color
+$input-color-placeholder: #999 !default;
 
 $bootstrap-sass-asset-helper: false !default;
 //
@@ -99,7 +116,7 @@ $body-bg:               #fff !default;
 $text-color:            $dkgrey !default;
 
 //** Global textual link color.
-$link-color:            $navydkblue !default;
+$link-color:            $nevydkblue !default;
 //** Link hover color set via `darken()` function.
 $link-hover-color:      $blue !default;
 //** Link hover decoration.
@@ -185,7 +202,7 @@ $component-active-color:    #fff !default;
 $component-active-bg:       $brand-primary !default;
 
 //** Width of the `border` for generating carets that indicate dropdowns.
-$caret-width-base:          4px !default;
+$caret-width-base:          6px !default;
 //** Carets increase slightly in size for larger components.
 $caret-width-large:         5px !default;
 
@@ -259,27 +276,27 @@ $input-bg:                       #fff !default;
 $input-bg-disabled:              $gray-lighter !default;
 
 //** Text color for `<input>`s
-$input-color:                    $gray !default;
+$input-color:                    $nevyblue !default;
 //** `<input>` border color
-$input-border:                   #ccc !default;
+$input-border:                   #bcbec0 !default;
 
 // TODO: Rename `$input-border-radius` to `$input-border-radius-base` in v4
 //** Default `.form-control` border radius
 // This has no effect on `<select>`s in some browsers, due to the limited stylability of `<select>`s in CSS.
-$input-border-radius:            $border-radius-base !default;
+$input-border-radius:            0 !default;
 //** Large `.form-control` border radius
 $input-border-radius-large:      $border-radius-large !default;
 //** Small `.form-control` border radius
 $input-border-radius-small:      $border-radius-small !default;
 
 //** Border color for inputs on focus
-$input-border-focus:             #66afe9 !default;
+$input-border-focus:             $nevyblue !default;
 
 //** Placeholder text color
-$input-color-placeholder:        #999 !default;
+$input-color-placeholder:        #d1d3d4 !default;
 
 //** Default `.form-control` height
-$input-height-base:              ($line-height-computed + ($padding-base-vertical * 2) + 2) !default;
+$input-height-base:              60px !default;
 //** Large `.form-control` height
 $input-height-large:             (ceil($font-size-large * $line-height-large) + ($padding-large-vertical * 2) + 2) !default;
 //** Small `.form-control` height
@@ -464,7 +481,7 @@ $navbar-default-toggle-border-color:       #ddd !default;
 //=== Inverted navbar
 // Reset inverted navbar basics
 $navbar-inverse-color:                      lighten($gray-light, 15%) !default;
-$navbar-inverse-bg:                         transparent !default;
+$navbar-inverse-bg:                         $dkmdpurple !default;
 $navbar-inverse-border:                     darken($navbar-inverse-bg, 10%) !default;
 
 // Inverted navbar links

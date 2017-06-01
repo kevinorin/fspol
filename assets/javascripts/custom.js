@@ -2,7 +2,7 @@
 
 // Window Load
 $(window).load(function(){
-   $('.teaser-grid .thumbnail').matchHeight(); // For same height of boxes 
+   $('.teaser-grid .thumbnail,.same-height').matchHeight(); // For same height of boxes 
 });
 
 // Window Ready
@@ -10,6 +10,19 @@ $(document).ready(function(){
 	$(".cust-acc-title").on('click',function(){
 		$(this).parent(".cust-acc-head").toggleClass("active").next(".custom-accordian-body").slideToggle(800);
 	});
+
+	$('.blue-light-out-select').selectpicker({
+		style: 'btn-blue btn-outline btn-light',
+		size: 4
+	});
+
+	$('.purple-light-out-select').selectpicker({
+		style: 'btn-purple btn-outline btn-light',
+		size: 4
+	});
+
+	$('.rating').rating();
+
 });
 
 // on click page scroll

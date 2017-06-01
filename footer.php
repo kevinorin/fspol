@@ -3,7 +3,7 @@
 	<div class="footer-top">
 		<div class="container">
 			<div class="footer-top-left">
-				<a href="index.php"><img src="../assets/images/footer-logo.svg" alt=""></a>
+				<a href="index.php"><img src="assets/images/footer-logo.svg" alt=""></a>
 			</div>
 			<div class="footer-top-right">
 				<div class="social-media">
@@ -18,11 +18,11 @@
 					<ul class="clearfix">
 						<li>
 							<span>Brought to you by</span>
-							<a href="http://www.pointsoflight.org" target="_blank"><img src="../assets/images/footer-image-1.png" alt="Points of Light">
+							<a href="http://www.pointsoflight.org" target="_blank"><img src="assets/images/footer-image-1.png" alt="Points of Light"></a>
 						</li>
 						<li>
 							<span>Founding Partner</span>
-							<a href="https://corporate.hasbro.com/en-us/community-relations" target="_blank"><img src="../assets/images/footer-image-2.png" alt="Hasbro Children's Fund"></a>
+							<a href="https://corporate.hasbro.com/en-us/community-relations" target="_blank"><img src="assets/images/footer-image-2.png" alt="Hasbro Children's Fund"></a>
 						</li>
 					</ul>
 				</div>
@@ -56,8 +56,10 @@
 </footer>
 
 <!-- JavaScript files -->
-<script src="../assets/javascripts/jquery-1.12.4.min.js"></script>
+<script src="assets/javascripts/jquery-1.12.4.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="../assets/javascripts/jquery.matchHeight.js"></script>
-<script src="../assets/javascripts/cssua.js"></script>
-<script src="../assets/javascripts/custom.js"></script>
+<script src="assets/javascripts/bootstrap-select.min.js"></script>
+<script src="assets/javascripts/bootstrap-rating.min.js"></script>
+<script src="assets/javascripts/jquery.matchHeight.js"></script>
+<script src="assets/javascripts/cssua.js"></script>
+<script src="assets/javascripts/custom.js"></script>
