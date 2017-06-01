@@ -18,7 +18,7 @@
         <div class="track-service-center center-block white-bg panel-shadow">
           <div class="track-service-inner">
             <div class="track-steps text-center">
-              <h2>You can login with your e-mail address<br />and password. Want to sign up?</h2>
+              <h2 class="h2 dkmdpurple">You can login with your e-mail address<br />and password. Want to sign up?</h2>
 
               <!-- Login Form -->
               <form id="login">
