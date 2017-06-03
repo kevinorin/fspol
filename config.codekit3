@@ -4295,6 +4295,12 @@
 		"oAP": "\/build\/login.php",
 		"oF": 0
 		},
+	"\/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "\/build\/node_modules",
+		"oF": 0
+		},
 	"\/notes-and-documentation\/changemaker.md": {
 		"cS": 0,
 		"eF": 1,
