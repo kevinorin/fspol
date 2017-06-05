@@ -1,0 +1,397 @@
+.style-radio{
+	margin-bottom:11px;
+	padding-left:0;
+	margin-top:0;
+	label{
+		padding-left:27px;
+		margin-bottom:0;
+		min-height:5px;
+	}
+	input[type="radio"]{
+		opacity:0;
+	}
+	&.blue-radio{
+		input[type="radio"]{
+			&:checked{
+				+ .check-style{
+					span{
+						background-color:$blue;
+					}
+				}
+			}
+		}
+	}
+	&.purple-radio{
+		input[type="radio"]{
+			&:checked{
+				+ .check-style{
+					span{
+						background-color:$ltpurple;
+					}
+				}
+			}
+		}
+	}
+	.check-style{
+		top:1px;
+		padding:2px 0 0 2px;
+		border:1px solid $dkgrey;
+		@include border-radius(100%);
+		span{
+			width:9px;
+			height:9px;
+			@include border-radius(100%);
+		}
+	}
+}
+
+.check-style{
+	position:absolute;
+	left:0;
+	width:15px;
+	height:15px;
+	display:block;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	span{
+		display:block;
+	}
+}
+
+.radio-inline{
+	&.style-radio{
+		+.radio-inline{
+			margin-left:40px;
+		}
+	}
+	.check-style{
+		top:7px;
+	}
+}
+
+.style-checkbox{
+	margin-bottom:14px;
+	padding-left:0;
+	margin-top:0;
+	label{
+		padding-left:27px;
+		margin-bottom:0;
+		line-height:17px;
+		min-height:5px;
+		position:relative;
+	}
+	input[type="checkbox"]{
+		opacity:0;
+	}
+	&.blue-checkbox{
+		input[type="checkbox"]{
+			&:checked{
+				+ .check-style{
+					background-color:$blue;
+				}
+			}
+		}
+	}
+	&.purple-checkbox{
+		input[type="checkbox"]{
+			&:checked{
+				+ .check-style{
+					background-color:$ltpurple;
+				}
+			}
+		}
+	}
+	input[type="checkbox"]{
+		&:checked{
+			+ .check-style{
+				em{
+					opacity:1;
+				}
+			}
+		}
+	}
+	.check-style{
+		top:1px;
+		@include border-radius(2px);
+		background-color:$ltmdgrey;
+		
+		text-align:center;
+		em{
+			opacity:0;
+			color:$white;
+			line-height:15px;
+			font-size:10px;
+		}
+	}
+}
+
+.form-control{
+	border-left:none;
+	border-top:none;
+	border-right:none;
+	box-shadow:none;
+	font-size:$font-size-nrmd;
+	font-family:$font-family-base-lt;
+	background-color:transparent;
+	&:focus{
+		box-shadow:none;
+		background-color:$Xltgrey;
+	}
+}
+
+textarea{
+	&.form-control{
+		height:245px;
+		resize:none;
+		border-top:1px solid $textarea-border;
+		border-left:1px solid $textarea-border;
+		border-right:1px solid $textarea-border;
+		background-color:$textarea-bg;
+		&.text-area-sm{
+			height:147px;
+		}
+	}
+}
+
+.gray-box-formset{
+	border:1px solid #e8e9e9;
+	background-color:$Xltgrey;
+	padding:13px 20px;
+	.gray-box-require{
+		font-size:$font-size-small;
+		text-tranform:uppercase;
+		letter-spacing: letterspacing(200, $font-size-small);
+		float:left;
+		font-family:$font-family-rounded-bl;
+	}
+	.gray-box-remove{
+		float:right;
+		button{
+			font-size:$font-size-small;
+			background-color:transparent;
+			border:none;
+			font-family:$font-family-rounded-bl;
+			text-tranform:uppercase;
+			letter-spacing: letterspacing(200, $font-size-small);
+		}
+	}
+}
+
+.track-body-content{
+	.gray-box-formset{
+		.last-form-group{
+			margin-bottom:20px;
+		}
+	}
+}
+
+.add-new-field{
+	margin-top:10px;
+}
+form{
+	margin-bottom:0;
+}
+.file-upload-block{
+	position:relative;
+	padding-right:184px;
+	.form-control{
+		height:48px;
+		background-color:$Xltgrey;
+		border:1px solid #e9eaeb;
+	}
+	.file-upload{
+		position:absolute;
+		right:0;
+		bottom:0;
+		input{
+			 height: 48px;
+			opacity: 0;
+			position: absolute;
+			right: 0;
+			top: 0;
+			width: 170px;
+			z-index: 1;
+		}
+		.btn{
+			min-width:170px; 
+			padding-left:5px;
+			padding-right:5px;
+		}
+	}
+}
+
+.field-switch{
+	width:169px;
+	font-size:$font-size-small;
+	.switch-label{
+		display:inline-block;
+		vertical-align:middle;
+		line-height: 14px;
+		color:$dkgrey;
+	}
+	.swich-input{
+		display:inline-block;
+		vertical-align:middle;
+		margin: 0 14px;
+	}
+	.label-left{
+		&.active{
+			color:$dkmdpurple;
+		}
+	}
+	.bootstrap-switch-handle-on,
+	.bootstrap-switch-handle-off{
+		display:none;
+	}
+	.bootstrap-switch-label{
+		width:25px !important;
+		height:25px; 
+		background-color:$dkmdpurple;
+		@include border-radius(100%);
+		position:absolute;
+		left:0;
+		right:0;
+		top:-2px;
+	}
+	.bootstrap-switch-off{
+		.bootstrap-switch-label{
+			left:16px;
+		}
+	}
+	
+	.bootstrap-switch{
+		width:41px !important;
+		height:18px; 
+		background-color:$ltpurple;
+		display:block;
+		@include border-radius(8px);
+		position:relative;
+		height:18px; 
+		.bootstrap-switch-container{
+			width:41px !important;
+			height:18px;
+		}
+		&.bootstrap-switch-off{
+			background-color:#939598;
+			.bootstrap-switch-label{
+				background-color:$dkgrey;
+			}
+		}
+	}
+}
+
+.radio, 
+.checkbox{line-height:20px;}
+
+.radio {
+	+ .radio{
+		margin-top:0;
+	}
+} 
+.checkbox{ 
+	+ .checkbox{
+		margin-top:0;
+	}
+}
+
+.bootstrap-select{
+	>.dropdown-toggle{
+		font-size:$font-size-nrmd;
+		text-transform:none;
+		font-family:$font-family-base-lt;
+		line-height:32px;
+		color:#d1d3d4;
+		padding-left:13px;
+		letter-spacing:0;
+		white-space: nowrap !important;
+		@include border-radius(0);
+		&:hover,
+		&:focus{
+			color:$white;
+		}
+	}
+	&.open{
+		.dropdown-toggle{
+			border-bottom:none;
+		}
+		.caret{
+			@include transform (rotate(-180deg));
+		}
+	}
+}
+
+.grey-light-out-select{
+	&.bootstrap-select{
+		>.dropdown-toggle{
+			background-color:$white;
+			color:$nevyblue;
+			padding-left:13px;
+			&:hover,
+			&:focus{
+				color:$nevyblue;
+				background-color:$white;
+			}
+			&.bs-placeholder,
+			&.bs-placeholder:hover,
+			&.bs-placeholder:focus,
+			&.bs-placeholder:active { color: $nevyblue;}
+		}
+	}
+}
+
+.purple-light-out-select{
+	.btn-purple{
+		&.btn-outline{
+			&:hover,
+			&:focus,
+			&:active{
+				background-color:transparent;
+			}
+		}
+	}
+	>.dropdown-toggle{
+		&:hover,
+		&:focus{
+			color:#999999;
+		}
+	}
+	.dropdown-menu{
+		border-color:$purple;
+	}
+	
+}
+
+.form-group{
+	margin-bottom:45px;
+	position:relative;
+	label{
+		font-weight:normal;
+	}
+	.label-title{
+		text-transform:uppercase;
+		color:$nevyblue;
+	}
+}
+	.grey-light-out-select{
+		.btn{
+			color:$nevyblue;
+		}
+		.caret{
+			border-top-color:$purple;
+		}
+	}
+
+@media (max-width: $screen-xs-max){
+	.file-upload-block{
+		position:relative;
+		padding-right:0;
+		.file-upload{
+			position:relative;
+			margin-top:10px;
+		}
+	}
+}

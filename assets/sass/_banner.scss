@@ -1,0 +1,149 @@
+#banner{
+	color:$white;
+	position:relative;
+	img{
+		width:100%;
+	}
+	.banner-scroll{
+		position:absolute;
+		left:50%;
+		bottom:78px;
+		z-index:1;
+		margin-left:-30px;
+	}
+	h1{
+		letter-spacing: letterspacing(-3, $font-size-h1);
+		margin-top:0;
+		margin-bottom:16px;
+	}
+	&.home-banner{
+		.banner-text{
+			font-size:$font-size-xxxl;
+			line-height:$line-height-xxxl;
+		}
+		&.full-h-banner{
+			
+			.banner-full-height{
+				position:relative;
+			}
+		}
+	}
+	&.inner-banner{
+		border-bottom:1px solid $dkmdpurple;
+		h1{
+			font-size:$font-size-xlrg;
+			line-height:$line-height-xlrg;
+		}
+	}
+	.banner-text-center{
+		h1{
+			margin-bottom:40px;
+		}
+	}
+	&.breadcrumb-banner{
+		h1{
+			margin-bottom:4px;
+		}
+	}
+}
+
+.breadcrumb{
+	font-size:$font-size-md;
+	margin-bottom:0;
+	line-height:20px;
+	li{
+		a{
+			color:$white; 
+		}
+	}
+}
+	
+
+@media (min-width: $screen-sm-min){
+	#banner{
+		
+		@include background(dashboar-banner,jpg, no-repeat, center, center);
+		.banner-full-height{
+			position:relative;
+			height:141px;
+		}
+		.banner-text{
+			position:absolute;
+			top:50%;
+			left:0;
+			right:0;
+			@include transform(translateY(-50%), false);
+		}
+		&.home-banner{
+			height:880px;
+			@include background(home-banner-1,jpg, no-repeat, center, center);
+			.banner-text{
+				max-width:78%;
+			}
+			&.full-h-banner{
+				.container{
+					height:inherit;
+				}
+				.banner-full-height{
+					height:inherit;
+				}
+			}
+		}
+		&.breadcrumb-banner{
+			.banner-full-height{
+				height:180px;
+			}
+		}
+	}
+		.banner-left{
+		float:left;
+		}
+		.banner-right{
+			float:right;
+		}
+}
+
+@media (min-width: $screen-md-min){
+	#banner{
+		&.home-banner{
+			.banner-text{
+				max-width:50%;
+			}
+		}
+		
+	}
+}
+
+@media (max-width: $screen-xs-max){
+	#banner{
+		.banner-scroll{
+			display:none;
+		}
+		h1{
+			letter-spacing: letterspacing(-3, $font-size-h1-xs);
+			margin-bottom: 28px;
+		}
+		.banner-text{
+			background-color:$dkmdpurple;
+			padding:25px 20px;
+			font-size:$font-size-md;
+			line-height:$line-height-base;
+		}
+		&.home-banner{
+			.banner-text{
+				text-aligh:center;
+				.btn-group{
+					display:block;
+					.btn{
+						display:block;
+						float:none;
+						+.btn{
+							margin-left:0;
+							margin-top:20px;
+						}
+					}
+				}
+			}
+		}
+	}
+}

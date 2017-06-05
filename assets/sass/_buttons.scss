@@ -1,0 +1,290 @@
+.btn{
+	color:$white;
+	text-transform:uppercase;
+	border-width:2px;
+	padding:13px 20px;
+	min-width:210px;
+	line-height:20px;
+	font-family:$font-family-rounded-bl;
+	font-size:$font-size-md;
+	letter-spacing: letterspacing(200, $font-size-md);
+	&:hover,
+	&:focus,
+	&:active{
+		color:$white;
+		@include box-shadow(rgba(0,0,0, 0.35) 0 0 8px);
+	}
+	&.btn-outline{
+		box-shadow:none;
+	}
+}
+
+.btn-sm{
+	padding:9px 12px;
+	min-width:120px;
+	letter-spacing: letterspacing(400, 12);
+	font-size:$font-size-small;
+}
+
+.btn-white{
+	border-color:$white;
+	&:hover,
+	&:focus,
+	&:active{
+		background-color:$white;
+		color:$dkgrey;
+	}
+}
+
+.btn-blue{
+	border-color:$blue;
+	background-color:$blue;
+	&:hover,
+	&:focus,
+	&:active{
+		border-color:$dkblue;
+		background-color:$dkblue;
+	}
+	&.btn-outline{
+		border-color:$blue;
+		background-color:transparent;
+		&:hover,
+		&:focus,
+		&:active{
+			background-color:$blue-30;
+		}
+		.caret{
+			border-top-color:$blue;
+		}
+	}
+	&.btn-light{
+		color:$nevyblue;
+	}
+}
+ 
+.btn-purple{
+	border-color:$purple;
+	background-color:$purple;
+	&:hover,
+	&:focus,
+	&:active{
+		border-color:$dkpurple;
+		background-color:$dkpurple;
+	}
+	&.btn-outline{
+		border-color:$purple;
+		background-color:transparent;
+		&:hover,
+		&:focus,
+		&:active{
+			background-color:$purple-30;
+		}
+	}
+}
+
+.btn-dkpurple{
+	border-color:$dkmdpurple;
+	background-color:$dkmdpurple;
+	&:hover,
+	&:focus,
+	&:active{
+		border-color:$dkpurple;
+		background-color:$dkpurple;
+	}
+	&.btn-outline{
+		border-color:$dkmdpurple;
+		background-color:transparent;
+		&:hover,
+		&:focus,
+		&:active{
+			background-color:$purple-30;
+		}
+	}
+}
+
+.btn-nevyblue{
+	border-color:$nevyblue;
+	background-color:$nevyblue;
+	&:hover,
+	&:focus,
+	&:active{
+		border-color:$nevydkblue;
+		background-color:$nevydkblue;
+	}
+}
+
+.btn-orange{
+	border-color:$orange;
+	background-color:$orange;
+	&:hover,
+	&:focus,
+	&:active{
+		border-color:$dkorange;
+		background-color:$dkorange;
+	}
+	&.btn-outline{
+		border-color:$orange;
+		background-color:transparent;
+		&:hover,
+		&:focus,
+		&:active{
+			background-color:$orange-30;
+		}
+	}
+}
+
+.btn-green{
+	border-color:$green;
+	background-color:$green;
+	color:$nevyblue;
+	&:hover,
+	&:focus,
+	&:active{
+		border-color:$ltgreen;
+		background-color:$ltgreen;
+		color:$nevyblue;
+	}
+	&.active{
+		border-color:$ltgreen;
+		background-color:$ltgreen;
+	}
+	&.btn-outline{
+		border-color:$green;
+		background-color:transparent;
+		&:hover,
+		&:focus,
+		&:active{
+			background-color:$green-30;
+		}
+	}
+	&.btn-light{
+		color:$nevyblue;
+		&:hover,
+		&:focus,
+		&:active{
+			color:$nevyblue;
+		}
+		&.active{
+			border-color:$green;
+			background-color:$green;
+		}
+	}
+}
+
+.btn-grey{
+	border-color:$grey;
+	background-color:$grey;
+	
+	&:hover,
+	&:focus,
+	&:active{
+		border-color:$ltmdgrey;
+		background-color:$ltmdgrey;
+	}
+	&.btn-radius{
+		@include border-radius(16px);
+		&.btn{
+			border-width:1px;
+			line-height:14px;
+			padding:8px 5px;
+			letter-spacing:0;
+			text-transform:none;
+			font-family:$font-family-rounded;
+		}
+	}
+}
+
+.btn-grey{
+	&.btn-outline{
+		border-color:$grey;
+		background-color:transparent;
+		color:$grey;
+		&:hover,
+		&:focus,
+		&:active{
+			color:$white;
+			background-color:$grey;
+		}
+	}
+}
+
+.btn-dkgrey{
+	&.btn-outline{
+		color:$dkgrey;
+		border-color:$dkgrey;
+		background-color:transparent;
+		&:hover,
+		&:focus,
+		&:active{
+			background-color:$dkgrey;
+			color:$white;
+		}
+	}
+}
+
+.btn-xdkgrey{
+	&.btn-outline{
+		border-color:$xdkgrey;
+		background-color:transparent;
+		color:$xdkgrey;
+		&:hover,
+		&:focus,
+		&:active{
+			color:$white;
+			background-color:$xdkgrey;
+		}
+	}
+}
+
+.btn-xgreen{
+	color:$nevyblue;
+	border-color:$xgreen;
+	background-color:$xgreen;
+	&:hover,
+	&:focus,
+	&:active{
+		color:$nevyblue;
+		border-color:$ltgreen;
+		background-color:$ltgreen;
+	}
+}
+
+.btn-group{
+	&.open{
+		.dropdown-toggle{
+			box-shadow:none;
+		}
+	}
+	.btn{
+		+.btn{
+			margin-left:10px;
+		}
+	}
+	> .btn{
+		&:last-child:not(:first-child){
+			@include border-radius(2px);
+		}
+	}
+	> .btn{
+		&:first-child:not(:last-child):not(.dropdown-toggle){
+			@include border-radius(2px);
+		}
+	}
+}
+
+.btn-min-lg{
+	min-width:260px;
+}
+
+@media (max-width: $screen-xs-max){
+	.btn{
+		display:block;
+		white-space: normal;
+	}
+	
+	.btn-group{
+		 > .btn{
+			float:none;
+		 }
+	}
+}

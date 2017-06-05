@@ -1,0 +1,15 @@
+@mixin background ($img:file, $type:png, $repeat:no-repeat, $x:0, $y:0) {
+    background-image: url(../images/#{$img}.#{$type});
+    background-repeat: #{$repeat};
+    background-position: #{$x} #{$y};
+	background-size:cover;
+}
+
+@import "compass/css3/transition";
+@import "compass/css3/border-radius";
+@import "compass/css3/transform";
+@import "compass/css3/box-shadow";
+
+@function letterspacing($val, $font-size) {
+  @return ( $val * $font-size / 1000 )
+}

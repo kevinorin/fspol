@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-668.591 7871.996 705.696 589.771">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #878787;
+      }
+
+      .cls-2, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #709bfc;
+      }
+
+      .cls-4 {
+        fill: #f7b228;
+      }
+
+      .cls-5 {
+        fill: #00a8ff;
+      }
+
+      .cls-6 {
+        fill: #0054ff;
+      }
+
+      .cls-14, .cls-7 {
+        fill: #808d8b;
+      }
+
+      .cls-7 {
+        font-size: 58px;
+      }
+
+      .cls-7, .cls-8 {
+        font-family: BebasNeue, Bebas Neue;
+      }
+
+      .cls-8 {
+        font-size: 28px;
+      }
+
+      .cls-9 {
+        fill: #6f9cd2;
+      }
+
+      .cls-14, .cls-9 {
+        font-size: 21px;
+      }
+
+      .cls-11, .cls-12, .cls-13, .cls-14, .cls-9 {
+        font-family: HelveticaNeueLTStd-Bd, Helvetica Neue LT Std;
+      }
+
+      .cls-10 {
+        fill: #2b2e34;
+        font-size: 19px;
+        font-family: HelveticaNeueLTStd-Th, Helvetica Neue LT Std;
+      }
+
+      .cls-11 {
+        fill: #ffae32;
+      }
+
+      .cls-11, .cls-12, .cls-13 {
+        font-size: 22px;
+      }
+
+      .cls-12 {
+        fill: #2a5db1;
+      }
+
+      .cls-13 {
+        fill: #44abde;
+      }
+    </style>
+  </defs>
+  <g id="Group_1867" data-name="Group 1867" transform="translate(-668.591 7871.996)">
+    <g id="Group_1853" data-name="Group 1853" transform="translate(314.45 72.818)">
+      <path id="Path_1858" data-name="Path 1858" class="cls-1" d="M48.308,148.379-26.236-68.111A227.411,227.411,0,0,1,48.308-80.584Z" transform="translate(26.236 80.584)"/>
+    </g>
+    <g id="Group_1854" data-name="Group 1854" transform="translate(312.975 71.656)">
+      <path id="Path_1859" data-name="Path 1859" class="cls-2" d="M50.017,153.629-27.164-70.521l1.1-.375A229.559,229.559,0,0,1,48.855-83.435h1.162ZM-24.212-69.078,47.7,139.752V-81.111A227.352,227.352,0,0,0-24.212-69.078" transform="translate(27.164 83.435)"/>
+    </g>
+    <g id="Group_1855" data-name="Group 1855" transform="translate(179.826 85.291)">
+      <path id="Path_1860" data-name="Path 1860" class="cls-3" d="M135.551,140.3-73.617,47.167Q-33.116-43.8,61.007-76.194Z" transform="translate(73.617 76.194)"/>
+    </g>
+    <g id="Group_1856" data-name="Group 1856" transform="translate(178.294 83.815)">
+      <path id="Path_1861" data-name="Path 1861" class="cls-2" d="M137.819,142.644-74.849,47.957l.472-1.06C-47.371-13.758-1.847-55.474,60.931-77.091l1.1-.378.378,1.1ZM-71.78,46.781l205.665,91.569L60.59-74.514C-.62-53.136-45.152-12.332-71.78,46.781" transform="translate(74.849 77.469)"/>
+    </g>
+    <g id="Group_1857" data-name="Group 1857" transform="translate(159.614 208.652)">
+      <path id="Path_1862" data-name="Path 1862" class="cls-4" d="M148.649,60.352,20.615,250.171C-72.478,187.381-106.192,69.808-60.519-32.777Z" transform="translate(80.731 32.777)"/>
+    </g>
+    <g id="Group_1858" data-name="Group 1858" transform="translate(158.521 207.12)">
+      <path id="Path_1863" data-name="Path 1863" class="cls-2" d="M66.588,185.4l-.963-.651c-45.251-30.521-78.3-75.692-93.07-127.194S-38.12-49.769-15.921-99.631l.472-1.06,211.5,94.164ZM-14.267-97.625C-35.835-48.53-39.728,6.3-25.214,56.916s46.87,95.053,91.177,125.259L192.574-5.533Z" transform="translate(36.164 100.691)"/>
+    </g>
+    <g id="Group_1859" data-name="Group 1859" transform="translate(260.959 301.781)">
+      <path id="Path_1864" data-name="Path 1864" class="cls-5" d="M82.973,0,275,124.7C206.126,230.756,64.322,260.9-41.729,192.027c-1.063-.69-2.284-1.5-3.333-2.208Z" transform="translate(45.062 0)"/>
+    </g>
+    <g id="Group_1860" data-name="Group 1860" transform="translate(259.347 300.185)">
+      <path id="Path_1865" data-name="Path 1865" class="cls-2" d="M83.718,150.217a228.535,228.535,0,0,1-124.872-37.2c-1.065-.69-2.3-1.506-3.35-2.216l-.963-.651L83.858-81.582,277.813,44.376l-.634.975a228.613,228.613,0,0,1-145.153,99.761,232.173,232.173,0,0,1-48.308,5.106m-125.958-40.7c.784.523,1.608,1.065,2.35,1.549a226.279,226.279,0,0,0,171.433,31.771A226.274,226.274,0,0,0,274.6,45.058L84.505-78.391Z" transform="translate(45.467 81.582)"/>
+    </g>
+    <g id="Group_1861" data-name="Group 1861" transform="translate(388.995 72.818)">
+      <path id="Path_1866" data-name="Path 1866" class="cls-6" d="M0,148.379V-80.584c126.452,0,228.963,102.511,228.963,228.963,0,47.168-11.249,85.145-36.937,124.7Z" transform="translate(0 80.584)"/>
+    </g>
+    <g id="Group_1862" data-name="Group 1862" transform="translate(387.834 71.654)">
+      <path id="Path_1867" data-name="Path 1867" class="cls-2" d="M125.415,230.988-68.112,105.308V-125.448h1.159c126.892,0,230.125,103.233,230.125,230.126,0,47.143-11.45,85.8-37.124,125.336ZM-65.791,104.047,124.73,227.771c24.975-38.8,36.121-76.815,36.121-123.094,0-125.219-101.568-227.168-226.642-227.8Z" transform="translate(68.112 125.448)"/>
+    </g>
+    <g id="Group_1863" data-name="Group 1863" transform="translate(228.865 141.651)">
+      <path id="Path_1868" data-name="Path 1868" class="cls-2" d="M207.544,103.772A160.13,160.13,0,1,1,47.414-56.358a160.129,160.129,0,0,1,160.13,160.13" transform="translate(112.716 56.358)"/>
+    </g>
+    <g id="Group_1864" data-name="Group 1864" transform="translate(228.447 141.231)">
+      <path id="Path_1869" data-name="Path 1869" class="cls-2" d="M104.043,208.087C15.516,208.087-56.5,136.066-56.5,47.537S15.516-113.011,104.043-113.011,264.59-40.99,264.59,47.537,192.569,208.087,104.043,208.087m0-320.26c-88.066,0-159.712,71.646-159.712,159.71S15.977,207.252,104.043,207.252,263.755,135.6,263.755,47.537s-71.646-159.71-159.712-159.71" transform="translate(56.505 113.011)"/>
+    </g>
+    <g id="Group_1865" data-name="Group 1865" transform="translate(312.65 208.594)">
+      <text id="SOURCE" class="cls-7" transform="translate(0.742 52)"><tspan x="0" y="0">SOURCE</tspan></text>
+      <text id="OF_FUNDS" data-name="OF FUNDS" class="cls-7" transform="translate(0 106.007)"><tspan x="0" y="0">OF FUNDS</tspan></text>
+      <text id="IN_2016" data-name="IN 2016" class="cls-7" transform="translate(0.696 160.015)"><tspan x="0" y="0">IN 2016</tspan></text>
+    </g>
+    <g id="Group_1866" data-name="Group 1866" transform="translate(184.341 95.366)">
+      <text id="_5_" data-name="5%" class="cls-8" transform="translate(159.906 25)"><tspan x="0" y="0">5%</tspan></text>
+      <text id="_25_" data-name="25%" class="cls-8" transform="translate(220.317 401.771)"><tspan x="0" y="0">25%</tspan></text>
+      <text id="_34_" data-name="34%" class="cls-8" transform="translate(357.143 134.359)"><tspan x="0" y="0">34%</tspan></text>
+      <text id="_22_" data-name="22%" class="cls-8" transform="translate(0 270.846)"><tspan x="0" y="0">22%</tspan></text>
+      <text id="_13_" data-name="13%" class="cls-8" transform="translate(56.465 70.944)"><tspan x="0" y="0">13%</tspan></text>
+    </g>
+    <text id="Program_Services" data-name="Program Services" class="cls-9" transform="translate(0 88.614)"><tspan x="0" y="0">Program Services</tspan></text>
+    <text id="_1_285_572" data-name="$ 1,285,572" class="cls-10" transform="translate(96.835 114.893)"><tspan x="0" y="0">$ 1,285,572</tspan></text>
+    <text id="Foundation" class="cls-11" transform="translate(9.352 362.427)"><tspan x="0" y="0">Foundation</tspan></text>
+    <text id="_2_190_224" data-name="$ 2,190,224" class="cls-10" transform="translate(27.093 388.703)"><tspan x="0" y="0">$ 2,190,224</tspan></text>
+    <text id="Individual" class="cls-12" transform="translate(604.696 163.404)"><tspan x="0" y="0">Individual</tspan></text>
+    <text id="_3_315_494" data-name="$ 3,315,494" class="cls-10" transform="translate(604.696 189.678)"><tspan x="0" y="0">$ 3,315,494</tspan></text>
+    <text id="In_Kind" data-name="In Kind" class="cls-13" transform="translate(439.853 558.492)"><tspan x="0" y="0">In Kind</tspan></text>
+    <text id="_2_482_711" data-name="$ 2,482,711" class="cls-10" transform="translate(439.853 584.771)"><tspan x="0" y="0">$ 2,482,711</tspan></text>
+    <text id="Corporate" class="cls-14" transform="translate(332.022 16)"><tspan x="0" y="0">Corporate</tspan></text>
+    <text id="_516_925" data-name="$ 516,925" class="cls-10" transform="translate(332.022 42.277)"><tspan x="0" y="0">$ 516,925</tspan></text>
+  </g>
+</svg>

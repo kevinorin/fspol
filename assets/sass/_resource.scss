@@ -1,0 +1,302 @@
+.lock-section{
+	position:relative;
+}
+.resource-detail{
+	padding-bottom:60px;
+}
+.lock-head{
+	padding:40px 64px 26px 42px;
+	position:relative;
+	.lock-icon{
+		position:absolute;
+		right:30px;
+		top:30px;
+		z-index:1;
+		background-color:transparent;
+		border:none;
+	}
+	h2{
+		margin:0;
+	}
+}
+.lock-body{
+	padding:50px 0 70px 0;
+	.fact-block{
+		line-height:20px;
+		margin-bottom:36px;
+		.fact-label{
+			display:block;
+			margin-bottom:15px;
+			line-height:20px;
+		}
+		.btn-grey{
+			min-width:171px;
+		}
+		p{
+			margin-bottom:0;
+			font-family:$font-family-base-lt;
+		}
+		.rating-block{
+			margin-bottom:18px;
+		}
+	}
+	.fact-buttons{
+		margin-bottom:65px;
+		.btn{
+			+.btn{
+				margin-top:15px;
+			}
+		}
+	}
+	.print-btn{
+		em{
+			float:right;
+			margin-top:-18px;
+		}
+	}
+	.lock-part-right{
+		line-height:27px;
+		p{
+			font-family:$font-family-base-lt;
+		}
+	}
+}
+
+.lock-body-top{
+	padding-left:25px;
+	padding-right:109px;
+}
+
+.fact-resource{
+	padding:20px 25px;
+}
+.lock-body-bottom{
+	padding:30px 105px 0 105px;
+}
+.related-res-block{
+	display:block;
+	padding:15px 60px 11px 0;
+	border-bottom:1px solid #c2c2c2;
+	position:relative;
+	min-height:67px;
+	margin-bottom:20px;
+	span{
+		position:absolute;
+		right:0;
+		top:0;
+	}
+}
+
+.related-project{
+	padding-top:30px;
+	h2{
+		margin-bottom:40px;
+	}
+}
+
+.lock-modal{
+	background-color:rgba(229,229,229,0.85);
+	padding:70px 20px;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	z-index:99;
+	display:none;
+	.lock-modal-icon{
+		margin-bottom:60px;
+	}
+	h2{
+		max-width:940px;
+		display:inline-block;
+		font-size:48px;
+		line-height:57px;
+		margin-bottom:54px;
+	}
+}
+
+.resource-list{
+	padding-top:54px;
+	padding-bottom:54px;
+	.club-wrapper{
+		margin-bottom:70px;
+	}
+	.media{
+		+.media{
+			margin-top:46px;
+		}
+	}
+	.media-detail{
+		padding:26px 26px 20px 40px;  
+		.media-title{
+			position:relative;
+			padding-right:182px;
+		}
+		h3{
+			img{
+				vertical-align:top;
+				margin-left:19px;
+			}
+		}
+		.club-btns{
+			position:absolute;
+			right:0;
+			top:0;
+			.btn{
+				min-width:86px;
+				+.btn{
+					margin-left:4px;
+				}
+			}
+		}
+		.media-text{
+			padding-right:305px;
+			position:relative;
+			p{
+				max-width:550px;
+				margin-bottom:0;
+			}
+		}
+		.media-btn{
+			position:absolute;
+			right:0;
+			bottom:0;
+			.btn{
+				min-width:297px;
+			}
+		}
+	}
+}
+
+.pagin-block{
+	padding:24px 0;
+	.btn{
+		min-width:174px;
+	}
+	.page-btn-prev{
+		em{
+			float:left;
+		}
+	}
+	.page-btn-next{
+		em{
+			float:right;
+		}
+	}
+}
+.pagin-number{
+	font-size:29px;
+	line-height:49px;
+	font-family:$font-family-base-lt;
+}
+
+@media (min-width: $screen-md-min){
+	.lock-part-right{
+		padding-left:40px;
+	}
+}
+
+@media (max-width: $screen-md-max){
+	.resource-list{ 
+		.media-detail{ 
+			.media-text{
+				padding-right: 252px;
+			}
+			.media-btn{
+				.btn{
+					min-width:170px;
+				}
+				
+			}
+		}
+	}
+}
+
+@media (max-width: $screen-sm-max){
+	.lock-body-top{
+		padding-right:25px;
+	}
+	.lock-body-bottom{
+		padding-left:25px;
+		padding-right:25px;
+	}
+	.related-res-block{
+		font-size:24px;
+	}
+	.resource-list{ 
+		.media-detail{ 
+			.media-text{
+				padding-right: 0;
+			}
+			.media-btn{
+				position:relative;
+				margin-top:20px;
+				.btn{
+					
+				}
+				
+			}
+		}
+	}
+}
+
+@media (max-width: $screen-xs-max){
+	.lock-head{
+			padding-top:20px;
+			padding-bottom:20px;
+			padding-left:20px;
+	}
+	.lock-body{ 
+		.print-btn{ 
+			em{
+				margin-top:0;
+			}
+		}
+	}
+	.lock-body-top{
+		padding-left:15px;
+		padding-right:15px;
+	}
+	.lock-body-bottom{
+		padding-left:15px;
+		padding-right:15px;
+	}
+	.resource-list{
+		.club-left-outer{
+			width:1%;
+			display:table-cell;
+			vertical-align:middle;
+			height:inherit;
+		}
+		.media-detail{
+			padding:17px;
+			.media-title{
+				padding:0;
+			}
+			.club-btns{
+				position:relative;
+				text-align:center;
+				margin-bottom:10px;
+				.btn{
+					display:inline-block;
+					width:auto;
+				}
+			}
+		}
+		.club-wrapper{
+			margin-bottom:30px;
+		}
+	}
+	
+	.pagin-block{
+		.btn{
+			min-width:88px;
+			padding-left:7px;
+			padding-right:7px;
+		}
+	}
+	.pagin-number{
+		font-size:22px;
+	}
+}

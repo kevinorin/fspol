@@ -1,0 +1,171 @@
+a,
+.btn,
+button{
+	@include transition(all 0.3s ease-in-out);
+}
+:focus{
+	outline:none !important;
+}
+
+.white{
+	color:$white;
+	a:not(.btn){
+		color:inherit;
+	}
+}
+.blue{
+	color:$blue;
+}
+.skyblue{
+	color:$skyblue;
+}
+.cyan{
+	color:$cyan;
+}
+.purple{
+	color:$purple;
+}
+.dkmdpurple{
+	color:$dkmdpurple;
+}
+.orange{
+	color:$orange;
+}
+.nevyblue{
+	color:$nevyblue;
+}
+.green{
+	color:$green;
+}
+.xgreen{
+	color:$xgreen;
+}
+.dkgrey{
+	color:$dkgrey;
+}
+
+.white-bg{
+	background-color:$white;
+}
+.cyan-bg{
+	background-color:$cyan;
+}
+.navyblue{  
+	color:$nevyblue;
+}
+.nevydkblue{  
+	color:$nevydkblue;
+}
+.blue-bg{
+	background-color:$blue;
+}
+.orange-bg{
+	background-color:$orange;
+}
+.navyblue-bg{ 
+	background-color:$nevyblue;
+}
+.xgreen-bg{
+	background-color:$xgreen;
+}
+.ltgrey-bg{
+	background-color:$ltgrey;
+}
+.light-md-grey{
+	background-color:$ltmdgrey;
+}
+.mddkgrey-bg{
+	background-color:$mddkgrey;
+}
+.dkmdpurple-bg{
+	background-color:$dkmdpurple
+}
+
+h2, .h2{
+	line-height:39px;
+	margin-top:0;
+}
+h2.h2{
+	font-size:$sub-title-h2; 
+}
+
+h5, .h5{
+	margin-top:0;
+	margin-bottom:22px;
+}
+
+h2.h2.h2-sub{
+	font-size:$font-size-nrmd; 
+}
+
+h3,.h3{
+	line-height:$h3-line-height;
+	margin-top:0;
+}
+h3.h3{
+	font-size:$sub-title-h3; 
+}
+
+p{margin-bottom:29px;}
+
+.rating-block{
+	margin-bottom:20px;
+}
+
+.no-col-space{
+	margin:0;
+	>[class*="row-"]{
+		>[class*="col-"]{
+			padding:0;
+		}
+	}
+	>[class*="col-"]{
+		padding:0;
+	}
+}
+
+label{
+	font-weight:normal;
+}
+.xlarge-text{
+	font-size:$font-size-xxxl;
+	line-height:$line-height-xxxl;
+}
+.panel-shadow{
+	@include box-shadow(rgba(0,0,0, 0.20) 0 0 12px);
+}
+
+.caret{
+	border-top-width: 8px;
+}
+
+.rating-symbol{
+	font-size:20px;
+	+.rating-symbol{
+		margin-left:10px;
+	}
+}
+.rating-symbol-foreground{
+	color:#ffda00;
+}
+
+@media (min-width: $screen-xlg-min){
+	.container{width:1300px;}
+}
+
+@media (max-width: $screen-xs-max){
+	.padding-none-xs{
+		padding:0;
+		.row{
+			margin:0;
+			[class*="col-"]{
+				padding:0;
+			}
+		}
+	}
+	
+	h1, .h1{
+		font-size:$font-size-h1-xs;
+		line-height:43px;
+	}
+}

@@ -1,0 +1,22 @@
+﻿Worldreader Donate Page
+Slicing Notes
+
+
+Assets
+* Mockups
+* Source files
+Notes
+
+
+* General
+   * This page will not use the navigation used throughout the rest of the site
+   * This page will use the footer used throughout the rest of the site
+   * The logo needs to be clickable (it will link to the Worldreader homepage)
+   * Each of the subsections of each section needs to be clickable
+   * The Read the Report button at the bottom needs to be...a button
+* Desktop
+   * The bottom of the image of the community at the top of the site needs to be a separate element from the rest of the image. This part of the image and the navigation right below it need to be sticky once they reach the top of the screen.
+   * The navigation needs to be four clickable buttons that will be anchor linked to the different sections of the page
+* Mobile
+   * The navigation buttons on mobile need to display at the top of each section, rather than all together below the image. Each button should be sticky once it reaches top of the screen and then should be displaced by the next one. For example, once the user scrolls to the “Pre-reading” section, the Pre-reading title should stick to the top of the screen as the user scrolls until they reach the “School Reading” section”, at which point the School Reading title should push the Pre-reading title off the screen. If this is technically challenging, the School Reading title can simply slide over the Pre-Reading title.
+   * When the user reaches this section, they should be able to swipe to scroll this image horizontally to see the part of it to the right that is off screen by default.
