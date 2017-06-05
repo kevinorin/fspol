@@ -60,7 +60,10 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="assets/javascripts/bootstrap-select.min.js"></script>
 <script src="assets/javascripts/bootstrap-rating.min.js"></script>
+<<<<<<< HEAD
 <script src="assets/javascripts/bootstrap-switch.min.js"></script>
+=======
+>>>>>>> 26cb523c9b638e0da5cbcabf1b2edfa9cad74738
 <script src="assets/javascripts/jquery.matchHeight.js"></script>
 <script src="assets/javascripts/cssua.js"></script>
 <script src="assets/javascripts/custom.js"></script>

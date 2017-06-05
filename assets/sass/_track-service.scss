@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .track-service-section{
 	position:relative;
 }
@@ -298,4 +299,263 @@
 			}
 		}
 	}
+=======
+.track-service-section{
+	position:relative;
+}
+.track-service-center{
+	max-width:1064px;
+	border-top:13px solid $blue;
+	margin-top:-52px;
+	z-index:99;
+}
+	.track-steps{
+		padding:44px 0 25px;
+		border-bottom:1px solid $ltmdgrey;
+		ul{
+			padding:0 85px;
+			margin:0;
+			li{
+				list-style:none;
+				float:left;
+				width:25%;
+				color:$nevyblue;
+				font-family:$font-family-base-lt;
+				&.active{
+					color:$blue;
+					.step-number{
+						span{
+							background-color:$blue;
+							color:$white;
+						}
+					}
+				}
+				>span{
+					line-height:20px;
+				}
+			}
+		}
+		.step-number{
+			span{
+				display:inline-block;
+				font-size:$font-size-nrmd;
+				width:52px;
+				height:52px;
+				line-height:52px;
+				@include border-radius(100%);
+				background-color:$nevyblue;
+				margin-bottom:5px;
+				color:$white;
+			}
+		}
+	}
+
+.track-body{
+	padding-right:34%;
+	position:relative;
+	.track-body-grey{
+		position:absolute;
+		right:0;
+		top:0;
+		bottom:0;
+		z-index:1;
+		width:34%;
+	}
+}
+	.track-body-content{
+		padding:46px 46px 10px;
+		color:$nevyblue;
+		h2{
+			font-family:$font-family-base-lt;
+		}
+		.form-group{
+			margin-bottom:45px;
+			position:relative;
+			label{
+				font-weight:normal;
+			}
+			.label-title{
+				text-transform:uppercase;
+			}
+		}
+		.bootstrap-select{
+			.dropdown-toggle{
+				font-size:$font-size-nrmd;
+				text-transform:none;
+				font-family:$font-family-base-lt;
+				line-height:32px;
+				color:#d1d3d4;
+				padding-left:13px;
+				letter-spacing:0;
+			}
+		}
+	}
+	.tool-filed{
+		position:relative;
+	}
+	.tool-info{
+		position:absolute;
+		top:0;
+		right:-405px;
+		color:$nevyblue;
+		padding:0 22px;
+		width:354px;
+		line-height:19px;
+		z-index:11;
+		.tool-info-inner{
+			padding:16px 42px;
+			position:relative;
+			border-top:1px solid $white;
+			border-bottom:1px solid $white;
+			em{
+				position:absolute;
+				left:0;
+				top:16px;
+			}
+		}
+	}
+	.option-block{
+		padding-right:158px;
+		position:relative;
+		margin-bottom:27px; 
+		.radio-group{
+			position:absolute;
+			right:0;
+			top:0; 
+		}
+		p{
+			font-size:17px;
+			line-height:20px; 
+			margin-bottom:0;
+		}
+	}
+
+.check-list{
+	ul{
+		padding:0;
+		margin:0;
+		li{
+			list-style:none;
+			float:left;
+			width:50%;
+		}
+	}
+}
+
+.field-hours{
+	min-height:48px;
+	.radio-group{
+		margin-top:-5px;
+	}
+	.form-control{
+		display:inline-block;
+		width:60px;
+		height:46px;
+		vertical-align:middle;
+		padding:10px 0;
+		margin-right:15px;
+	}
+
+	span{
+		display:inline-block;
+		vertical-align:middle;
+		
+	}
+}
+
+.track-footer{
+	border-top:1px solid $ltmdgrey;
+	padding:36px 46px;
+	.btn{
+		min-width:126px;
+	}
+}
+
+
+@media (min-width: $screen-sm-min){
+
+}
+
+@media (max-width: $screen-md-max){
+	.tool-info{
+		right:-365px;
+		width:315px;
+		.tool-info-inner{
+			padding:16px 42px;
+		}
+	}
+}
+@media (max-width: $screen-sm-max){
+	.track-steps{
+		ul{
+			padding:0 40px;
+		}
+	}
+	.track-body-content{
+		padding:46px 30px 10px;
+	}
+	.tool-info{
+		right:-273px;
+		width:241px;
+		.tool-info-inner{
+			padding:16px 12px 16px 26px;
+		}
+	}
+	.track-footer{
+		padding-left:30px;
+		padding-right:30px;
+	}
+}
+
+@media (max-width: $screen-xs-max){
+	.track-steps{
+		padding:24px 0 18px;
+		ul{
+			padding:0 20px;
+			li{
+				>span{
+					font-size:10px;
+				}
+			}
+		}
+		.step-number{ 
+			span{
+				font-size:16px;
+				width:40px;
+				height:40px;
+				line-height:40px;
+			}
+		}
+	}
+	.track-body{
+		padding-right:0;
+		.track-body-grey{
+			display:none;
+		}
+	}
+		.track-body-content {
+			padding: 21px 15px 10px;
+		}
+		.tool-info{
+			position:static;
+			width:100%;
+			padding:0;
+		}
+		.option-block{
+			padding-right:0;
+			.radio-group{
+				position:relative;
+			}
+		}
+		.check-list{
+			 ul{
+				 li{
+					width:100%;
+				 }
+			 }
+		}
+		.track-footer{
+			padding:25px 15px;
+		}
+>>>>>>> 26cb523c9b638e0da5cbcabf1b2edfa9cad74738
 }

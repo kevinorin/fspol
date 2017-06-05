@@ -36,7 +36,10 @@ select.selectpicker {
     width: 100%;
     padding-right: 25px;
     z-index: 1;
+<<<<<<< HEAD
 	border-width:1px;
+=======
+>>>>>>> 26cb523c9b638e0da5cbcabf1b2edfa9cad74738
 
     &.bs-placeholder,
     &.bs-placeholder:hover,
@@ -193,6 +196,7 @@ select.selectpicker {
   .dropdown-menu {
     min-width: 100%;
     @include box-sizing(border-box);
+<<<<<<< HEAD
 	border-top:none;
 	padding:0;
 	font-size:$font-size-nrmd;
@@ -212,6 +216,9 @@ select.selectpicker {
 			}
 		}
 	}
+=======
+
+>>>>>>> 26cb523c9b638e0da5cbcabf1b2edfa9cad74738
     &.inner {
       position: static;
       float: none;

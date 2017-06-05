@@ -5,12 +5,18 @@
 $white:				#fff;
 $grey:				#ADADAD;
 $ltmdgrey:			#eaeaea;
+<<<<<<< HEAD
 $mddkgrey: 			#e5e5e5;
 $ltgrey:			#f5f5f5;
 $Xltgrey:			#f2f2f2;
 $gray-dk:			#999999;
 $dkgrey:			#58595B;
 $xdkgrey:			#b3b3b3;
+=======
+$ltgrey:			#f5f5f5;
+$gray-dk:			#999999;
+$dkgrey:			#58595B;
+>>>>>>> 26cb523c9b638e0da5cbcabf1b2edfa9cad74738
 
 $blue:				#0086FA;
 $blue-30:			rgba(0,134,250,0.30);
@@ -145,7 +151,11 @@ $font-size-h1:            43px !default; // ~43px
 $font-size-h2:            35px !default; // ~35px
 $font-size-h3:            28px !default; // ~28px
 $font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
+<<<<<<< HEAD
 $font-size-h5:            $font-size-md !default;
+=======
+$font-size-h5:            $font-size-base !default;
+>>>>>>> 26cb523c9b638e0da5cbcabf1b2edfa9cad74738
 $font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
 
 //** Unit-less `line-height` for use in components like buttons.
@@ -222,7 +232,11 @@ $table-condensed-cell-padding:  5px !default;
 //** Default background color used for all tables.
 $table-bg:                      transparent !default;
 //** Background color used for `.table-striped`.
+<<<<<<< HEAD
 $table-bg-accent:               #e6e7e8 !default;
+=======
+$table-bg-accent:               #f9f9f9 !default;
+>>>>>>> 26cb523c9b638e0da5cbcabf1b2edfa9cad74738
 //** Background color used for `.table-hover`.
 $table-bg-hover:                #f5f5f5 !default;
 $table-bg-active:               $table-bg-hover !default;
@@ -293,7 +307,11 @@ $input-border-radius-large:      $border-radius-large !default;
 $input-border-radius-small:      $border-radius-small !default;
 
 //** Border color for inputs on focus
+<<<<<<< HEAD
 $input-border-focus:             $dkmdpurple !default;
+=======
+$input-border-focus:             $nevyblue !default;
+>>>>>>> 26cb523c9b638e0da5cbcabf1b2edfa9cad74738
 
 //** Placeholder text color
 $input-color-placeholder:        #d1d3d4 !default;
@@ -880,6 +898,7 @@ $badge-border-radius:         10px !default;
 //
 //##
 
+<<<<<<< HEAD
 $breadcrumb-padding-vertical:   0 !default;
 $breadcrumb-padding-horizontal: 0 !default;
 //** Breadcrumb background color
@@ -890,6 +909,18 @@ $breadcrumb-color:              $white !default;
 $breadcrumb-active-color:       $white !default;
 //** Textual separator for between breadcrumb elements
 $breadcrumb-separator:          ">" !default;
+=======
+$breadcrumb-padding-vertical:   8px !default;
+$breadcrumb-padding-horizontal: 15px !default;
+//** Breadcrumb background color
+$breadcrumb-bg:                 #f5f5f5 !default;
+//** Breadcrumb text color
+$breadcrumb-color:              #ccc !default;
+//** Text color of current page in the breadcrumb
+$breadcrumb-active-color:       $gray-light !default;
+//** Textual separator for between breadcrumb elements
+$breadcrumb-separator:          "/" !default;
+>>>>>>> 26cb523c9b638e0da5cbcabf1b2edfa9cad74738
 
 
 //== Carousel

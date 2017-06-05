@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .style-radio{
 	margin-bottom:11px;
 	padding-left:0;
@@ -394,4 +395,163 @@ form{
 			margin-top:10px;
 		}
 	}
+=======
+form {
+	&#login {
+		margin: 80px 0;
+	}
+}
+.style-radio{
+	margin-bottom:11px;
+	padding-left:0;
+	margin-top:0;
+	label{
+		padding-left:27px;
+		margin-bottom:0;
+		min-height:5px;
+	}
+	input[type="radio"]{
+		opacity:0;
+	}
+	&.blue-radio{
+		input[type="radio"]{
+			&:checked{
+				+ .check-style{
+					span{
+						background-color:$blue;
+					}
+				}
+			}
+		}
+	}
+	&.purple-radio{
+		input[type="radio"]{
+			&:checked{
+				+ .check-style{
+					span{
+						background-color:$ltpurple;
+					}
+				}
+			}
+		}
+	}
+	.check-style{
+		top:1px;
+		padding:2px 0 0 2px;
+		border:1px solid $dkgrey;
+		@include border-radius(100%);
+		span{
+			width:9px;
+			height:9px;
+			@include border-radius(100%);
+		}
+	}
+}
+
+.check-style{
+	position:absolute;
+	left:0;
+	width:15px;
+	height:15px;
+	display:block;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	span{
+		display:block;
+	}
+}
+
+.radio-inline{
+	&.style-radio{
+		+.radio-inline{
+			margin-left:40px;
+		}
+	}
+	.check-style{
+		top:7px;
+	}
+}
+
+.style-checkbox{
+	margin-bottom:14px;
+	padding-left:0;
+	margin-top:0;
+	label{
+		padding-left:27px;
+		margin-bottom:0;
+		line-height:17px;
+		min-height:5px;
+		position:relative;
+	}
+	input[type="checkbox"]{
+		opacity:0;
+	}
+	&.blue-checkbox{
+		input[type="checkbox"]{
+			&:checked{
+				+ .check-style{
+					background-color:$blue;
+				}
+			}
+		}
+	}
+	&.purple-checkbox{
+		input[type="checkbox"]{
+			&:checked{
+				+ .check-style{
+					background-color:$ltpurple;
+				}
+			}
+		}
+	}
+	input[type="checkbox"]{
+		&:checked{
+			+ .check-style{
+				em{
+					opacity:1;
+				}
+			}
+		}
+	}
+	.check-style{
+		top:1px;
+		@include border-radius(2px);
+		background-color:$ltmdgrey;
+		
+		text-align:center;
+		em{
+			opacity:0;
+			color:$white;
+			line-height:15px;
+			font-size:10px;
+		}
+	}
+}
+
+.form-control{
+	border-left:none;
+	border-top:none;
+	border-right:none;
+	box-shadow:none;
+	font-size:$font-size-nrmd;
+	font-family:$font-family-base-lt;
+	&:focus{
+		box-shadow:none;
+	}
+}
+
+textarea{
+	&.form-control{
+		height:245px;
+		resize:none;
+		border-top:1px solid $textarea-border;
+		border-left:1px solid $textarea-border;
+		border-right:1px solid $textarea-border;
+		background-color:$textarea-bg;
+	}
+>>>>>>> 26cb523c9b638e0da5cbcabf1b2edfa9cad74738
 }
