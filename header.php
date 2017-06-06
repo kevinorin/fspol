@@ -6,7 +6,10 @@
             <a class="navbar-brand" href="index.php"><img src="assets/images/logo.svg" alt=""></a>
         </div>
         <?php
-            if (stripos($_SERVER['REQUEST_URI'], 'index.php')){
+            if (stripos($_SERVER['REQUEST_URI'], 'index.php')
+                ||stripos($_SERVER['REQUEST_URI'], 'login.php')
+                ||stripos($_SERVER['REQUEST_URI'], 'join.php')
+                ||stripos($_SERVER['REQUEST_URI'], 'join-2.php')){
                  echo '<div class="navbar-header-right clearfix hidden-xs">
                         <ul class="clearfix">
                           <li><a href="donate.php">Donate Now</a></li>

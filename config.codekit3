@@ -275,20 +275,6 @@
 		"oAP": "\/build\/assets\/images\/.keep",
 		"oF": 0
 		},
-<<<<<<< HEAD
-=======
-	"\/assets\/images\/apple-icon.png": {
-		"ft": 32768,
-		"iS": 2477,
-		"oA": 0,
-		"oAP": "\/build\/assets\/images\/apple-icon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
->>>>>>> 26cb523c9b638e0da5cbcabf1b2edfa9cad74738
 	"\/assets\/images\/bg-header-login-100.jpg": {
 		"ft": 16384,
 		"iS": 182183,
@@ -299,19 +285,6 @@
 		"opt": 1,
 		"q": 100
 		},
-<<<<<<< HEAD
-=======
-	"\/assets\/images\/dashboar-banner.jpg": {
-		"ft": 16384,
-		"iS": 14129,
-		"oA": 0,
-		"oAP": "\/build\/assets\/images\/dashboar-banner.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
->>>>>>> 26cb523c9b638e0da5cbcabf1b2edfa9cad74738
 	"\/assets\/images\/family-image-1.png": {
 		"ft": 32768,
 		"iS": 1243508,
@@ -487,27 +460,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-<<<<<<< HEAD
-=======
-	"\/assets\/javascripts\/bootstrap-rating.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/build\/assets\/javascripts\/bootstrap-rating.min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/assets\/javascripts\/bootstrap-select.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/build\/assets\/javascripts\/bootstrap-select.min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
->>>>>>> 26cb523c9b638e0da5cbcabf1b2edfa9cad74738
 	"\/assets\/javascripts\/bootstrap-sprockets.js": {
 		"ft": 64,
 		"mi": 1,
@@ -701,22 +653,6 @@
 		"oS": 3,
 		"uL": 1
 		},
-<<<<<<< HEAD
-=======
-	"\/assets\/sass\/_bootstrap-rating.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/assets\/sass\/_bootstrap-rating.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
->>>>>>> 26cb523c9b638e0da5cbcabf1b2edfa9cad74738
 	"\/assets\/sass\/_bootstrap-same-height.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -730,22 +666,6 @@
 		"oS": 3,
 		"uL": 1
 		},
-<<<<<<< HEAD
-=======
-	"\/assets\/sass\/_bootstrap-select.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/assets\/sass\/_bootstrap-select.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
->>>>>>> 26cb523c9b638e0da5cbcabf1b2edfa9cad74738
 	"\/assets\/sass\/_buttons.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -811,22 +731,6 @@
 		"oS": 3,
 		"uL": 1
 		},
-<<<<<<< HEAD
-=======
-	"\/assets\/sass\/_form-element.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/assets\/sass\/_form-element.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
->>>>>>> 26cb523c9b638e0da5cbcabf1b2edfa9cad74738
 	"\/assets\/sass\/_general-style.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -879,22 +783,6 @@
 		"oS": 3,
 		"uL": 1
 		},
-<<<<<<< HEAD
-=======
-	"\/assets\/sass\/_track-service.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/assets\/sass\/_track-service.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
->>>>>>> 26cb523c9b638e0da5cbcabf1b2edfa9cad74738
 	"\/assets\/sass\/style.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -1896,17 +1784,10 @@
 		"oAP": "\/build\/banner-home.php",
 		"oF": 0
 		},
-<<<<<<< HEAD
 	"\/banner-login.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/banner-login.php",
-=======
-	"\/banner-inner.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/build\/banner-inner.php",
->>>>>>> 26cb523c9b638e0da5cbcabf1b2edfa9cad74738
 		"oF": 0
 		},
 	"\/bootstrap-sass.gemspec": {
@@ -4272,15 +4153,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-<<<<<<< HEAD
-=======
-	"\/dashboard.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/build\/dashboard.php",
-		"oF": 0
-		},
->>>>>>> 26cb523c9b638e0da5cbcabf1b2edfa9cad74738
 	"\/eyeglass-exports.js": {
 		"ft": 64,
 		"mi": 1,
@@ -4326,15 +4198,6 @@
 		"oAP": "\/build\/login.php",
 		"oF": 0
 		},
-<<<<<<< HEAD
-=======
-	"\/node_modules": {
-		"ft": 65536,
-		"oA": 2,
-		"oAP": "\/build\/node_modules",
-		"oF": 0
-		},
->>>>>>> 26cb523c9b638e0da5cbcabf1b2edfa9cad74738
 	"\/notes-and-documentation\/changemaker.md": {
 		"cS": 0,
 		"eF": 1,
@@ -4458,15 +4321,6 @@
 		"oA": 2,
 		"oAP": "\/build\/tasks\/converter\/network.rb",
 		"oF": 0
-<<<<<<< HEAD
-=======
-		},
-	"\/track-service.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/build\/track-service.php",
-		"oF": 0
->>>>>>> 26cb523c9b638e0da5cbcabf1b2edfa9cad74738
 		}
 	},
 "hooks": [

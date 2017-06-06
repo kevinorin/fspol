@@ -229,7 +229,7 @@
           <div class="pagin-block">
             <div class="row">
               <div class="col-sm-4 col-xs-4">
-                <a href="#" class="btn btn-grey btn-outline page-btn-prev"><em class="fa fa-angle-left"></em> PREV</a>
+                <a href="#" class="btn btn-grey btn-outline page-btn-prev"><em class="fa fa-angle-left"></em> <span>PREV</span></a>
               </div>
               <div class="col-sm-4 col-xs-4 text-center">
                 <div class="pagin-number navyblue">
@@ -237,7 +237,7 @@
                 </div>
               </div>
               <div class="col-sm-4 col-xs-4 text-right">
-                <a href="#" class="btn btn-blue btn-outline btn-light page-btn-next"><em class="fa fa-angle-right"></em> NEXT</a>
+                <a href="#" class="btn btn-blue btn-outline btn-light page-btn-next"><em class="fa fa-angle-right"></em> <span>NEXT</span></a>
               </div>
             </div>
           </div>

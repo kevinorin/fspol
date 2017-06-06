@@ -36,10 +36,7 @@ select.selectpicker {
     width: 100%;
     padding-right: 25px;
     z-index: 1;
-<<<<<<< HEAD
 	border-width:1px;
-=======
->>>>>>> 26cb523c9b638e0da5cbcabf1b2edfa9cad74738
 
     &.bs-placeholder,
     &.bs-placeholder:hover,
@@ -176,6 +173,7 @@ select.selectpicker {
       display: inline-block;
       overflow: hidden;
       width: 100%;
+	  text-overflow: ellipsis;
       text-align: left;
     }
 
@@ -196,7 +194,6 @@ select.selectpicker {
   .dropdown-menu {
     min-width: 100%;
     @include box-sizing(border-box);
-<<<<<<< HEAD
 	border-top:none;
 	padding:0;
 	font-size:$font-size-nrmd;
@@ -204,21 +201,20 @@ select.selectpicker {
 	box-shadow:none;
 	margin-top:0;
 	@include border-radius(0);
+	width:100%;
 	>li{
 		>a{
 			line-height:32px;
 			text-transform:none;
 			padding:10px 13px;
 			color:$nevyblue;
+			white-space: normal;
 			&:hover,
 			&:focus{
 				background-color:#d4d7da;
 			}
 		}
 	}
-=======
-
->>>>>>> 26cb523c9b638e0da5cbcabf1b2edfa9cad74738
     &.inner {
       position: static;
       float: none;

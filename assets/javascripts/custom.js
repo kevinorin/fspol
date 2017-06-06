@@ -2,11 +2,7 @@
 
 // Window Load
 $(window).load(function(){
-<<<<<<< HEAD
    $('.teaser-grid .thumbnail,.same-height,.additional-filter .selected-filter .btn').matchHeight(); // For same height of boxes 
-=======
-   $('.teaser-grid .thumbnail,.same-height').matchHeight(); // For same height of boxes 
->>>>>>> 26cb523c9b638e0da5cbcabf1b2edfa9cad74738
 });
 
 // Window Ready
@@ -25,7 +21,6 @@ $(document).ready(function(){
 		size: 4
 	});
 
-<<<<<<< HEAD
 	$('.grey-light-out-select').selectpicker({
 		style: 'btn-grey btn-outline btn-light',
 		size: 4
@@ -74,10 +69,6 @@ $(function() {
         }
     });
 
-=======
-	$('.rating').rating();
-
->>>>>>> 26cb523c9b638e0da5cbcabf1b2edfa9cad74738
 });
 
 // on click page scroll

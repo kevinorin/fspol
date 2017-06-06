@@ -8,21 +8,13 @@
 	<?php include_once("header.php"); ?>
 	
   <!-- Banner Start -->
-<<<<<<< HEAD
   <?php include_once("banner-inner-center.php"); ?>
-=======
-  <?php include_once("banner-inner.php"); ?>
->>>>>>> 26cb523c9b638e0da5cbcabf1b2edfa9cad74738
   
   <!-- Content Start -->
   <div id="content">
   	<section class="light-md-grey track-service-section track-service-1">
         <div class="container">
-<<<<<<< HEAD
           <div class="track-service-center content-center-part center-block white-bg panel-shadow">
-=======
-          <div class="track-service-center center-block white-bg panel-shadow">
->>>>>>> 26cb523c9b638e0da5cbcabf1b2edfa9cad74738
             <div class="track-service-inner">
               <div class="track-steps text-center">
                 <ul class="clearfix">

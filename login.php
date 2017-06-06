@@ -8,45 +8,53 @@
     <?php include_once("header.php"); ?>
 
     <!-- Banner Start -->
-<<<<<<< HEAD
-    <?php include_once("banner-login.php"); ?>
+    <section id="banner" class="inner-banner full-h-banner">
+      <div class="container padding-none-xs">
+          <div class="banner-full-height">
+              <div class="banner-text banner-text-center cleafix text-center">
+                  <h1>Login to your account</h1>
+              </div>
+          </div>
+      </div>
+    </section>
   
   
   <!-- Content Start -->
   <div id="content" class="page-login">
-    <section class="section-block light-md-grey">
-      <div class="row no-col-space">
-        <div class="row-sm-height">
-          <div class="col-sm-8 col-sm-offset-2 .col-xs-12 col-middle">
-            <h2>You can login with your e-mail address<br />and password. Want to sign up?</h2>
-=======
-    <?php include_once("banner-inner.php"); ?>
-  
-  
-  <!-- Content Start -->
-  <div id="content">
-    <section id="login" class="light-md-grey track-service-section track-service-1">
-      <div class="container">
-        <div class="track-service-center center-block white-bg panel-shadow">
-          <div class="track-service-inner">
-            <div class="track-steps text-center">
-              <h2 class="h2 dkmdpurple">You can login with your e-mail address<br />and password. Want to sign up?</h2>
-
-              <!-- Login Form -->
-              <form id="login">
+    <section class="light-md-grey login-section center-section">
+        <div class="container">
+          <div class="content-center-part center-block white-bg panel-shadow text-center login-content">
+            <h2 class="h2 dkmdpurple">You can login with your e-mail address and password. Want to <a href="#" class="blue text-underline">sign up</a>?</h2>
+            <div class="login-form">
+              <form>
+                <div class="form-group has-error">
+                  <label class="label-title text-left">EMAIL</label>
+                  <input type="email" class="form-control" placeholder="jane@example.com">
+                  <span class="help-block error"><span>!</span>No account found</span>
+                </div>
                 <div class="form-group">
-                  <label class="label-title">EMAIL</label>
-                  <input type="text" class="form-control" placeholder="EG. Animal Shelter Helpers!">
-                  <label class="label-title">PASSWORD</label>
-                  <input type="text" class="form-control" placeholder="EG. Animal Shelter Helpers!">
+                  <label class="label-title text-left">PASSWORD</label>
+                  <input type="password" class="form-control" placeholder="•••••••••">
+                  <div class="checkbox style-checkbox purple-checkbox">
+                    <label>
+                      <input type="checkbox">Show Password
+                      <span class="check-style">
+                        <em class="fa fa-check"></em>
+                      </span>
+                    </label>
+                  </div>
+                  <span class="help-block error"><span>!</span>Please re-enter your password</span>
+                </div>
+                <div class="form-group">
+                    <div>
+                      <input type="submit" class="btn btn-blue" value="login">
+                    </div>
+                    <a href="#" class="blue text-underline">Forgot Password?</a>
                 </div>
               </form>
-              <!-- /Login Form -->
             </div>
->>>>>>> 26cb523c9b638e0da5cbcabf1b2edfa9cad74738
           </div>
         </div>
-      </div>
     </section>
   </div>
 
