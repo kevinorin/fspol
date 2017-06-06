@@ -1,5 +1,5 @@
 <section id="banner" class="home-banner full-h-banner">
-    <img class="visible-xs" src="../assets/images/home-banner-1.jpg" alt="">
+    <img class="visible-xs" src="assets/images/home-banner-1.jpg" alt="">
     <div class="container padding-none-xs">
         <div class="banner-full-height">
             <div class="banner-text">
@@ -12,5 +12,5 @@
             </div>
         </div>
     </div>
-    <a href="#content" class="banner-scroll page-scroll"><img src="../assets/images/icon-green-arrow-down.png" alt=""></a>
+    <a href="#content" class="banner-scroll page-scroll"><img src="assets/images/icon-green-arrow-down.png" alt=""></a>
 </section>
