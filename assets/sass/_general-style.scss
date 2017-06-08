@@ -77,6 +77,9 @@ button{
 .mddkgrey-bg{
 	background-color:$mddkgrey;
 }
+.dkgrey-bg{
+	background-color:$dkgrey;
+}
 .dkmdpurple-bg{
 	background-color:$dkmdpurple
 }
@@ -106,6 +109,11 @@ h3.h3{
 	font-size:$sub-title-h3; 
 }
 
+h4, .h4{
+	margin-top:0;
+	margin-bottom:22px;
+}
+
 p{margin-bottom:29px;}
 
 .rating-block{
@@ -131,6 +139,10 @@ label{
 	font-size:$font-size-xxxl;
 	line-height:$line-height-xxxl;
 }
+.lead-text{
+	font-size:19px;
+	line-height:33px;
+}
 .panel-shadow{
 	@include box-shadow(rgba(0,0,0, 0.20) 0 0 12px);
 }
@@ -153,6 +165,39 @@ label{
 	text-decoration:underline;
 }
 
+.social-share{
+	margin-bottom:40px;
+	ul{
+		padding:0;
+		margin:0 -28px;
+		li{
+			padding:0 28px;
+			float:left;
+			list-style:none;
+			width:25%;
+			margin-bottom:18px;
+			a{
+				width:62px;
+				height:62px;
+				@include border-radius(100%);
+				text-align:center;
+				background-color:$blue;
+				color:$white;
+				display:block;
+				font-size: 27px;
+				&:hover,
+				&:focus{
+					background-color:$cyan;
+				}
+				em{
+					line-height:62px;
+				}
+			}
+		}
+	}
+}
+
+
 @media (min-width: $screen-xlg-min){
 	.container{width:1300px;}
 }
@@ -171,5 +216,23 @@ label{
 	h1, .h1{
 		font-size:$font-size-h1-xs;
 		line-height:43px;
+	}
+	
+	.social-share{
+		margin-bottom:20px;
+		ul{
+			margin:0 -10px;
+			li{
+				padding:0 10px;
+				a{
+					width:44px;
+					height:44px;
+					font-size: 22px;
+					em{
+						line-height:44px;
+					}
+				}
+			}
+		}
 	}
 }

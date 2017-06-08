@@ -73,6 +73,15 @@
 .lock-body-bottom{
 	padding:30px 105px 0 105px;
 }
+.dos-detail{
+	.lock-body-bottom{
+		padding:0 40px 0 50px;
+	}
+	.lock-body-top{
+		padding-left:40px;
+		padding-right:40px;
+	}
+}
 .related-res-block{
 	display:block;
 	padding:15px 60px 11px 0;
@@ -84,13 +93,6 @@
 		position:absolute;
 		right:0;
 		top:0;
-	}
-}
-
-.related-project{
-	padding-top:30px;
-	h2{
-		margin-bottom:40px;
 	}
 }
 
@@ -191,9 +193,16 @@
 	font-family:$font-family-base-lt;
 }
 
+.lock-sec-block{
+	padding-top:30px;
+	h2{
+		margin-bottom:40px;
+	}
+}
+
 @media (min-width: $screen-md-min){
 	.lock-part-right{
-		padding-left:40px;
+		padding-left:20px;
 	}
 }
 

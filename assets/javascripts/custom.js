@@ -48,6 +48,9 @@ $(document).ready(function(){
 		$(this).addClass("active");
 	});
 
+	$(".read-full .btn").click(function(){
+		$(this).addClass("hide").parent(".read-full").prev(".campaign-text").addClass("text-open");
+	});
 });
 
 

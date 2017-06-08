@@ -137,7 +137,7 @@
                   </div>
                 </div>
                 <div class="lock-body-bottom">
-                  <div class="related-res">
+                  <div class="related-res lock-sec-block">
                     <h2 class="h2 cyan">Related Resources</h2>
                     <div class="row">
                       <div class="col-sm-6">
@@ -172,7 +172,7 @@
                       </div>
                     </div>  
                   </div>
-                  <div class="related-project">
+                  <div class="related-project lock-sec-block">
                     <h2 class="h2 cyan">Related Projects</h2>
                     <div class="row">
                       <div class="col-md-4 col-sm-6">
