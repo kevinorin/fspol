@@ -1,0 +1,159 @@
+.family-section {
+	&.calendar-bg{
+		.family-block{ 
+			p{
+				margin-bottom:0;
+			}
+		}
+	}
+}
+
+.program-wrapper{
+	margin-bottom:65px;
+	display:inline-block;
+	width:100%;
+	h2{
+		font-family:$font-family-base-lt;
+		margin-bottom:10px;
+		display:inline-block;
+		width:100%;
+		span{
+			display:block;
+		}
+	}
+	p{
+		margin-bottom:0;
+	}
+	&.blue-bg{
+		.program-image{
+			@include background(calendar-blue-bg,png, no-repeat, center, center);
+		}
+	}
+	&.dkmdpurple-bg{
+		.program-image{
+			@include background(calendar-purple-bg,png, no-repeat, center, center);
+		}
+	}
+	&.orange-bg{
+		.program-image{
+			@include background(calendar-orange-bg,png, no-repeat, center, center);
+		}
+	}
+	.white-bg{
+		padding:85px 20px;
+	}
+	.whats-now{
+		max-width:795px;
+		margin:0 auto;
+		font-size:13px;
+		line-height:28px;
+		h3{
+			margin-bottom:3px;
+		}
+		.media{
+			padding-bottom:46px;
+		}
+	}
+}
+	.program-text{
+		padding:35px 50px 30px 60px;
+	}
+	.program-image{
+		width:1%;
+		display:table-cell;
+		vertical-align:middle;
+	}
+	.event-date{
+		width:91px;
+		height:91px;
+		@include border-radius(100%);
+		padding-top:17px;
+		span{
+			display:block;
+		}
+		.month{
+			font-size:13px;
+			line-height:22px;
+			font-family:$font-family-base-lt;
+		}
+		.date{
+			font-size:$font-size-h2;
+			line-height:35px;
+		}
+	}
+	.event-grid-image{
+		img{
+			width:100%;
+		}
+	}
+	.event-grid-text{
+		padding:60px 55px 60px 60px;
+		p{
+			margin-bottom:20px;
+		}
+	}
+
+@media (min-width: $screen-md-min){
+
+}
+
+@media (max-width: $screen-md-max){
+
+}
+
+@media (max-width: $screen-sm-max){
+	.program-text{
+		padding:25px 30px 25px 35px;
+	}
+}
+
+@media (max-width: $screen-xs-max){
+	.program-wrapper{
+		margin-bottom:36px;
+		padding:42px 0 0 0;
+		&.custom-accordian{ 
+			.cust-acc-head{ 
+				.cust-acc-title{
+					padding-left:26px;
+					font-size:$font-size-h3;
+					margin-bottom:20px;
+				}
+			}
+		}
+		.whats-now{
+			padding:0;
+			.media-body{
+				padding:0;
+			}
+			.media{
+				padding-bottom:20px;
+				+.media{
+					padding-top:20px;
+				}
+			}
+		}
+		.event-title{
+			position:relative;
+			padding-left:109px;
+			min-height:92px;
+			margin-bottom:20px;
+			padding-top:12px;
+			.event-date{
+				position:absolute;
+				left:0;
+				top:50%;
+				margin-top:-45px;
+			}
+		}
+	}
+	.program-text{
+		padding:0 10px 20px 26px;
+	}
+	.program-image{
+		height:285px;
+		padding:0 23px;
+	}
+	.event-grid-text{
+		padding:34px 20px 34px 20px;
+	}
+}

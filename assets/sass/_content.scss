@@ -1003,6 +1003,7 @@
 }
 .article-content{
 	padding-top:60px;
+	padding-bottom:60px;
 }
 .article-title{
 	margin-bottom:40px;
@@ -1022,6 +1023,10 @@
 }
 .img-thumbnail-full{
 	margin-bottom:30px;
+}
+.article-bottom{
+	border-top:2px solid $grey;
+	padding-top:50px;
 }
 
 @media (min-width: $screen-sm-min){

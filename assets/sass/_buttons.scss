@@ -247,6 +247,14 @@
 		border-color:$ltgreen;
 		background-color:$ltgreen;
 	}
+	&.white{
+		color:$white;
+		&:hover,
+		&:focus,
+		&:active{
+			color:$white;
+		}
+	}
 }
 
 .btn-group{
