@@ -177,6 +177,7 @@ textarea{
 			font-family:$font-family-rounded-bl;
 			text-tranform:uppercase;
 			letter-spacing: letterspacing(200, $font-size-small);
+			padding:0;
 		}
 	}
 }
@@ -314,12 +315,34 @@ form{
 			color:$white;
 		}
 	}
+	&.btn-group{
+		.dropdown-toggle{
+			.caret{
+				border:none;
+				width:26px;
+				height:26px;
+				margin-top:-13px;
+				&:before{
+					content:"\62";
+					position:absolute;
+					left:3px;
+					top:0;
+					font-size:20px;
+					font-family: "untitled-font-1";
+					color:$purple;
+				}
+			}
+		}
+	}
 	&.open{
 		.dropdown-toggle{
-			border-bottom:none;
-		}
-		.caret{
-			@include transform (rotate(-180deg));
+			border-bottom-color:transparent;
+			.caret{
+				@include transform (rotate(-180deg));
+				&:before{
+					color:$dkmdpurple;
+				}
+			}
 		}
 	}
 }
@@ -437,6 +460,18 @@ form{
 		color:$orange;
 		display:block;
 		
+	}
+}
+.info-tool{
+	width:24px;
+	height:24px;
+	line-height:24px;
+	text-align:center;
+	font-size:12px;
+	@include border-radius(100%);
+	display:inline-block;
+	em{
+		line-height:24px;
 	}
 }
 

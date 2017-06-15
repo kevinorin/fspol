@@ -30,8 +30,8 @@
         </div>
         <div class="container padding-none-xs">
           <div class="family-block white">
-            <div class="family-icon block-icon">
-              <em><img src="assets/images/icon-volunteering.svg" alt="Stars" height="91" width="91"></em>
+            <div class="family-icon block-icon orange-bg white">
+              <em class="icon icon-stars"></em>
             </div>
             <h2>2016 - 2017 Calendar</h2>
             <p>It's never too early to start making your mark on the world! generationOn makes it easy, with our monthly themes to help you pick an issue area to activate kids and teens around. In addition, we have our national Campaigns and Days of Service (listed below) to you to join us in making a huge impact! We provide all the tools and resources you need to develop caring, compassionate and capable kids through service. generationOn has lots of great programming coming up. Learn more and get involved!</p>
@@ -54,7 +54,7 @@
                   </div>
                   <div class="col-sm-6">
                     <div class="program-image same-height text-center">
-                      <a href="#" class="btn btn-xgreen white">VIEW RELATED PROJECTS <em class="fa fa-angle-right"></em></a>
+                      <a href="#" class="btn btn-xgreen white">VIEW RELATED PROJECTS <em class="icon icon-arrow-angle-right"></em></a>
                     </div>
                   </div>
                 </div>
@@ -74,7 +74,7 @@
                   </div>
                   <div class="col-sm-6">
                     <div class="program-image same-height text-center">
-                      <a href="#" class="btn btn-xgreen white">VIEW RELATED PROJECTS <em class="fa fa-angle-right"></em></a>
+                      <a href="#" class="btn btn-xgreen white">VIEW RELATED PROJECTS <em class="icon icon-arrow-angle-right"></em></a>
                     </div>
                   </div>
                   <div class="col-sm-12">
@@ -97,7 +97,7 @@
                                   <span class="date">5</span>
                                 </div>
                               </div>
-                              <h3><a href="#" class="navyblue">International Day of Charity <em class="fa fa-angle-right skyblue"></em></a></h3>
+                              <h3><a href="#" class="navyblue">International Day of Charity <em class="icon icon-chevron-arrow-right skyblue"></em></a></h3>
                             </div>
                             <p>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod. Quis aute iure reprehenderit in voluptate velit esse.</p>
                           </div>
@@ -119,7 +119,7 @@
                                   <span class="date">11</span>
                                 </div>
                               </div>
-                              <h3><a href="#" class="navyblue">Day of Rememberance <em class="fa fa-angle-right skyblue"></em></a></h3>
+                              <h3><a href="#" class="navyblue">Day of Rememberance <em class="icon icon-chevron-arrow-right skyblue"></em></a></h3>
                             </div>
                             <p>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod. Quis aute iure reprehenderit in voluptate velit esse.</p>
                           </div>
@@ -144,7 +144,7 @@
                   </div>
                   <div class="col-sm-6">
                     <div class="program-image same-height text-center">
-                      <a href="#" class="btn btn-xgreen white">VIEW RELATED PROJECTS <em class="fa fa-angle-right"></em></a>
+                      <a href="#" class="btn btn-xgreen white">VIEW RELATED PROJECTS <em class="icon icon-arrow-angle-right"></em></a>
                     </div>
                   </div>
                   <div class="col-sm-12">
@@ -167,7 +167,7 @@
                                   <span class="date">5</span>
                                 </div>
                               </div>
-                              <h3><a href="#" class="navyblue">International Day of Charity <em class="fa fa-angle-right skyblue"></em></a></h3>
+                              <h3><a href="#" class="navyblue">International Day of Charity <em class="icon icon-chevron-arrow-right skyblue"></em></a></h3>
                             </div>
                             <p>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod. Quis aute iure reprehenderit in voluptate velit esse.</p>
                           </div>
@@ -189,7 +189,7 @@
                                   <span class="date">11</span>
                                 </div>
                               </div>
-                              <h3><a href="#" class="navyblue">Day of Rememberance <em class="fa fa-angle-right skyblue"></em></a></h3>
+                              <h3><a href="#" class="navyblue">Day of Rememberance <em class="icon icon-chevron-arrow-right skyblue"></em></a></h3>
                             </div>
                             <p>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod. Quis aute iure reprehenderit in voluptate velit esse.</p>
                           </div>
@@ -214,7 +214,7 @@
                   </div>
                   <div class="col-sm-6">
                     <div class="program-image same-height text-center">
-                      <a href="#" class="btn btn-xgreen white">VIEW RELATED PROJECTS <em class="fa fa-angle-right"></em></a>
+                      <a href="#" class="btn btn-xgreen white">VIEW RELATED PROJECTS <em class="icon icon-arrow-angle-right"></em></a>
                     </div>
                   </div>
                   <div class="col-sm-12">
@@ -271,7 +271,7 @@
                                   <span class="date">5</span>
                                 </div>
                               </div>
-                              <h3><a href="#" class="navyblue">International Day of Charity <em class="fa fa-angle-right skyblue"></em></a></h3>
+                              <h3><a href="#" class="navyblue">International Day of Charity <em class="icon icon-chevron-arrow-right skyblue"></em></a></h3>
                             </div>
                             <p>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod. Quis aute iure reprehenderit in voluptate velit esse.</p>
                           </div>
@@ -293,7 +293,7 @@
                                   <span class="date">11</span>
                                 </div>
                               </div>
-                              <h3><a href="#" class="navyblue">Day of Rememberance <em class="fa fa-angle-right skyblue"></em></a></h3>
+                              <h3><a href="#" class="navyblue">Day of Rememberance <em class="icon icon-chevron-arrow-right skyblue"></em></a></h3>
                             </div>
                             <p>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod. Quis aute iure reprehenderit in voluptate velit esse.</p>
                           </div>

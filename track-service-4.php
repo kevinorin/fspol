@@ -209,9 +209,15 @@
                       </form>
                     </div>
               </div>
-              <div class="track-footer clearfix">
-                <a href="track-service-3.php" class="btn btn-grey btn-outline pull-left">BACK</a>
-                <a href="#" class="btn btn-blue pull-right">Done</a>
+              <div class="track-footer pagin-block">
+                <div class="row">
+                  <div class="col-sm-6 col-xs-6">
+                    <a href="track-service-3.php" class="btn btn-grey btn-outline page-btn-prev"><em class="icon icon-arrow-angle-left"></em> <span>BACK</span></a>
+                  </div>
+                  <div class="col-sm-6 col-xs-6 text-right">
+                    <a href="#" class="btn btn-blue page-btn-next"><em class="icon icon-arrow-angle-right"></em> <span>NEXT</span></a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

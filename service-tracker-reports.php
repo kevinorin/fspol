@@ -89,7 +89,9 @@
         <div class="tracker-title">
           <h2 class="h2 navyblue">Total of 302 hrs in 25 service tracker reports, and 5 legacy service tracker reports</h2>
           <div class="info-help">
-            <em class="fa fa-info orange"></em>
+            <span class="info-tool orange-bg white">
+              <em class="icon icon-info"></em>
+            </span>
             <a href="#" class="cyan">What is a "Legacy" Report?</a>
           </div>
         </div>
@@ -151,7 +153,7 @@
         <div class="pagin-block">
             <div class="row">
               <div class="col-sm-4 col-xs-4">
-                <a href="#" class="btn btn-grey btn-outline page-btn-prev"><em class="fa fa-angle-left"></em> <span>PREV</span></a>
+                <a href="#" class="btn btn-grey btn-outline page-btn-prev"><em class="icon icon-arrow-angle-left"></em> <span>PREV</span></a>
               </div>
               <div class="col-sm-4 col-xs-4 text-center">
                 <div class="pagin-number navyblue">
@@ -159,7 +161,7 @@
                 </div>
               </div>
               <div class="col-sm-4 col-xs-4 text-right">
-                <a href="#" class="btn btn-blue btn-outline btn-light page-btn-next"><em class="fa fa-angle-right"></em> <span>NEXT</span></a>
+                <a href="#" class="btn btn-blue btn-outline btn-light page-btn-next"><em class="icon icon-arrow-angle-right"></em> <span>NEXT</span></a>
               </div>
             </div>
           </div>
@@ -173,7 +175,9 @@
               <h2 class="h2">Need some numbers?</h2>
               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
               <div class="info-help">
-                <em class="fa fa-info orange"></em>
+                <span class="info-tool orange-bg white">
+                  <em class="icon icon-info"></em>
+                </span>
                 <a href="#" class="white">What is a "Legacy" Report?</a>
               </div>
               <a href="#" class="btn btn-blue">Export data to excel (CSV File)</a>

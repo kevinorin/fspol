@@ -53,6 +53,9 @@ button{
 .navyblue{  
 	color:$nevyblue;
 }
+.ltpurple{
+	color:$ltpurple;
+}
 .nevydkblue{  
 	color:$nevydkblue;
 }
@@ -82,6 +85,9 @@ button{
 }
 .dkmdpurple-bg{
 	background-color:$dkmdpurple
+}
+.ltdkpurple-bg{
+	background-color:$ltdkpurple
 }
 
 h2, .h2{
@@ -165,6 +171,18 @@ label{
 	text-decoration:underline;
 }
 
+.block-icon{
+	width:90px;
+	height:90px;
+	text-align:center;
+	@include border-radius(100%);
+	font-size:45px;
+	display:inline-block;
+	em{
+		line-height:90px;
+	}
+}
+
 .social-share{
 	margin-bottom:40px;
 	max-width: 412px;
@@ -195,6 +213,13 @@ label{
 				}
 			}
 		}
+	}
+}
+
+h3,
+h2{
+	.icon-chevron-arrow-right{
+		font-size:65%;
 	}
 }
 

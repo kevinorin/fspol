@@ -1,5 +1,6 @@
 .track-service-section{
 	position:relative;
+	padding-bottom:80px;
 }
 
 	.track-steps{
@@ -80,7 +81,7 @@
 			position:relative;
 			border-top:1px solid $white;
 			border-bottom:1px solid $white;
-			em{
+			.info-tool{
 				position:absolute;
 				left:0;
 				top:16px;

@@ -45,14 +45,14 @@
           <h2 class="cyan h2">Past Campaigns</h2>
           <div class="row">
             <div class="col-sm-6">
-              <div class="thumbnail thumnail-campaign same-height">
+              <div class="thumbnail thumnail-campaign same-height blue-box">
                 <div class="thumb">
                   <img src="assets/images/image-2.jpg" alt="">
                   <span class="camp-logo"><img src="assets/images/campaign-logo.png" alt=""></span>
                 </div>
                 <div class="caption-main">
                   <div class="caption ltgrey-bg">
-                    <h3 class="nevydkblue">The Joymaker Challenge <em class="fa fa-angle-right"></em></h3>
+                    <h3 class="nevydkblue">The Joymaker Challenge <em class="icon icon-chevron-arrow-right"></em></h3>
                     <span class="camp-date blue h4">Nov 21st - Dec 23rd, 2016</span>
                     <P>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis. Donec ullam-corper nulla non metus auctor fringilla. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum </P>
                   </div>
@@ -64,27 +64,27 @@
                       </div>
                     </div>
                     <div class="text-center">
-                      <a href="#" class="btn btn-blue">LEARN MORE ABOUT THE CAMPAIGN <em class="fa fa-angle-right"></em></a>
+                      <a href="#" class="btn btn-blue">LEARN MORE ABOUT THE CAMPAIGN <em class="icon icon-chevron-arrow-right"></em></a>
                     </div>
                   </div>
                   <div class="caption-bottom-bar text-center">
                     <a href="#" class="nevydkblue">
                       <span class="camp-icon blue-bg white"><img src="assets/images/icon-camp.png" alt=""></span>
-                      See youth stories from this campaign <em class="fa fa-angle-right"></em>
+                      See youth stories from this campaign <em class="icon icon-chevron-arrow-right"></em>
                     </a>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-sm-6">
-              <div class="thumbnail thumnail-campaign same-height">
+              <div class="thumbnail thumnail-campaign same-height blue-box">
                 <div class="thumb">
                   <img src="assets/images/image-2.jpg" alt="">
                   <span class="camp-logo"><img src="assets/images/campaign-logo.png" alt=""></span>
                 </div>
                 <div class="caption-main">
                   <div class="caption ltgrey-bg">
-                    <h3 class="nevydkblue">Rules of Kindness <em class="fa fa-angle-right"></em></h3>
+                    <h3 class="nevydkblue">Rules of Kindness <em class="icon icon-chevron-arrow-right"></em></h3>
                     <span class="camp-date blue h4">Sep 12 - 16, 2016</span>
                     <P>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis. Donec ullam-corper nulla non metus auctor fringilla. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum </P>
                   </div>
@@ -98,54 +98,54 @@
                       <span class="remain-camp">+27,237</span>
                     </div>
                     <div class="text-center">
-                      <a href="#" class="btn btn-blue">LEARN MORE ABOUT THE CAMPAIGN <em class="fa fa-angle-right"></em></a>
+                      <a href="#" class="btn btn-blue">LEARN MORE ABOUT THE CAMPAIGN <em class="icon icon-chevron-arrow-right"></em></a>
                     </div>
                   </div>
                   <div class="caption-bottom-bar text-center">
                     <a href="#" class="nevydkblue">
                       <span class="camp-icon blue-bg white"><img src="assets/images/icon-camp.png" alt=""></span>
-                      See youth stories from this campaign <em class="fa fa-angle-right"></em>
+                      See youth stories from this campaign <em class="icon icon-chevron-arrow-right"></em>
                     </a>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-sm-6">
-              <div class="thumbnail thumnail-campaign same-height">
+              <div class="thumbnail thumnail-campaign same-height blue-box">
                 <div class="thumb">
                   <img src="assets/images/image-2.jpg" alt="">
                   <span class="camp-logo"><img src="assets/images/campaign-logo.png" alt=""></span>
                 </div>
                 <div class="caption-main">
                   <div class="caption ltgrey-bg">
-                    <h3 class="nevydkblue">The Joymaker Challenge <em class="fa fa-angle-right"></em></h3>
+                    <h3 class="nevydkblue">The Joymaker Challenge <em class="icon icon-chevron-arrow-right"></em></h3>
                     <span class="camp-date blue h4">Nov 21st - Dec 23rd, 2016</span>
                     <P>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis. Donec ullamcor-per nulla non metus auctor fringilla. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur.</P>
                     <p>Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur.</p>
                   </div>
                   <div class="caption-bottom">
                     <div class="text-center">
-                      <a href="#" class="btn btn-blue">LEARN MORE ABOUT THE CAMPAIGN <em class="fa fa-angle-right"></em></a>
+                      <a href="#" class="btn btn-blue">LEARN MORE ABOUT THE CAMPAIGN <em class="icon icon-chevron-arrow-right"></em></a>
                     </div>
                   </div>
                   <div class="caption-bottom-bar text-center">
                     <a href="#" class="nevydkblue">
                       <span class="camp-icon blue-bg white"><img src="assets/images/icon-camp.png" alt=""></span>
-                      See youth stories from this campaign <em class="fa fa-angle-right"></em>
+                      See youth stories from this campaign <em class="icon icon-chevron-arrow-right"></em>
                     </a>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-sm-6">
-              <div class="thumbnail thumnail-campaign same-height">
+              <div class="thumbnail thumnail-campaign same-height blue-box">
                 <div class="thumb">
                   <img src="assets/images/image-2.jpg" alt="">
                   <span class="camp-logo"><img src="assets/images/campaign-logo.png" alt=""></span>
                 </div>
                 <div class="caption-main">
                   <div class="caption ltgrey-bg">
-                    <h3 class="nevydkblue">The Joymaker Challenge <em class="fa fa-angle-right"></em></h3>
+                    <h3 class="nevydkblue">The Joymaker Challenge <em class="icon icon-chevron-arrow-right"></em></h3>
                     <span class="camp-date blue h4">Nov 21st - Dec 23rd, 2016</span>
                     <P>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis. Donec ullam-corper nulla non metus auctor fringilla. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum </P>
                   </div>
@@ -157,13 +157,13 @@
                       </div>
                     </div>
                     <div class="text-center">
-                      <a href="#" class="btn btn-blue">LEARN MORE ABOUT THE CAMPAIGN <em class="fa fa-angle-right"></em></a>
+                      <a href="#" class="btn btn-blue">LEARN MORE ABOUT THE CAMPAIGN <em class="icon icon-chevron-arrow-right"></em></a>
                     </div>
                   </div>
                   <div class="caption-bottom-bar text-center">
                     <a href="#" class="nevydkblue">
                       <span class="camp-icon blue-bg white"><img src="assets/images/icon-camp.png" alt=""></span>
-                      See youth stories from this campaign <em class="fa fa-angle-right"></em>
+                      See youth stories from this campaign <em class="icon icon-chevron-arrow-right"></em>
                     </a>
                   </div>
                 </div>

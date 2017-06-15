@@ -93,7 +93,7 @@
                 <img src="assets/images/image-2.jpg" alt="">
               </div>
               <div class="caption">
-                <h3><a href="#">Project Name <em class="fa fa-angle-right"></em></a></h3>
+                <h3><a href="#">Project Name <em class="icon icon-chevron-arrow-right"></em></a></h3>
                 <p>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod. Quis aute iure repre-henderit in voluptate velit esse. [...]</p>
                 <div class="btn-grp">
                   <a href="#" class="btn btn-grey btn-outline btn-radius btn-sm">Teens</a>
@@ -112,7 +112,7 @@
             <div class="media panel-shadow white-bg">
               <div class="media-left white cyan-bg text-center media-middle">
                 <div class="club-left-outer">
-                    <img src="assets/images/icon-pdf-blue.png" alt="">
+                    <em class="icon icon-pdf"></em>
                 </div>
               </div>
               <div class="media-body">
@@ -122,7 +122,7 @@
                         <a href="#" class="btn btn-grey btn-radius btn-outline">Kids</a>
                         <a href="#" class="btn btn-grey btn-radius btn-outline">Teens</a>
                       </div>
-                      <h3 class="h3">Seniors Factsheet <img src="assets/images/icon-lock-1.png" alt=""></h3>
+                      <h3 class="h3">Seniors Factsheet <em class="icon icon-lock-close-1"></em></h3>
                     </div>
                     <div class="media-text">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
@@ -136,7 +136,7 @@
             <div class="media panel-shadow white-bg">
               <div class="media-left white blue-bg text-center media-middle">
                 <div class="club-left-outer">
-                    <img src="assets/images/icon-more.png" alt="">
+                    <em class="icon icon-box-forwad"></em>
                 </div>
               </div>
               <div class="media-body">
@@ -145,7 +145,7 @@
                       <div class="club-btns">
                         <a href="#" class="btn btn-grey btn-radius btn-outline">Everyone</a>
                       </div>
-                      <h3 class="h3">Animal Welfare Website <img src="assets/images/icon-lock-1.png" alt=""></h3>
+                      <h3 class="h3">Animal Welfare Website <em class="icon icon-lock-close-1"></em></h3>
                     </div>
                     <div class="media-text">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
@@ -159,7 +159,7 @@
             <div class="media panel-shadow white-bg">
               <div class="media-left white cyan-bg text-center media-middle">
                 <div class="club-left-outer">
-                    <img src="assets/images/icon-pdf-blue.png" alt="">
+                    <em class="icon icon-pdf"></em>
                 </div>
               </div>
               <div class="media-body">
@@ -168,7 +168,7 @@
                       <div class="club-btns">
                         <a href="#" class="btn btn-grey btn-radius btn-outline">Families</a>
                       </div>
-                      <h3 class="h3">Cultural and Religious Dietary Restrictions  <img src="assets/images/icon-lock-1.png" alt=""></h3>
+                      <h3 class="h3">Cultural and Religious Dietary Restrictions  <em class="icon icon-lock-close-1"></em></h3>
                     </div>
                     <div class="media-text">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
@@ -182,7 +182,7 @@
             <div class="media panel-shadow white-bg">
               <div class="media-left white blue-bg text-center media-middle">
                 <div class="club-left-outer">
-                    <img src="assets/images/icon-more.png" alt="">
+                    <em class="icon icon-box-forwad"></em>
                 </div>
               </div>
               <div class="media-body">
@@ -192,7 +192,7 @@
                         <a href="#" class="btn btn-grey btn-radius btn-outline">Kids</a>
                         <a href="#" class="btn btn-grey btn-radius btn-outline">Teens</a>
                       </div>
-                      <h3 class="h3">Education in America <img src="assets/images/icon-lock-1.png" alt=""></h3>
+                      <h3 class="h3">Education in America <em class="icon icon-lock-close-1"></em></h3>
                     </div>
                     <div class="media-text">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
@@ -212,8 +212,8 @@
         </div>
         <div class="container padding-none-xs">
           <div class="family-block white">
-            <div class="family-icon block-icon">
-              <em><img src="assets/images/icon-volunteering.svg" alt="Stars" height="91" width="91"></em>
+            <div class="family-icon block-icon orange-bg white">
+              <em class="icon icon-stars"></em>
             </div>
             <h2>Martin Luther King Day 2017</h2>
             <p>Short details about the Campaign. non paenitet nullum festiviorem excogitasse ad hoc. Curabitur est gravida et libero vitae dictum. Short details about the Campaign. non paenitet nullum festiviorem excogitasse ad hoc. Curabitur est gravida et libero </p>

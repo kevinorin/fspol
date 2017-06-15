@@ -12,5 +12,5 @@
             </div>
         </div>
     </div>
-    <a href="#content" class="banner-scroll page-scroll"><img src="assets/images/icon-green-arrow-down.png" alt=""></a>
+    <a href="#content" class="banner-scroll page-scroll xgreen-bg"><em class="icon icon-arrow-down-7 white"></em></a>
 </section>

@@ -139,19 +139,19 @@
 	}
 	&.purple-box{
 		h2{
-			color:$ltpurple;
+			color:$ltdkpurple;
 		}
 		h3{
-			color:$ltdkpurple;
+			color:$ltpurple;
 			a{
 				color:inherit;
 				&:hover,
 				&:focus{
-					color:$ltpurple;
+					color:$ltdkpurple;
 				}
 			}
 			em{
-				color:$ltpurple;
+				color:$ltdkpurple;
 			}
 		}
 	}
@@ -361,7 +361,11 @@
 .club-wrapper{
 	.media-left{
 		position:relative;
-			padding:0;
+		padding:0;
+		.icon{
+			font-size:64px;
+			line-height:74px;
+		}
 	}
 	.club-left-outer{
 		width:196px;
@@ -421,6 +425,9 @@
 				position:absolute;
 				top:0;
 				right:0;
+				em{
+					margin-left:4px;
+				}
 			}
 		}
 		h3{
@@ -436,6 +443,9 @@
 				+li{
 					margin-left:30px;
 				}
+				em{
+					margin-right:8px;
+				}
 			}
 		}
 	}
@@ -444,12 +454,52 @@
 		}
 		.club-btn-right{
 			float:right;
+			.btn{
+				border-width:1px;
+				vertical-align:top;
+			}
 			.bootstrap-select{
 				&.js-select{
 					width:auto;
 					vertical-align:middle;
 					height:auto;
 					margin-left:30px;
+				}
+				.btn{
+					border-width:1px;
+					line-height:20px;
+					font-family:$font-family-rounded-bl;
+					font-size:$font-size-md;
+					letter-spacing: letterspacing(200, $font-size-md);
+					.filter-option{
+						text-transform:uppercase;
+					}
+					&:hover,
+					&:focus{
+						color:$nevyblue;
+					}
+				}
+				&.btn-group{
+					.dropdown-toggle{
+						.caret{
+							&:before{
+								content:"\69";
+								font-size:16px;
+								left:5px;
+								color:$blue;
+								line-height:26px;
+							}
+						}
+					}
+				}
+				&.open{
+					.dropdown-toggle{
+						.caret{
+							&:before{
+								color:$blue;
+							}
+						}
+					}
 				}
 			}
 		}
@@ -474,8 +524,16 @@
 		.caption{
 			padding-top:40px;
 			.btn{
+				
 				+.btn{
 					margin-left:12px;
+				}
+			}
+			.btn-remove{
+				em{
+					position:absolute;
+					right:5px;
+					top:10px;
 				}
 			}
 		}
@@ -561,6 +619,9 @@
 	}
 }
 .project-total{
+	margin-top:15px;
+	display:inline-block;
+	width:100%;
 	ul{
 		padding:0;
 		margin:0 -30px;
@@ -642,7 +703,7 @@
 
 .info-help{
 	font-family:$font-family-base-lt;
-	em{
+	.info-tool{
 		margin-right:16px;
 	}
 	a{
@@ -785,6 +846,7 @@
 		.donate-button{
 			span{
 				margin-left:17px;
+				display:inline-block;
 			}
 		}
 	}
@@ -1028,6 +1090,34 @@
 	border-top:2px solid $grey;
 	padding-top:50px;
 }
+.camp-slider{
+	margin-bottom:115px;
+	.slick-slide{
+		height:auto;
+		padding:0 4px;
+	}
+	.slick-list{
+		padding-top:30px !important;
+	}
+	.thumbnail{
+		@include transition(all 0.3s ease-in-out);
+		.caption{
+			font-size:25px;
+			line-height:36px;
+			padding:28px 20px;
+			min-height:140px;
+		}
+	}
+	.slick-current{
+		.thumbnail{
+			margin-top:-21px;
+			.caption{
+				background-color:$blue;
+				color:#fff;
+			}
+		}
+	}
+}
 
 @media (min-width: $screen-sm-min){
 	.family-section{
@@ -1092,7 +1182,16 @@
 		}
 	}
 }
-
+@media (max-width: 1320px){
+	.camp-slider{
+		.slick-prev{
+			left:0;
+		}
+		.slick-next{
+			right:0; 
+		}
+	}
+}
 @media (max-width: $screen-md-max){
 	.text-content{
 		&.text-content-right{
@@ -1133,11 +1232,21 @@
 		.donate-button{
 			span{
 				margin-left:0;
-				margin-top:10px;
+				margin-top:20px;
+			}
+		}
+	}
+	.camp-slider{
+		.thumbnail{
+			.caption{
+				font-size:20px;
+				line-height:30px;
+				padding:18px 20px;
 			}
 		}
 	}
 }
+
 @media (max-width: $screen-sm-max){
 	.text-content{
 		&.text-content-right{
@@ -1530,15 +1639,32 @@
 		 }
 	}
 	.join-sidebar{
+		&.section-block{
+			padding-top:0;
+		}
 		.join-box{
 			padding:35px 20px 30px;
+			margin-bottom:0;
 		}
 	}
+	
 	.img-thumbnail{
 		&.img-thumbnail-left{
 			float:none;
 			margin-right:0;
 			margin-bottom:30px;
+		}
+	}
+	.project-saved{
+		.btn-group{
+			display:block;
+		}
+		.thumbnail{
+			&.saved-res{
+				.caption{
+					padding-top:54px;
+				}
+			}
 		}
 	}
 	.project-causes-detail{
@@ -1692,5 +1818,18 @@
 			}
 		}
 	}
-	
+	.thumbnail{
+		.btn-grp{
+			.btn{
+				
+				+.btn{
+					margin-left:0;
+					margin-top:10px;
+				}
+			}
+		}
+	}
+	.camp-slider{
+		margin-bottom:30px;
+	}
 }

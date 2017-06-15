@@ -48,6 +48,64 @@
               </div>
             </div>
           </div>
+          <div class="camp-slider">
+            <div>
+              <div class="thumbnail panel-shadow">
+                <div class="thumb"><img src="assets/images/image-8.jpg" alt=""></div>
+                <div class="caption navyblue">
+                  city,<br>state
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="thumbnail panel-shadow">
+                <div class="thumb"><img src="assets/images/image-8.jpg" alt=""></div>
+                <div class="caption navyblue">
+                  city,<br>state
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="thumbnail panel-shadow">
+                <div class="thumb"><img src="assets/images/image-8.jpg" alt=""></div>
+                <div class="caption navyblue">
+                  Colorado Springs,<br>CO
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="thumbnail panel-shadow">
+                <div class="thumb"><img src="assets/images/image-8.jpg" alt=""></div>
+                <div class="caption navyblue">
+                  city,<br>state
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="thumbnail panel-shadow">
+                <div class="thumb"><img src="assets/images/image-8.jpg" alt=""></div>
+                <div class="caption navyblue">
+                  city,<br>state
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="thumbnail panel-shadow">
+                <div class="thumb"><img src="assets/images/image-8.jpg" alt=""></div>
+                <div class="caption navyblue">
+                  city,<br>state
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="thumbnail panel-shadow">
+                <div class="thumb"><img src="assets/images/image-8.jpg" alt=""></div>
+                <div class="caption navyblue">
+                  Colorado Springs,<br>CO
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
     </section>
   </div>

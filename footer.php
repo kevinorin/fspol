@@ -8,10 +8,10 @@
 			<div class="footer-top-right">
 				<div class="social-media">
 					<ul class="clearfix">
-						<li><a href="#"><em class="fa fa-facebook-official"></em></a></li>
-						<li><a href="#"><em class="fa fa-twitter"></em></a></li>
-						<li><a href="#"><em class="fa fa-youtube"></em></a></li>
-						<li><a href="#"><em class="fa fa-pinterest"></em></a></li>
+						<li><a href="#"><em class="icon icon-facebook"></em></a></li>
+						<li><a href="#"><em class="icon icon-twitter"></em></a></li>
+						<li><a href="#"><em class="icon icon-you-tube"></em></a></li>
+						<li><a href="#"><em class="icon icon-pinterest"></em></a></li>
 					</ul>
 				</div>
 				<div class="footer-partner">
@@ -62,5 +62,6 @@
 <script src="assets/javascripts/bootstrap-rating.min.js"></script>
 <script src="assets/javascripts/bootstrap-switch.min.js"></script>
 <script src="assets/javascripts/jquery.matchHeight.js"></script>
+<script src="assets/javascripts/slick.js"></script>
 <script src="assets/javascripts/cssua.js"></script>
 <script src="assets/javascripts/custom.js"></script>

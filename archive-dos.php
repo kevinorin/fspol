@@ -31,8 +31,8 @@
         </div>
         <div class="container padding-none-xs">
           <div class="family-block white">
-            <div class="family-icon block-icon">
-              <em><img src="assets/images/icon-volunteering.svg" alt="Stars" height="91" width="91"></em>
+            <div class="family-icon block-icon xgreen-bg white">
+              <em class="icon icon-stars"></em>
             </div>
             <h2>January 16, 2016</h2>
             <p>oin generationOn as we celebrate the life and legacy of Dr. Martin Luther King, Jr. From the mid-1950's through 1968, Dr. King advocated for nonviolence while leading the Civil Rights Movement, working to support equality among all people. For this national day of service, generationOn has developed facts sheets, project guides and lesson plans to help teach kids and teens about the contributions of Dr. King, how they can continue his vision of equal rights for all, and make their mark on the world through service.</p>
@@ -53,7 +53,7 @@
                       <img src="assets/images/image-2.jpg" alt="">
                     </div>
                     <div class="caption">
-                      <h3 class="dkmdpurple">Article Title <em class="fa fa-angle-right"></em></h3>
+                      <h3 class="dkmdpurple">Article Title <em class="icon icon-chevron-arrow-right"></em></h3>
                       <P>Short details about the Campaign. non paenitet nullum festiviorem excogi-tasse ad hoc. Curabitur est gravida et libero vitae dictum...</P>
                       <a href="#" class="btn btn-grey btn-outline btn-radius">News</a>
                     </div>
@@ -65,7 +65,7 @@
                       <img src="assets/images/image-2.jpg" alt="">
                     </div>
                     <div class="caption">
-                      <h3 class="dkmdpurple">City, State <em class="fa fa-angle-right"></em></h3>
+                      <h3 class="dkmdpurple">City, State <em class="icon icon-chevron-arrow-right"></em></h3>
                       <P>Short details about the Campaign. non paenitet nullum festiviorem excogi-tasse ad hoc. Curabitur est gravida et libero vitae dictum...</P>
                       <a href="#" class="btn btn-grey btn-outline btn-radius">News</a>
                     </div>
@@ -77,7 +77,7 @@
                       <img src="assets/images/image-2.jpg" alt="">
                     </div>
                     <div class="caption">
-                      <h3 class="dkmdpurple">City, State <em class="fa fa-angle-right"></em></h3>
+                      <h3 class="dkmdpurple">City, State <em class="icon icon-chevron-arrow-right"></em></h3>
                       <P>Short details about the Campaign. non paenitet nullum festiviorem excogi-tasse ad hoc. Curabitur est gravida et libero vitae dictum...</P>
                       <a href="#" class="btn btn-grey btn-outline btn-radius">News</a>
                     </div>
@@ -89,7 +89,7 @@
                       <img src="assets/images/image-2.jpg" alt="">
                     </div>
                     <div class="caption">
-                      <h3 class="dkmdpurple">City, State <em class="fa fa-angle-right"></em></h3>
+                      <h3 class="dkmdpurple">City, State <em class="icon icon-chevron-arrow-right"></em></h3>
                       <P>Short details about the Campaign. non paenitet nullum festiviorem excogi-tasse ad hoc. Curabitur est gravida et libero vitae dictum...</P>
                       <a href="#" class="btn btn-grey btn-outline btn-radius">News</a>
                     </div>
@@ -210,7 +210,7 @@
                             <img src="assets/images/image-2.jpg" alt="">
                           </div>
                           <div class="caption">
-                            <h3><a href="#">Project Name <em class="fa fa-angle-right"></em></a></h3>
+                            <h3><a href="#">Project Name <em class="icon icon-chevron-arrow-right"></em></a></h3>
                             <p>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod. Quis aute iure repre-henderit in voluptate velit esse. [...]</p>
                             <div class="text-right btn-grp">
                               <a href="#" class="btn btn-grey btn-outline btn-radius btn-sm">Teens</a>
@@ -225,7 +225,7 @@
                             <img src="assets/images/image-2.jpg" alt="">
                           </div>
                           <div class="caption">
-                            <h3><a href="#">Project Name <em class="fa fa-angle-right"></em></a></h3>
+                            <h3><a href="#">Project Name <em class="icon icon-chevron-arrow-right"></em></a></h3>
                             <p>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod. Quis aute iure repre-henderit in voluptate velit esse. [...]</p>
                             <div class="text-right btn-grp">
                               <a href="#" class="btn btn-grey btn-outline btn-radius btn-sm">Teens</a>
@@ -240,7 +240,7 @@
                             <img src="assets/images/image-2.jpg" alt="">
                           </div>
                           <div class="caption">
-                            <h3><a href="#">Project Name <em class="fa fa-angle-right"></em></a></h3>
+                            <h3><a href="#">Project Name <em class="icon icon-chevron-arrow-right"></em></a></h3>
                             <p>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod. Quis aute iure repre-henderit in voluptate velit esse. [...]</p>
                             <div class="text-right btn-grp">
                               <a href="#" class="btn btn-grey btn-outline btn-radius btn-sm">Teens</a>

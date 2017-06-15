@@ -35,7 +35,7 @@
                         <img src="assets/images/image-2.jpg" alt="">
                       </div>
                       <div class="caption">
-                        <h3><a href="project-and-causes-detail.php">Animal Welfare <em class="fa fa-angle-right"></em></a></h3>
+                        <h3><a href="project-and-causes-detail.php">Animal Welfare <em class="icon icon-chevron-arrow-right"></em></a></h3>
                         <p>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod. Quis aute iure repre-henderit in voluptate velit esse. [...]</p>
                         <div class="project-total">
                           <ul class="clearfix">
@@ -58,7 +58,7 @@
                         <img src="assets/images/image-2.jpg" alt="">
                       </div>
                       <div class="caption">
-                        <h3><a href="project-and-causes-detail.php">Animal Welfare <em class="fa fa-angle-right"></em></a></h3>
+                        <h3><a href="project-and-causes-detail.php">Animal Welfare <em class="icon icon-chevron-arrow-right"></em></a></h3>
                         <p>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod. Quis aute iure repre-henderit in voluptate velit esse. [...]</p>
                         <div class="project-total">
                           <ul class="clearfix">
@@ -81,7 +81,7 @@
                         <img src="assets/images/image-2.jpg" alt="">
                       </div>
                       <div class="caption">
-                        <h3><a href="project-and-causes-detail.php">Animal Welfare <em class="fa fa-angle-right"></em></a></h3>
+                        <h3><a href="project-and-causes-detail.php">Animal Welfare <em class="icon icon-chevron-arrow-right"></em></a></h3>
                         <p>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod. Quis aute iure repre-henderit in voluptate velit esse. [...]</p>
                         <div class="project-total">
                           <ul class="clearfix">
@@ -104,7 +104,7 @@
                         <img src="assets/images/image-2.jpg" alt="">
                       </div>
                       <div class="caption">
-                        <h3><a href="project-and-causes-detail.php">Animal Welfare <em class="fa fa-angle-right"></em></a></h3>
+                        <h3><a href="project-and-causes-detail.php">Animal Welfare <em class="icon icon-chevron-arrow-right"></em></a></h3>
                         <p>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod. Quis aute iure repre-henderit in voluptate velit esse. [...]</p>
                         <div class="project-total">
                           <ul class="clearfix">
@@ -127,7 +127,7 @@
                         <img src="assets/images/image-2.jpg" alt="">
                       </div>
                       <div class="caption">
-                        <h3><a href="project-and-causes-detail.php">Animal Welfare <em class="fa fa-angle-right"></em></a></h3>
+                        <h3><a href="project-and-causes-detail.php">Animal Welfare <em class="icon icon-chevron-arrow-right"></em></a></h3>
                         <p>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod. Quis aute iure repre-henderit in voluptate velit esse. [...]</p>
                         <div class="project-total">
                           <ul class="clearfix">
@@ -150,7 +150,7 @@
                         <img src="assets/images/image-2.jpg" alt="">
                       </div>
                       <div class="caption">
-                        <h3><a href="project-and-causes-detail.php">Animal Welfare <em class="fa fa-angle-right"></em></a></h3>
+                        <h3><a href="project-and-causes-detail.php">Animal Welfare <em class="icon icon-chevron-arrow-right"></em></a></h3>
                         <p>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod. Quis aute iure repre-henderit in voluptate velit esse. [...]</p>
                         <div class="project-total">
                           <ul class="clearfix">
@@ -173,7 +173,7 @@
                         <img src="assets/images/image-2.jpg" alt="">
                       </div>
                       <div class="caption">
-                        <h3><a href="project-and-causes-detail.php">Animal Welfare <em class="fa fa-angle-right"></em></a></h3>
+                        <h3><a href="project-and-causes-detail.php">Animal Welfare <em class="icon icon-chevron-arrow-right"></em></a></h3>
                         <p>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod. Quis aute iure repre-henderit in voluptate velit esse. [...]</p>
                         <div class="project-total">
                           <ul class="clearfix">
@@ -196,7 +196,7 @@
                         <img src="assets/images/image-2.jpg" alt="">
                       </div>
                       <div class="caption">
-                        <h3><a href="project-and-causes-detail.php">Animal Welfare <em class="fa fa-angle-right"></em></a></h3>
+                        <h3><a href="project-and-causes-detail.php">Animal Welfare <em class="icon icon-chevron-arrow-right"></em></a></h3>
                         <p>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod. Quis aute iure repre-henderit in voluptate velit esse. [...]</p>
                         <div class="project-total">
                           <ul class="clearfix">
@@ -219,7 +219,7 @@
                         <img src="assets/images/image-2.jpg" alt="">
                       </div>
                       <div class="caption">
-                        <h3><a href="project-and-causes-detail.php">Animal Welfare <em class="fa fa-angle-right"></em></a></h3>
+                        <h3><a href="project-and-causes-detail.php">Animal Welfare <em class="icon icon-chevron-arrow-right"></em></a></h3>
                         <p>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod. Quis aute iure repre-henderit in voluptate velit esse. [...]</p>
                         <div class="project-total">
                           <ul class="clearfix">

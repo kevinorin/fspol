@@ -52,7 +52,7 @@
         <div class="filter-detail">
           <div class="container">
             <div class="filter-body">
-              <button type="button" class="close-filter"><em class="fa fa-close"></em></button>
+              <button type="button" class="close-filter"><em class="icon icon-close"></em></button>
               <div class="row">
                 <div class="col-md-4">
                   <div class="filter-detail-block">
@@ -122,7 +122,7 @@
               <button type="button" class="btn btn-blue">APPLY FILTERS</button>
             </div>
             <div class="filter-footer text-right visible-xs">
-              <button type="button" class="btn btn-green btn-outline">CLOSE</button>
+              <button type="button" class="btn btn-green btn-outline close-btn-filt">CLOSE</button>
               <button type="button" class="btn btn-green">APPLY</button>
             </div>
           </div>
@@ -134,7 +134,7 @@
             <div class="media panel-shadow white-bg">
               <div class="media-left white cyan-bg text-center media-middle">
                 <div class="club-left-outer">
-                    <img src="assets/images/icon-pdf-blue.png" alt="">
+                    <em class="icon icon-pdf"></em>
                 </div>
               </div>
               <div class="media-body">
@@ -144,7 +144,7 @@
                         <a href="#" class="btn btn-grey btn-radius btn-outline">Kids</a>
                         <a href="#" class="btn btn-grey btn-radius btn-outline">Teens</a>
                       </div>
-                      <h3 class="h3">Seniors Factsheet <img src="assets/images/icon-lock-1.png" alt=""></h3>
+                      <h3 class="h3">Seniors Factsheet <em class="icon icon-lock-close-1"></em></h3>
                     </div>
                     <div class="media-text">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
@@ -158,7 +158,7 @@
             <div class="media panel-shadow white-bg">
               <div class="media-left white blue-bg text-center media-middle">
                 <div class="club-left-outer">
-                    <img src="assets/images/icon-more.png" alt="">
+                    <em class="icon icon-box-forwad"></em>
                 </div>
               </div>
               <div class="media-body">
@@ -167,7 +167,7 @@
                       <div class="club-btns">
                         <a href="#" class="btn btn-grey btn-radius btn-outline">Everyone</a>
                       </div>
-                      <h3 class="h3">Animal Welfare Website <img src="assets/images/icon-lock-1.png" alt=""></h3>
+                      <h3 class="h3">Animal Welfare Website <em class="icon icon-lock-close-1"></em></h3>
                     </div>
                     <div class="media-text">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
@@ -181,7 +181,7 @@
             <div class="media panel-shadow white-bg">
               <div class="media-left white cyan-bg text-center media-middle">
                 <div class="club-left-outer">
-                    <img src="assets/images/icon-pdf-blue.png" alt="">
+                    <em class="icon icon-pdf"></em>
                 </div>
               </div>
               <div class="media-body">
@@ -190,7 +190,7 @@
                       <div class="club-btns">
                         <a href="#" class="btn btn-grey btn-radius btn-outline">Families</a>
                       </div>
-                      <h3 class="h3">Cultural and Religious Dietary Restrictions  <img src="assets/images/icon-lock-1.png" alt=""></h3>
+                      <h3 class="h3">Cultural and Religious Dietary Restrictions  <em class="icon icon-lock-close-1"></em></h3>
                     </div>
                     <div class="media-text">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
@@ -204,7 +204,7 @@
             <div class="media panel-shadow white-bg">
               <div class="media-left white blue-bg text-center media-middle">
                 <div class="club-left-outer">
-                    <img src="assets/images/icon-more.png" alt="">
+                    <em class="icon icon-box-forwad"></em>
                 </div>
               </div>
               <div class="media-body">
@@ -214,7 +214,7 @@
                         <a href="#" class="btn btn-grey btn-radius btn-outline">Kids</a>
                         <a href="#" class="btn btn-grey btn-radius btn-outline">Teens</a>
                       </div>
-                      <h3 class="h3">Education in America <img src="assets/images/icon-lock-1.png" alt=""></h3>
+                      <h3 class="h3">Education in America <em class="icon icon-lock-close-1"></em></h3>
                     </div>
                     <div class="media-text">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
@@ -229,7 +229,7 @@
           <div class="pagin-block">
             <div class="row">
               <div class="col-sm-4 col-xs-4">
-                <a href="#" class="btn btn-grey btn-outline page-btn-prev"><em class="fa fa-angle-left"></em> <span>PREV</span></a>
+                <a href="#" class="btn btn-grey btn-outline page-btn-prev"><em class="icon icon-arrow-angle-left"></em> <span>PREV</span></a>
               </div>
               <div class="col-sm-4 col-xs-4 text-center">
                 <div class="pagin-number navyblue">
@@ -237,7 +237,7 @@
                 </div>
               </div>
               <div class="col-sm-4 col-xs-4 text-right">
-                <a href="#" class="btn btn-blue btn-outline btn-light page-btn-next"><em class="fa fa-angle-right"></em> <span>NEXT</span></a>
+                <a href="#" class="btn btn-blue btn-outline btn-light page-btn-next"><em class="icon icon-arrow-angle-right"></em> <span>NEXT</span></a>
               </div>
             </div>
           </div>
@@ -249,8 +249,8 @@
         </div>
         <div class="container padding-none-xs">
           <div class="family-block white">
-            <div class="family-icon block-icon">
-              <em><img src="assets/images/icon-volunteering.svg" alt="Stars" height="91" width="91"></em>
+            <div class="family-icon block-icon orange-bg white">
+              <em class="icon icon-stars"></em>
             </div>
             <h2>Family Volunteering</h2>
             <p>Short details about the Campaign. non paenitet nullum festiviorem excogitasse ad hoc. Curabitur est gravida et libero vitae dictum. Short details about the Campaign. non paenitet nullum festiviorem excogitasse ad hoc. Curabitur est gravida et libero </p>

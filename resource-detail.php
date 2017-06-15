@@ -50,12 +50,14 @@
               <div class="lock-head white blue-bg cleafix">
                 <h2 class="h2">Make Your Mark On Animals</h2>
                 <button type="button" class="lock-icon">
-                  <img src="assets/images/icon-lock.jpg" alt="">
+                  <em class="icon icon-lock-close-1"></em>
                 </button>
               </div>
               <div class="lock-modal text-center">
                 <div class="lock-modal-icon">
-                  <img src="assets/images/icon-gift.png" alt="">
+                  <span class="orange-bg block-icon white">
+                    <em class="icon icon-hand-gift"></em>
+                  </span>
                 </div>
                 <h2 class="navyblue">Join generationOn to view this Fact Sheet. Joining is free and easy!</h2>
                 <div class="lock-modal-btns btn-group">
@@ -79,7 +81,7 @@
                         </div>
                         <div class="fact-buttons fact-block">
                             <a href="#" class="btn btn-blue btn-block">SAVE TO DASHBOARD</a>
-                            <a href="#" class="btn btn-dkpurple print-btn btn-block cleafix">PRINT PROJECT <em class="fa fa-print"></em></a>
+                            <a href="#" class="btn btn-dkpurple print-btn btn-block cleafix">PRINT PROJECT <em class="icon icon-printer"></em></a>
                         </div>
                         <div class="fact-resource mddkgrey-bg fact-block">
                             <span class="fact-label dkmdpurple text-uppercase">WHAT DO YOU THINK OF THIS RESOURCE?</span>
@@ -143,31 +145,31 @@
                       <div class="col-sm-6">
                         <a href="#" class="related-res-block h3 nevydkblue">
                           Grant Example Item
-                          <span><img src="assets/images/icon-pdf.jpg" alt=""></span>
+                          <span class="blue-bg block-icon white"><em class="icon icon-pdf"></em></span>
                         </a>
                       </div>
                       <div class="col-sm-6">
                         <a href="#" class="related-res-block h3 nevydkblue">
                           Lesson Plan
-                          <span><img src="assets/images/icon-pdf.jpg" alt=""></span>
+                          <span class="blue-bg block-icon white"><em class="icon icon-pdf"></em></span>
                         </a>
                       </div>
                       <div class="col-sm-6">
                         <a href="#" class="related-res-block h3 nevydkblue">
                           Reading List
-                          <span><img src="assets/images/icon-pdf.jpg" alt=""></span>
+                          <span class="blue-bg block-icon white"><em class="icon icon-pdf"></em></span>
                         </a>
                       </div>
                       <div class="col-sm-6">
                         <a href="#" class="related-res-block h3 nevydkblue">
                           Video
-                          <span><img src="assets/images/icon-pdf.jpg" alt=""></span>
+                          <span class="blue-bg block-icon white"><em class="icon icon-pdf"></em></span>
                         </a>
                       </div>
                       <div class="col-sm-6">
                         <a href="#" class="related-res-block h3 nevydkblue">
                           Reading List
-                          <span><img src="assets/images/icon-pdf.jpg" alt=""></span>
+                          <span class="blue-bg block-icon white"><em class="icon icon-pdf"></em></span>
                         </a>
                       </div>
                     </div>  
@@ -181,7 +183,7 @@
                             <img src="assets/images/image-2.jpg" alt="">
                           </div>
                           <div class="caption">
-                            <h3><a href="#">Project Name <em class="fa fa-angle-right"></em></a></h3>
+                            <h3><a href="#">Project Name <em class="icon icon-chevron-arrow-right"></em></a></h3>
                             <p>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod. Quis aute iure repre-henderit in voluptate velit esse. [...]</p>
                             <div class="text-right btn-grp">
                               <a href="#" class="btn btn-grey btn-outline btn-radius btn-sm">Teens</a>
@@ -196,7 +198,7 @@
                             <img src="assets/images/image-2.jpg" alt="">
                           </div>
                           <div class="caption">
-                            <h3><a href="#">Project Name <em class="fa fa-angle-right"></em></a></h3>
+                            <h3><a href="#">Project Name <em class="icon icon-chevron-arrow-right"></em></a></h3>
                             <p>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod. Quis aute iure repre-henderit in voluptate velit esse. [...]</p>
                             <div class="text-right btn-grp">
                               <a href="#" class="btn btn-grey btn-outline btn-radius btn-sm">Teens</a>
@@ -211,7 +213,7 @@
                             <img src="assets/images/image-2.jpg" alt="">
                           </div>
                           <div class="caption">
-                            <h3><a href="#">Project Name <em class="fa fa-angle-right"></em></a></h3>
+                            <h3><a href="#">Project Name <em class="icon icon-chevron-arrow-right"></em></a></h3>
                             <p>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod. Quis aute iure repre-henderit in voluptate velit esse. [...]</p>
                             <div class="text-right btn-grp">
                               <a href="#" class="btn btn-grey btn-outline btn-radius btn-sm">Teens</a>
@@ -226,7 +228,7 @@
                             <img src="assets/images/image-2.jpg" alt="">
                           </div>
                           <div class="caption">
-                            <h3><a href="#">Project Name <em class="fa fa-angle-right"></em></a></h3>
+                            <h3><a href="#">Project Name <em class="icon icon-chevron-arrow-right"></em></a></h3>
                             <p>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod. Quis aute iure repre-henderit in voluptate velit esse. [...]</p>
                             <div class="text-right btn-grp">
                               <a href="#" class="btn btn-grey btn-outline btn-radius btn-sm">Teens</a>
@@ -241,7 +243,7 @@
                             <img src="assets/images/image-2.jpg" alt="">
                           </div>
                           <div class="caption">
-                            <h3><a href="#">Project Name <em class="fa fa-angle-right"></em></a></h3>
+                            <h3><a href="#">Project Name <em class="icon icon-chevron-arrow-right"></em></a></h3>
                             <p>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod. Quis aute iure repre-henderit in voluptate velit esse. [...]</p>
                             <div class="text-right btn-grp">
                               <a href="#" class="btn btn-grey btn-outline btn-radius btn-sm">Teens</a>
@@ -256,7 +258,7 @@
                             <img src="assets/images/image-2.jpg" alt="">
                           </div>
                           <div class="caption">
-                            <h3><a href="#">Project Name <em class="fa fa-angle-right"></em></a></h3>
+                            <h3><a href="#">Project Name <em class="icon icon-chevron-arrow-right"></em></a></h3>
                             <p>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod. Quis aute iure repre-henderit in voluptate velit esse. [...]</p>
                             <div class="text-right btn-grp">
                               <a href="#" class="btn btn-grey btn-outline btn-radius btn-sm">Teens</a>

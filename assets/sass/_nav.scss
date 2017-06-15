@@ -47,4 +47,10 @@
 	.navbar-header{
 		margin:0;
 	}
+	.container > .navbar-header, 
+	.container > .navbar-collapse, 
+	.container-fluid > .navbar-header, 
+	.container-fluid > .navbar-collapse{
+		margin:0;
+	}
 }

@@ -78,7 +78,7 @@
                         <div class="club-left-outer">
                           <div class="cyan-bg club-left text-center">
                             <div class="club-left-inner">
-                              <img src="assets/images/apple-icon.png" alt="">
+                              <em class="icon icon-school-apple"></em>
                               <span>School</span>
                             </div>
                           </div>
@@ -87,12 +87,11 @@
                       <div class="media-body">
                           <div class="club-detail">
                             <div class="club-title">
-                              <a href="#" class="btn btn-grey btn-radius btn-outline">Public Listed School</a>
+                              <a href="#" class="btn btn-grey btn-radius btn-outline">Public Listed School <em class="icon icon-lock-open-1"></em></a>
                               <h3 class="h3">John Ross Robertson Public School</h3>
-                              
                             </div>
                             <ul class="clearfix club-list">
-                              <li>3 Approved Colleagues (you)</li>
+                              <li><em class="icon icon-comment"></em> 3 Approved Colleagues (you)</li>
                             </ul>
                             <div class="club-btns clearfix">
                               <div class="club-btn-left">
@@ -115,7 +114,7 @@
                         <div class="club-left-outer">
                           <div class="cyan-bg club-left kid text-center">
                             <div class="club-left-inner">
-                              <img src="assets/images/apple-icon.png" alt="">
+                              <em class="icon icon-champion"></em>
                               <span>Kids Care Club</span>
                             </div>
                           </div>
@@ -128,13 +127,13 @@
                       <div class="media-body">
                           <div class="club-detail">
                             <div class="club-title">
-                              <a href="#" class="btn btn-grey btn-radius btn-outline">Public Listed School</a>
+                              <a href="#" class="btn btn-grey btn-radius btn-outline">Public Listed School <em class="icon icon-lock-open-1"></em></a>
                               <h3 class="h3">John Ross Robertson Public School</h3>
                               
                             </div>
                             <ul class="clearfix club-list">
-                              <li>3 Service Reporters</li>
-                              <li>1 Facilitor (You)</li>
+                              <li><em class="icon icon-comment"></em>3 Service Reporters</li>
+                              <li><em class="icon icon-key"></em>1 Facilitor (You)</li>
                             </ul>
                             <div class="club-btns clearfix">
                               <div class="club-btn-left">
@@ -169,17 +168,17 @@
                 <div class="col-sm-6">
                   <div class="thumbnail white-bg same-height pledge">
                     <div class="caption">
-                      <div class="teaser-icon block-icon">
-                        <img src="assets/images/icon-awards.svg" alt="Stars and Ribbon" height="91" width="91">
+                      <div class="teaser-icon block-icon orange-bg white">
+                        <em class="icon icon-hand-gift"></em>
                       </div>
                       <div class="cap-top">
-                        <h3 class="h3"><a class="dkgrey" href="#">The Joy Maker Challenge <em class="fa fa-angle-right blue"></em></a></h3>
+                        <h3 class="h3"><a class="dkgrey" href="#">The Joy Maker Challenge <em class="icon icon-chevron-arrow-right blue"></em></a></h3>
                         <div class="blue track-date">Campaign Pledge  |  Nov 28, 2016</div>
                         <P>You pledged to be a part of this campaign. Let us know how it went! </P>
                       </div>
                       <div class="btn-group">
                         <a href="track-service.php" class="btn btn-blue btn-min-lg">TRACK SERVICE</a>
-                        <a href="#" class="btn btn-dkgrey btn-outline">REMOVE</a>
+                        <a href="#" class="btn btn-dkgrey btn-outline btn-remove">REMOVE <em class="icon icon-close"></em></a>
                       </div>
                     </div>
                   </div>
@@ -187,16 +186,16 @@
                 <div class="col-sm-6">
                   <div class="thumbnail white-bg same-height pledge">
                     <div class="caption">
-                      <div class="teaser-icon block-icon">
-                        <img src="assets/images/icon-awards.svg" alt="Stars and Ribbon" height="91" width="91">
+                      <div class="teaser-icon block-icon orange-bg white">
+                        <em class="icon icon-file-edit"></em>
                       </div>
                       <div class="cap-top">
-                        <h3 class="h3"><a href="#" class="dkgrey">Animal Shelter Helpers! <em class="fa fa-angle-right blue"></em></a></h3>
+                        <h3 class="h3"><a href="#" class="dkgrey">Animal Shelter Helpers! <em class="icon icon-chevron-arrow-right blue"></em></a></h3>
                         <div class="blue track-date">Saved Project  |  Aug 21, 2016</div>
                       </div>
                       <div class="btn-group">
                         <a href="track-service.php" class="btn btn-blue btn-min-lg">TRACK SERVICE</a>
-                        <a href="#" class="btn btn-dkgrey btn-outline">REMOVE</a>
+                        <a href="#" class="btn btn-dkgrey btn-outline btn-remove">REMOVE <em class="icon icon-close"></em></a>
                       </div>
                     </div>
                   </div>
@@ -213,8 +212,8 @@
                 <div class="col-sm-12">
                   <div class="thumbnail white-bg same-height saved-res">
                     <div class="caption">
-                      <div class="teaser-icon block-icon">
-                        <img src="assets/images/icon-awards.svg" alt="Stars and Ribbon" height="91" width="91">
+                      <div class="teaser-icon block-icon orange-bg white">
+                        <em class="icon icon-pdf"></em>
                       </div>
                       <div class="row">
                         <div class="row-md-height">
@@ -256,7 +255,7 @@
                           <div class="col-md-6 col-md-height col-bottom text-right">
                               <div class="btn-group">
                                   <a href="resource.php" class="btn btn-blue btn-min-lg">VIEW RESOURCE</a>
-                                  <a href="#" class="btn btn-dkgrey btn-outline">REMOVE</a>
+                                  <a href="#" class="btn btn-dkgrey btn-outline btn-remove">REMOVE <em class="icon icon-close"></em></a>
                                 </div>
                           </div>
                         </div>
@@ -275,8 +274,8 @@
         </div>
         <div class="container padding-none-xs">
           <div class="family-block white">
-            <div class="family-icon block-icon">
-              <em><img src="assets/images/icon-volunteering.svg" alt="Stars" height="91" width="91"></em>
+            <div class="family-icon block-icon orange-bg white">
+              <em class="icon icon-stars"></em>
             </div>
             <h2>Family Volunteering</h2>
             <p>Short details about the Campaign. non paenitet nullum festiviorem excogitasse ad hoc. Curabitur est gravida et libero vitae dictum. Short details about the Campaign. non paenitet nullum festiviorem excogitasse ad hoc. Curabitur est gravida et libero </p>
@@ -295,45 +294,45 @@
                 <div class="whats-now custom-accordian-body">
                   <div class="media">
                     <div class="media-left media-top">
-                      <div class="block-icon">
-                        <img src="assets/images/icon-awards.svg" alt="Stars and Ribbon" height="91" width="91">
+                      <div class="block-icon blue-bg white">
+                        <em class="icon icon-dollar-sign"></em>
                       </div>
                     </div>
                     <div class="media-body media-top">
-                      <h3><a href="#">Open Grant <em class="fa fa-angle-right skyblue"></em></a></h3>
+                      <h3><a href="#">Open Grant <em class="icon icon-chevron-arrow-right skyblue"></em></a></h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
                     </div>
                   </div>
                   <div class="media">
                     <div class="media-left media-top">
-                      <div class="block-icon">
-                        <img src="assets/images/icon-awards.svg" alt="Stars and Ribbon" height="91" width="91">
+                      <div class="block-icon blue-bg white">
+                        <em class="icon icon-star"></em>
                       </div>
                     </div>
                     <div class="media-body media-top">
-                      <h3><a href="#">Open Nomination <em class="fa fa-angle-right skyblue"></em></a></h3>
+                      <h3><a href="#">Open Nomination <em class="icon icon-chevron-arrow-right skyblue"></em></a></h3>
                       <p>Quisque sodales dolor sem, fringilla imperdiet nulla accumsan eu. Cras pulvinar turpis elit, in condimentum ante imperdiet et. Etiam non purus sit amet mi lobortis varius tristique in lorem.</p>
                     </div>
                   </div>
                   <div class="media">
                     <div class="media-left media-top">
-                      <div class="block-icon">
-                        <img src="assets/images/icon-awards.svg" alt="Stars and Ribbon" height="91" width="91">
+                      <div class="block-icon blue-bg white">
+                        <em class="icon icon-hand-gift-rev"></em>
                       </div>
                     </div>
                     <div class="media-body media-top">
-                      <h3><a href="#">Upcoming Campaign <em class="fa fa-angle-right skyblue"></em></a></h3>
+                      <h3><a href="#">Upcoming Campaign <em class="icon icon-chevron-arrow-right skyblue"></em></a></h3>
                       <p>Donec mi mauris, vestibulum at porttitor id, rhoncus non orci. Nunc dignissim tincidunt neque, non ultrices ipsum gravida id. Phasellus non lacus mauris. Nullam hendrerit dui fringilla porttitor bibendum. Proin fermentum tempor mi eget cursus. Maecenas a ligula sed ante mattis suscipit. Donec sed venenatis lacus.</p>
                     </div>
                   </div>
                   <div class="media">
                     <div class="media-left media-top">
-                      <div class="block-icon">
-                        <img src="assets/images/icon-awards.svg" alt="Stars and Ribbon" height="91" width="91">
+                      <div class="block-icon blue-bg white">
+                        <em class="icon icon-stars"></em>
                       </div>
                     </div>
                     <div class="media-body media-top">
-                      <h3><a href="#">Upcoming Day of Service <em class="fa fa-angle-right skyblue"></em></a></h3>
+                      <h3><a href="#">Upcoming Day of Service <em class="icon icon-chevron-arrow-right skyblue"></em></a></h3>
                       <p>Nulla lobortis placerat velit, eu varius sem vulputate eu. Nunc nec tempus sapien. Quisque et nibh </p>
                     </div>
                   </div>

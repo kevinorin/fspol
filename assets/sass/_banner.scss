@@ -10,6 +10,14 @@
 		bottom:78px;
 		z-index:1;
 		margin-left:-30px;
+		width:60px;
+		height:60px;
+		text-align:center;
+		@include border-radius(100%);
+		font-size:26px;
+		em{
+			line-height:60px;
+		}
 	}
 	h1{
 		letter-spacing: letterspacing(-3, $font-size-h1);
@@ -30,6 +38,7 @@
 	}
 	&.inner-banner{
 		border-bottom:1px solid $dkmdpurple;
+		@include background(dashboar-banner,jpg, no-repeat, center, center);
 		h1{
 			font-size:$font-size-xlrg;
 			line-height:$line-height-xlrg;
@@ -54,6 +63,7 @@
 	li{
 		a{
 			color:$white; 
+			text-decoration:underline;
 		}
 	}
 }
@@ -124,14 +134,14 @@
 			margin-bottom: 28px;
 		}
 		.banner-text{
-			background-color:$dkmdpurple;
 			padding:25px 20px;
 			font-size:$font-size-md;
 			line-height:$line-height-base;
 		}
 		&.home-banner{
 			.banner-text{
-				text-aligh:center;
+				text-align:center;
+				background-color:$dkmdpurple;
 				.btn-group{
 					display:block;
 					.btn{

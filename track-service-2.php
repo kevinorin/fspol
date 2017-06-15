@@ -101,7 +101,7 @@
                                     <span>REQUIRED</span>
                                   </div>
                                   <div class="gray-box-remove">
-                                    <button type="button">REMOVE</button>
+                                    <button type="button">REMOVE <em class="icon icon-close orange"></em></button>
                                   </div>
                                 </div>
                                 <div class="form-group">
@@ -119,7 +119,9 @@
                                 </div>
                                 <div class="tool-info">
                                   <div class="tool-info-inner">
-                                    <em class="fa fa-info orange"></em>
+                                    <span class="info-tool orange-bg white">
+                                      <em class="icon icon-info"></em>
+                                    </span>
                                     For each type of item you collect (eg. Bags of Garbage, Cards for Vets, Winter Jackets) add a seperate item record
                                   </div>
                                 </div>
@@ -178,9 +180,15 @@
                       </form>
                     </div>
               </div>
-              <div class="track-footer clearfix">
-                <a href="track-service-2.php" class="btn btn-grey btn-outline pull-left">BACK</a>
-                <a href="track-service-3.php" class="btn btn-blue pull-right">NEXT</a>
+              <div class="track-footer pagin-block">
+                <div class="row">
+                  <div class="col-sm-6 col-xs-6">
+                    <a href="track-service-1.php" class="btn btn-grey btn-outline page-btn-prev"><em class="icon icon-arrow-angle-left"></em> <span>BACK</span></a>
+                  </div>
+                  <div class="col-sm-6 col-xs-6 text-right">
+                    <a href="track-service-3.php" class="btn btn-blue page-btn-next"><em class="icon icon-arrow-angle-right"></em> <span>NEXT</span></a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

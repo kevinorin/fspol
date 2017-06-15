@@ -16,12 +16,12 @@
       <div class="row no-col-space">
         <div class="row-sm-height">
           <div class="col-sm-6 col-sm-height col-middle">
-            <div class="img-thumbnail same-height">
+            <div class="img-thumbnail">
               <img src="assets/images/image-1.jpg" alt="">
             </div>
           </div>
           <div class="col-sm-6 col-sm-height col-middle cyan-bg">
-            <div class="text-content text-content-right white same-height">
+            <div class="text-content text-content-right white">
               <h2 class="h2">Feature Campaign Title</h2>
               <p>Short details about the Campaign. non paenitet nullum festiviorem excogitasse ad hoc. Curabitur est gravida et libero vitae dictum. Short details about the Campaign. non paenitet nullum festiviorem excogitasse ad hoc. Curabitur est gravida et libero vitae dictum.</p>
               <a href="#" class="btn btn-orange">LEARN MORE</a>
@@ -34,7 +34,9 @@
         <div class="container">
           <div class="quote-block text-center">
             <div class="icon-bar">
-              <em><img src="assets/images/icon-gift.png" alt=""></em>
+              <span class="orange-bg block-icon white">
+                <em class="icon icon-hand-gift"></em>
+              </span>
             </div>
             <p>“Quote from last year's campaign or generationOn in general - Lorem ipsum, consectetur adipiscing”</p>
           </div>
@@ -46,15 +48,15 @@
                     <img src="assets/images/image-2.jpg" alt="">
                   </div>
                   <div class="caption">
-                    <div class="teaser-icon block-icon">
-                      <img src="assets/images/icon-awards.svg" alt="Stars and Ribbon" height="91" width="91">
+                    <div class="teaser-icon block-icon white blue-bg">
+                      <em class="icon icon-award"></em>
                     </div>
                     <h2 class="h2">Grants & Awards</h2>
-                    <h3><a href="#">Grant Example Item <em class="fa fa-angle-right"></em></a></h3>
+                    <h3><a href="#">Grant Example Item <em class="icon icon-chevron-arrow-right"></em></a></h3>
                     <P>Short details about the Campaign. non paenitet nullum festiviorem excogitasse ad hoc. Curabitur est gravida et libero vitae dictum...</P>
-                    <h3><a href="#">Youth Leadership nominaiton Open<em class="fa fa-angle-right"></em></a></h3>
+                    <h3><a href="#">Youth Leadership nominaiton Open<em class="icon icon-chevron-arrow-right"></em></a></h3>
                     <P>Short details about the Campaign. non paenitet nullum festiviorem excogitasse ad hoc. Curabitur est gravida et libero vitae dictum...</P>
-                    <h3><a href="#">Ambitioni dedisse scripsisse iudicaretur <em class="fa fa-angle-right"></em></a></h3>
+                    <h3><a href="#">Ambitioni dedisse scripsisse iudicaretur <em class="icon icon-chevron-arrow-right"></em></a></h3>
                     <P>Short details about the Campaign. non paenitet nullum festiviorem excogitasse ad hoc. Curabitur est gravida et libero vitae dictum...</P>
                     <a href="#" class="btn btn-blue">LEARN MORE</a>
                   </div>
@@ -66,15 +68,15 @@
                     <img src="assets/images/image-2.jpg" alt="">
                   </div>
                   <div class="caption">
-                    <div class="teaser-icon block-icon">
-                      <img src="assets/images/icon-opportunities.svg" alt="Opportunitites" height="91" width="91">
+                    <div class="teaser-icon block-icon ltdkpurple-bg white">
+                      <em class="icon icon-opportunity"></em>
                     </div>
                     <h2 class="h2">Upcoming Opportunitites</h2>
-                    <h3><a href="#">Days of Service 1 <em class="fa fa-angle-right"></em></a></h3>
+                    <h3><a href="#">Days of Service 1 <em class="icon icon-chevron-arrow-right"></em></a></h3>
                     <P>Short details about the Campaign. non paenitet nullum festiviorem excogitasse ad hoc. Curabitur est gravida et libero vitae dictum...</P>
-                    <h3><a href="#">Days of Service 2 <em class="fa fa-angle-right"></em></a></h3>
+                    <h3><a href="#">Days of Service 2 <em class="icon icon-chevron-arrow-right"></em></a></h3>
                     <P>Short details about the Campaign. non paenitet nullum festiviorem excogitasse ad hoc. Curabitur est gravida et libero vitae dictum...</P>
-                    <h3><a href="#">Days of Service 3 <em class="fa fa-angle-right"></em></a></h3>
+                    <h3><a href="#">Days of Service 3 <em class="icon icon-chevron-arrow-right"></em></a></h3>
                     <P>Short details about the Campaign. non paenitet nullum festiviorem excogitasse ad hoc. Curabitur est gravida et libero vitae dictum...</P>
                     <a href="#" class="btn btn-purple">LEARN MORE</a>
                   </div>
@@ -90,8 +92,8 @@
         </div>
         <div class="container padding-none-xs">
           <div class="family-block white">
-            <div class="family-icon block-icon">
-              <em><img src="assets/images/icon-volunteering.svg" alt="Stars" height="91" width="91"></em>
+            <div class="family-icon block-icon orange-bg white">
+              <em class="icon icon-stars"></em>
             </div>
             <h2>Family Volunteering</h2>
             <p>Short details about the Campaign. non paenitet nullum festiviorem excogitasse ad hoc. Curabitur est gravida et libero vitae dictum. Short details about the Campaign. non paenitet nullum festiviorem excogitasse ad hoc. Curabitur est gravida et libero </p>
@@ -113,8 +115,8 @@
                       <img src="assets/images/image-2.jpg" alt="">
                     </div>
                     <div class="caption">
-                      <div class="teaser-icon block-icon">
-                        <em><img src="assets/images/icon-abc.svg" alt="ABC Building Blocks" height="91" width="91"></em>
+                      <div class="teaser-icon block-icon orange-bg white xgreen-bg">
+                        <em class="icon icon-abc"></em>
                       </div>
                       <h3>Clubs for Kids & Teens</h3>
                       <P>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod.</P>
@@ -128,8 +130,8 @@
                       <img src="assets/images/image-2.jpg" alt="">
                     </div>
                     <div class="caption">
-                      <div class="teaser-icon block-icon">
-                        <em><img src="assets/images/icon-campaigns.svg" alt="Campaigns" height="91" width="91"></em>
+                      <div class="teaser-icon block-icon orange-bg white xgreen-bg">
+                        <em class="icon icon-champion"></em>
                       </div>
                       <h3>generationOn Campaigns</h3>
                       <P>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod.</P>
@@ -143,8 +145,8 @@
                       <img src="assets/images/image-2.jpg" alt="">
                     </div>
                     <div class="caption">
-                      <div class="teaser-icon block-icon">
-                        <em><img src="assets/images/icon-school.svg" alt="School" height="91" width="91"></em>
+                      <div class="teaser-icon block-icon orange-bg white xgreen-bg">
+                        <em class="icon icon-school-apple"></em>
                       </div>
                       <h3>School <br>Programs</h3>
                       <P>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod.</P>
@@ -158,8 +160,8 @@
                       <img src="assets/images/image-2.jpg" alt="">
                     </div>
                     <div class="caption">
-                      <div class="teaser-icon block-icon">
-                        <em><img src="assets/images/icon-lightbulb.svg" alt="Lightbulb" height="91" width="91"></em>
+                      <div class="teaser-icon block-icon orange-bg white xgreen-bg">
+                        <em class="icon icon-lamp"></em>
                       </div>
                       <h3>Training<br>Courses</h3>
                       <P>At nos hinc posthac, sitientis piros Afros. Etiam habebis sem dicantur magna mollis euismod.</P>

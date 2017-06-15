@@ -3,7 +3,10 @@
 <header id="header" class="navbar navbar-inverse <?php echo $file=="index.php"?"navbar-home":"";?>">
     <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" href="index.php"><img src="assets/images/logo.svg" alt=""></a>
+            <a class="navbar-brand" href="index.php">
+                <img src="assets/images/logo.svg" alt="" class="hidden-xs">
+                <img src="assets/images/logo-mob.svg" alt="" class="visible-xs">
+            </a>
         </div>
         <?php
             if (stripos($_SERVER['REQUEST_URI'], 'index.php')
