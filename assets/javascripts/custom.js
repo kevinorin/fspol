@@ -8,7 +8,7 @@ $(window).load(function(){
 // Window Ready
 $(document).ready(function(){
 	// For Mobile accordian
-	$(".cust-acc-title").on('click',function(){
+	$(".cust-acc-title").bind('click',function(){
 		$(this).parent(".cust-acc-head").toggleClass("active").next(".custom-accordian-body").slideToggle(800);
 	});
 
@@ -34,32 +34,32 @@ $(document).ready(function(){
 	$('.rating').rating();
 
 	// On click lock icon modal open
-	$(".lock-icon").click(function(){
+	$(".lock-icon").bind('click',function(){
 		$(".lock-modal").addClass("show");
 	});
 
 	// Filter slidetoggle
-	$(".add-filt-btn").click(function(){
+	$(".add-filt-btn").bind('click',function(){
 		$(this).closest(".filter-section").find(".filter-detail").slideToggle(500);
 	});
 	
 	// Close Filter
-	$(".close-filter,.close-btn-filt").click(function(){
+	$(".close-filter,.close-btn-filt").bind('click',function(){
 		$(this).closest(".filter-section").find(".filter-detail").slideUp(500);
 	});
 
 	// Onclick filter item add class active
-	$(".filter-list .btn").click(function(){
+	$(".filter-list .btn").bind('click',function(){
 		$(this).addClass("active");
 	});
 
 	// Onclick filter item add class active
-	$(".static-filter .btn").click(function(){
+	$(".static-filter .btn").bind('click',function(){
 		$(this).addClass("active");
 	});
 
 	// Read more text
-	$(".read-full .btn").click(function(){
+	$(".read-full .btn").bind('click',function(){
 		$(this).addClass("hide").parent(".read-full").prev(".campaign-text").addClass("text-open");
 	});
 
@@ -98,9 +98,6 @@ $(document).ready(function(){
 	        slidesToShow: 1,
 	      }
 	    }
-	    // You can unslick at a given breakpoint now by adding:
-	    // settings: "unslick"
-	    // instead of a settings object
 	  ]
 	});
 });
