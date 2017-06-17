@@ -7,6 +7,25 @@ $(window).load(function(){
 
 // Window Ready
 $(document).ready(function(){
+	
+	// Menu Open
+	var removeClass = true;
+	$(".navbar-toggle").bind('click',function(){
+		$("body").toggleClass('sidebar-menu');
+		removeClass = false;
+	});
+	
+	$("#nav").bind('click',function(){
+		removeClass = false;
+	});
+	
+	$("html,.close-menu").bind('click',function(){
+		if (removeClass) {
+			$("body").removeClass('sidebar-menu');
+		}
+		removeClass = true;
+	});
+
 	// For Mobile accordian
 	$(".cust-acc-title").bind('click',function(){
 		$(this).parent(".cust-acc-head").toggleClass("active").next(".custom-accordian-body").slideToggle(800);

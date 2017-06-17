@@ -31,21 +31,66 @@
                     </div>';
             }
         ?>
-        
+    </div>
+</header>
+<!-- Nav Start -->
+<nav id="nav" class="vrdkpurple-bg navbar-inverse">
+    <div class="nav-inner">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="show">Menu</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <!-- Nav Start -->
-        <!--<nav id="nav">
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li class="<?php echo $file=="index.php"?"active":"";?>"><a href="index.php">Home</a></li>
-                    <li class="<?php echo $file=="about.php"?"active":"";?>"><a href="about.php">about</a></li>
-                </ul>
+        <div class="navigation">
+            <div class="nav-top">
+                <a href="#" class="btn btn-purple">LOGIN</a>
+                <span class="close-menu">
+                    <em class="icon icon-close"></em>
+                </span>
             </div>
-        </nav>-->
+            <ul class="nav-menu">
+                <li class="active">
+                    <a href="index.php">Home <em class="icon icon-arrow-angle-right"></em></a>
+                </li>
+                <li>
+                    <a href="#">GET INVOLVED <em class="icon icon-arrow-angle-right"></em></a>
+                    <div class="submenu">
+                        <ul class="clearfix">
+                            <li><a href="#">Campaigns</a></li>
+                            <li><a href="#">Days of Service</a></li>
+                            <li><a href="#">Clubs for Kids & Teens</a></li>
+                            <li><a href="#">Nominate an Exceptional Youth</a></li>
+                            <li><a href="#">For Classrooms & Schools</a></li>
+                            <li><a href="#">Sign Up for Training</a></li>
+                            <li><a href="#">Grants</a></li>
+                            <li><a href="#">Track Your Service</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">PROJECTS AND CAUSES <em class="icon icon-arrow-angle-right"></em></a></li>
+                <li>
+                    <a href="#">WHAT WE DO <em class="icon icon-arrow-angle-right"></em></a>
+                    <div class="submenu">
+                        <ul class="clearfix">
+                            <li><a href="#">2016-2017 Calendar</a></li>
+                            <li><a href="#">Our Programs</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">RESOURCES <em class="icon icon-arrow-angle-right"></em></a></li>
+                <li>
+                    <a href="#">STORIES AND NEWS <em class="icon icon-arrow-angle-right"></em></a>
+                    <div class="submenu">
+                        <ul class="clearfix">
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Newsletter Archive</a></li>
+                            <li><a href="#">Press Releases</a></li>
+                            <li><a href="#">Tell Your Story</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
-</header>
+</nav>

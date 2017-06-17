@@ -6,6 +6,22 @@ button{
 :focus{
 	outline:none !important;
 }
+#page {
+    overflow: hidden;
+    min-height: 100%;
+    position: relative;
+}
+#wrapper{
+	position:relative;
+	overflow: hidden;
+	/*margin-right:0;
+	@include transition(all 0.3s ease-in-out);*/
+}
+/*.sidebar-menu{
+	#wrapper{
+		margin-right:400px;
+	}
+}*/
 
 .white{
 	color:$white;
@@ -84,10 +100,14 @@ button{
 	background-color:$dkgrey;
 }
 .dkmdpurple-bg{
-	background-color:$dkmdpurple
+	background-color:$dkmdpurple;
 }
 .ltdkpurple-bg{
-	background-color:$ltdkpurple
+	background-color:$ltdkpurple;
+}
+
+.vrdkpurple-bg{
+	background-color:$vrdkpurple;
 }
 
 h2, .h2{

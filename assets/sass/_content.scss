@@ -1358,6 +1358,12 @@
 			}
 		}
 	}
+	.thumbnail-50{
+		.caption{
+			padding-left:25px;
+			padding-right:25px;
+		}
+	}
 	
 }
 @media (max-width: $screen-xs-max){
