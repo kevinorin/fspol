@@ -1,0 +1,278 @@
+
+.filter-section{
+	padding-top:20px;
+	position:relative;
+	.btn{
+		white-space: normal;
+		padding-left:6px;
+		padding-right:6px;
+	}
+}
+
+.filter-block{
+	padding-bottom:20px;
+	padding-top:20px;
+	padding-left:428px;
+	position:relative;
+	+.filter-block{
+		border-top:1px solid #d9d9d9;
+	}
+}
+	.filter-label{
+		position:absolute;
+		left:0;
+		top:29px;
+	}
+	.filter-opt-list{
+		margin-left:-21px;
+		.btn{
+			min-width:150px;
+			margin-left:21px;
+			padding-top:17px;
+			padding-bottom:17px;
+			margin-bottom:20px;
+		}
+	}
+	
+	.additional-filter{
+		.filter-opt-list{
+			padding-right:146px;
+			position:relative;
+			.btn-xdkgrey{
+				border-width:2px;
+			}
+			.btn{
+				font-size:$font-size-xm;
+				letter-spacing: letterspacing(200, $font-size-xm);
+				padding-top:16px;
+				padding-bottom:16px;
+			}
+		}
+		.selected-filter{
+			.btn{
+				position:relative;
+				padding-right:42px;
+				min-width:231px;
+				max-width:252px;
+				margin-bottom:20px;
+				padding-top:10px;
+				padding-bottom:10px;
+				min-height:56px;
+				&.btn-green{
+					&.btn-outline{
+						background-color:$green;
+					}
+				}
+				em{
+					position:absolute;
+					right:6px;
+					top:50%;
+					@include transform(translateY(-50%));
+				}
+			}
+		}
+		.add-filt-btn{
+			font-size:21px;
+			line-height:26px;
+			position:absolute;
+			right:0;
+			top:14px;
+			button{
+				background-color:transparent;
+				color:$dkgrey;
+				border:none;
+				display:inline-block;
+			}
+			img{
+				margin-left:15px;
+				vertical-align:top;
+			}
+		}
+	}
+
+.filter-detail{
+	position:absolute;
+	left:0;
+	top:100%;
+	right:0;
+	z-index:999;
+	background-color:#e6e6e6;
+	display:none;
+	.row{
+		margin:0 -20px;
+		[class*="col-"]{
+			padding:0 20px;
+		}
+	}
+}
+	.filter-detail-block{
+		margin-bottom:30px;
+	}
+	.filter-list{
+		margin:0 -5px;
+		ul{
+			padding:0 5px;
+			margin:0;
+			float:left;
+			width:50%;
+			li{
+				list-style:none;
+				margin-bottom:10px;
+			}
+		}
+		.btn{
+			min-width:10px;
+			width:100%;
+			font-size:$font-size-xm;
+			letter-spacing: letterspacing(200, $font-size-xm);
+			padding-top:17px;
+			padding-bottom:17px;
+			&.btn-green{
+				&.btn-outline{
+					background-color:$white;
+					&:hover,
+					&:focus,
+					&:active{
+						background-color:$green-30;
+					}
+				}
+				&.btn-light{
+					&.active{
+						background-color:$green;
+					}
+				}
+			}
+			em{
+				display:none;
+			}
+		}
+	}
+	.filter-body{
+		padding:40px 0 10px;
+		position:relative;
+	}
+	.close-filter{
+		position:absolute;
+		right:10px;
+		top:10px;
+		background-color:transparent;
+		border:none;
+	}
+	.filter-footer{
+		border-top:1px solid #d1d1d1;
+		padding:35px 0 45px;
+		.btn{
+			min-width:235px;
+			+.btn{
+				margin-left:6px;
+			}
+		}
+	}
+	
+	.filter-three-col{
+		padding:0;
+		margin:0 -22px;
+		li{
+			float:left;
+			width:33.33%;
+			padding:0 22px;
+			list-style:none;
+			.btn{
+				min-width:10px;
+				width:100%;
+				margin-left:0;
+			}
+		}
+	}
+	.filter-four-col{
+		padding:0;
+		margin:0 -16px;
+		li{
+			float:left;
+			width:25%;
+			padding:0 16px;
+			list-style:none;
+			.btn{
+				min-width:10px;
+				width:100%;
+				margin-left:0;
+			}
+		}
+	}
+	
+	
+@media (max-width: $screen-sm-max){
+	.filter-block{
+		padding-left:288px;
+	}
+	.filter-four-col{ 
+		li{
+			width:50%;
+		}
+	}
+}
+
+@media (max-width: $screen-xs-max){
+	.filter-section{
+		padding-left:10px;
+		padding-right:10px;
+	}
+	.filter-block{
+		padding-left:0;
+	}
+	.filter-label{
+		position:static;
+		margin-bottom:20px;
+	}
+	.filter-opt-list{
+		margin-left:0;
+		.btn{
+			margin-left:0;
+			width:100%;
+		}
+	}
+	.additional-filter{ 
+		.filter-opt-list{
+			padding-right:0;
+		}
+		.add-filt-btn{
+			position:static;
+			padding:10px 0;
+			text-align:center;
+		}
+	}
+	.filter-detail{
+		padding-left:10px;
+		padding-right:10px;
+	}
+	.filter-list{ 
+		ul{
+			width:100%;
+		}
+	}
+	.filter-footer{
+		background-color:$dkgrey;
+		padding:18px 20px;
+		margin:0 -20px;
+		text-align:center;
+		.btn{
+			min-width:145px;
+			display:inline-block;
+			@include border-radius(10px);
+			&.btn-outline{
+				color:$white;
+			}
+			+.btn{
+				margin:10px 0 0 0;
+			}
+		}
+	}
+	.filter-four-col,
+	.filter-three-col{
+		margin:0;
+		li{
+			width:100%;
+			padding:0;
+		}
+	}
+}

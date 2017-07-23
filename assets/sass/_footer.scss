@@ -1,0 +1,169 @@
+#footer{
+	color:$white;
+	font-size:$font-size-md;
+	a{
+		color:$white; 
+		&:hover,
+		&:focus{
+			color:$green;
+		}
+	}
+}
+.footer-top{
+	padding:24px 0 29px;
+	background-color:$dkmdpurple;
+}
+	.footer-top-left{
+		float:left;
+		padding-top:42px;
+	}
+	.footer-top-right{
+		float:right;
+		text-align:right;
+		ul{
+			padding:0;
+			margin:0;
+			display:inline-block;
+			li{
+				list-style:none;
+				float:left;
+			}
+		}
+	}
+		.social-media{
+			margin-bottom:26px;
+			font-size:20px;
+			ul{
+				li{
+					+li{
+						margin-left:17px;
+					}
+				}
+			}
+		}
+		.footer-partner{
+			margin-bottom:56px; 
+			li{
+				+li{
+					margin-left:65px;
+				}
+			}
+			span{
+				display:block;
+				margin-bottom:25px;
+				text-align:left;
+			}
+		}
+		
+		.footer-menu{
+			font-family:$font-family-rounded-tn;
+			li{
+				+li{
+					margin-left:35px;
+				}
+			}
+		}
+
+.footer-bottom{
+	padding:25px 0;
+	background-color:$vrdkpurple;
+	ul{
+		padding:0;
+		margin:0;
+		display:inline-block;
+		li{
+			list-style:none;
+			float:left;
+			+li{
+				margin-left:43px;
+			}
+		}
+	}
+}
+	.footer-bottom-left{
+		float:left;
+	}
+	.footer-bottom-right{
+		float:right;
+	}
+
+@media (max-width: $screen-sm-max){	
+	.footer-top-right{
+		max-width:72%;
+		.footer-menu{
+			ul{
+				li{
+					float:none;
+					display:inline-block;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: $screen-xs-max){	
+	.footer-top-right{
+		max-width:100%;
+		float:none;
+		text-align:center;
+	}
+	.footer-top-left{
+		float:none;
+		text-align:center;
+		padding-top:17px;
+		margin-bottom:42px;
+		a{
+			display:inline-block;
+		}
+	}
+	.footer-top-right {
+		.social-media{
+			margin-bottom:57px;
+		}
+		.footer-partner{
+			ul {
+				li{
+					float:none;
+				}
+			}
+		}
+	}
+	
+	.footer-partner{
+		margin-bottom:20px;
+		span{
+			text-align:center;
+		}
+		img{
+			max-width:100%;
+		}
+		ul {
+			li{
+				+li{
+					margin:53px 0 0 0;
+				}
+			}
+		}
+	}
+	
+	.footer-bottom{
+		text-align:center;
+		padding:22px 0;
+		ul{
+			li{
+				float:none;
+				+li{
+					margin-left:0; 
+					margin-top:5px; 
+				}
+			}
+		}
+	}
+	.footer-bottom-left{
+		float:none;
+		margin-bottom:19px;
+	}
+	.footer-bottom-right{
+		float:none;
+	}
+}

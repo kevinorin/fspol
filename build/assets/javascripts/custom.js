@@ -1,0 +1,2 @@
+"use strict";$(window).load(function(){$(".teaser-grid .thumbnail").matchHeight()}),$(document).ready(function(){$(".cust-acc-title").on("click",function(){$(this).parent(".cust-acc-head").toggleClass("active").next(".custom-accordian-body").slideToggle(800)})}),$(function(){$(".page-scroll").bind("click",function(t){var c=$(this);$("html, body").stop().animate({scrollTop:$(c.attr("href")).offset().top},800,"linear"),t.preventDefault()})});
+//# sourceMappingURL=./custom.js.map
