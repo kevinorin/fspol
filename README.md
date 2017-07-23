@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Bootstrap for Sass
 [![Gem Version](https://badge.fury.io/rb/bootstrap-sass.svg)](http://badge.fury.io/rb/bootstrap-sass)
 [![npm version](https://img.shields.io/npm/v/bootstrap-sass.svg?style=flat)](https://www.npmjs.com/package/bootstrap-sass)
@@ -388,3 +389,6 @@ Michael Hartl's [Rails Tutorial](https://www.railstutorial.org/), [gitlabhq](htt
 [sass-precision]: http://sass-lang.com/documentation/Sass/Script/Value/Number.html#precision%3D-class_method
 [mincer]: https://github.com/nodeca/mincer
 [autoprefixer]: https://github.com/postcss/autoprefixer
+=======
+SASS based GUI
+>>>>>>> 6632fa22f2f8947a0672f5ccb46fb7ccb876f123

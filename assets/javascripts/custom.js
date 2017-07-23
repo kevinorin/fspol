@@ -32,6 +32,7 @@ $(document).ready(function(){
 	});
 
 	// Blue color jquery selectbox
+<<<<<<< HEAD
 	/*$('.blue-light-out-select').selectpicker({
 		style: 'btn-blue btn-outline btn-light',
 		size: 4
@@ -48,6 +49,24 @@ $(document).ready(function(){
 		style: 'btn-grey btn-outline btn-light',
 		size: 4
 	});*/
+=======
+	$('.blue-light-out-select').selectpicker({
+		style: 'btn-blue btn-outline btn-light',
+		size: 4
+	});
+
+	// Purple color jquery selectbox
+	$('.purple-light-out-select').selectpicker({
+		style: 'btn-purple btn-outline btn-light',
+		size: 4
+	});
+
+	// Grey color jquery selectbox
+	$('.grey-light-out-select').selectpicker({
+		style: 'btn-grey btn-outline btn-light',
+		size: 4
+	});
+>>>>>>> 6632fa22f2f8947a0672f5ccb46fb7ccb876f123
 
 	// Bootstrap star rating
 	$('.rating').rating();

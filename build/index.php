@@ -50,11 +50,19 @@
                       <em><img src="../assets/images/icon-awards.svg" alt="Stars and Ribbon" height="91" width="91"></em>
                     </div>
                     <h2 class="h2">Grants & Awards</h2>
+<<<<<<< HEAD
                     <h3><a href="#">Grant Example Item <em class="icon icon-chevron-arrow-right"></em></a></h3>
                     <P>Short details about the Campaign. non paenitet nullum festiviorem excogitasse ad hoc. Curabitur est gravida et libero vitae dictum...</P>
                     <h3><a href="#">Youth Leadership nominaiton Open<em class="icon icon-chevron-arrow-right"></em></a></h3>
                     <P>Short details about the Campaign. non paenitet nullum festiviorem excogitasse ad hoc. Curabitur est gravida et libero vitae dictum...</P>
                     <h3><a href="#">Ambitioni dedisse scripsisse iudicaretur <em class="icon icon-chevron-arrow-right"></em></a></h3>
+=======
+                    <h3><a href="#">Grant Example Item <em class="fa fa-angle-right"></em></a></h3>
+                    <P>Short details about the Campaign. non paenitet nullum festiviorem excogitasse ad hoc. Curabitur est gravida et libero vitae dictum...</P>
+                    <h3><a href="#">Youth Leadership nominaiton Open<em class="fa fa-angle-right"></em></a></h3>
+                    <P>Short details about the Campaign. non paenitet nullum festiviorem excogitasse ad hoc. Curabitur est gravida et libero vitae dictum...</P>
+                    <h3><a href="#">Ambitioni dedisse scripsisse iudicaretur <em class="fa fa-angle-right"></em></a></h3>
+>>>>>>> 6632fa22f2f8947a0672f5ccb46fb7ccb876f123
                     <P>Short details about the Campaign. non paenitet nullum festiviorem excogitasse ad hoc. Curabitur est gravida et libero vitae dictum...</P>
                     <a href="#" class="btn btn-blue">LEARN MORE</a>
                   </div>
@@ -70,11 +78,19 @@
                       <em><img src="../assets/images/icon-opportunities.svg" alt="Opportunitites" height="91" width="91"></em>
                     </div>
                     <h2 class="h2">Upcoming Opportunitites</h2>
+<<<<<<< HEAD
                     <h3><a href="#">Days of Service 1 <em class="icon icon-chevron-arrow-right"></em></a></h3>
                     <P>Short details about the Campaign. non paenitet nullum festiviorem excogitasse ad hoc. Curabitur est gravida et libero vitae dictum...</P>
                     <h3><a href="#">Days of Service 2 <em class="icon icon-chevron-arrow-right"></em></a></h3>
                     <P>Short details about the Campaign. non paenitet nullum festiviorem excogitasse ad hoc. Curabitur est gravida et libero vitae dictum...</P>
                     <h3><a href="#">Days of Service 3 <em class="icon icon-chevron-arrow-right"></em></a></h3>
+=======
+                    <h3><a href="#">Days of Service 1 <em class="fa fa-angle-right"></em></a></h3>
+                    <P>Short details about the Campaign. non paenitet nullum festiviorem excogitasse ad hoc. Curabitur est gravida et libero vitae dictum...</P>
+                    <h3><a href="#">Days of Service 2 <em class="fa fa-angle-right"></em></a></h3>
+                    <P>Short details about the Campaign. non paenitet nullum festiviorem excogitasse ad hoc. Curabitur est gravida et libero vitae dictum...</P>
+                    <h3><a href="#">Days of Service 3 <em class="fa fa-angle-right"></em></a></h3>
+>>>>>>> 6632fa22f2f8947a0672f5ccb46fb7ccb876f123
                     <P>Short details about the Campaign. non paenitet nullum festiviorem excogitasse ad hoc. Curabitur est gravida et libero vitae dictum...</P>
                     <a href="#" class="btn btn-purple">LEARN MORE</a>
                   </div>
