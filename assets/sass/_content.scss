@@ -458,7 +458,6 @@
 				border-width:1px;
 				vertical-align:top;
 			}
-<<<<<<< HEAD
 			.js-select{
 				width:auto;
 				vertical-align:middle;
@@ -475,15 +474,6 @@
 				letter-spacing: letterspacing(200, $font-size-md);
 			}
 			.bootstrap-select{
-=======
-			.bootstrap-select{
-				&.js-select{
-					width:auto;
-					vertical-align:middle;
-					height:auto;
-					margin-left:30px;
-				}
->>>>>>> 6632fa22f2f8947a0672f5ccb46fb7ccb876f123
 				.btn{
 					border-width:1px;
 					line-height:20px;
@@ -1301,17 +1291,9 @@
 		padding-left:20px;
 	}
 		.club-btn-right{
-<<<<<<< HEAD
 			.js-select{
 				margin-top:10px;
 				margin-left:0;
-=======
-			.bootstrap-select{
-				&.js-select{
-					margin-top:10px;
-					margin-left:0;
-				}
->>>>>>> 6632fa22f2f8947a0672f5ccb46fb7ccb876f123
 			}
 		}
 	.project-saved{
@@ -1590,18 +1572,11 @@
 			float:none;
 		}
 		.club-btn-right{
-<<<<<<< HEAD
 			.js-select{
 				display:block;
 				width:100%;
 			}
 			 .bootstrap-select{
-=======
-			 .bootstrap-select{
-				&.js-select{
-					display:block;
-				}
->>>>>>> 6632fa22f2f8947a0672f5ccb46fb7ccb876f123
 				&.btn-group{
 					 .dropdown-toggle{
 						 .filter-option{
