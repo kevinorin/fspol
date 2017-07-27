@@ -50,7 +50,7 @@
                 <div class="col-sm-6">
                   <div class="thumbnail">
                     <div class="thumb">
-                      <img src="assets/images/image-2.jpg" alt="">
+                      <img src="assets/images/image-9.jpg" alt="">
                     </div>
                     <div class="caption">
                       <h3 class="dkmdpurple">Article Title <em class="icon icon-chevron-arrow-right"></em></h3>
@@ -62,7 +62,7 @@
                 <div class="col-sm-6">
                   <div class="thumbnail">
                     <div class="thumb">
-                      <img src="assets/images/image-2.jpg" alt="">
+                      <img src="assets/images/image-10.jpg" alt="">
                     </div>
                     <div class="caption">
                       <h3 class="dkmdpurple">City, State <em class="icon icon-chevron-arrow-right"></em></h3>
@@ -74,7 +74,7 @@
                 <div class="col-sm-6">
                   <div class="thumbnail">
                     <div class="thumb">
-                      <img src="assets/images/image-2.jpg" alt="">
+                      <img src="assets/images/image-9.jpg" alt="">
                     </div>
                     <div class="caption">
                       <h3 class="dkmdpurple">City, State <em class="icon icon-chevron-arrow-right"></em></h3>
@@ -86,7 +86,7 @@
                 <div class="col-sm-6">
                   <div class="thumbnail">
                     <div class="thumb">
-                      <img src="assets/images/image-2.jpg" alt="">
+                      <img src="assets/images/image-10.jpg" alt="">
                     </div>
                     <div class="caption">
                       <h3 class="dkmdpurple">City, State <em class="icon icon-chevron-arrow-right"></em></h3>
@@ -157,7 +157,7 @@
                         <div class="media panel-shadow white-bg">
                           <div class="media-left white cyan-bg text-center media-middle">
                             <div class="club-left-outer">
-                                <img src="assets/images/icon-pdf-blue.png" alt="">
+                                <em class="icon icon-box-forwad"></em>
                             </div>
                           </div>
                           <div class="media-body">
@@ -179,7 +179,7 @@
                           <div class="media panel-shadow white-bg">
                           <div class="media-left white cyan-bg text-center media-middle">
                             <div class="club-left-outer">
-                                <img src="assets/images/icon-pdf-blue.png" alt="">
+                                <em class="icon icon-box-forwad"></em>
                             </div>
                           </div>
                           <div class="media-body">
@@ -207,7 +207,7 @@
                       <div class="col-md-4 col-sm-6">
                         <div class="thumbnail narrow-thumbnail blue-box">
                           <div class="thumb">
-                            <img src="assets/images/image-2.jpg" alt="">
+                            <img src="assets/images/image-11.jpg" alt="">
                           </div>
                           <div class="caption">
                             <h3><a href="#">Project Name <em class="icon icon-chevron-arrow-right"></em></a></h3>
@@ -222,7 +222,7 @@
                       <div class="col-md-4 col-sm-6">
                         <div class="thumbnail narrow-thumbnail blue-box">
                           <div class="thumb">
-                            <img src="assets/images/image-2.jpg" alt="">
+                            <img src="assets/images/image-11.jpg" alt="">
                           </div>
                           <div class="caption">
                             <h3><a href="#">Project Name <em class="icon icon-chevron-arrow-right"></em></a></h3>
@@ -237,7 +237,7 @@
                       <div class="col-md-4 col-sm-6">
                         <div class="thumbnail narrow-thumbnail blue-box">
                           <div class="thumb">
-                            <img src="assets/images/image-2.jpg" alt="">
+                            <img src="assets/images/image-11.jpg" alt="">
                           </div>
                           <div class="caption">
                             <h3><a href="#">Project Name <em class="icon icon-chevron-arrow-right"></em></a></h3>
