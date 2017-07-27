@@ -63,7 +63,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/fonts\/bootstrap\/glyphicons-halflings-regular.svg",
 		"oF": 0,
-		"opt": 1,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -121,7 +121,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/fonts\/fontawesome-webfont.svg",
 		"oF": 0,
-		"opt": 1,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -334,7 +334,7 @@
 		"oAP": "\/assets\/images\/apple-icon.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -345,7 +345,7 @@
 		"oAP": "\/assets\/images\/bg-header-login-100.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/images\/calendar-blue-bg.png": {
@@ -381,6 +381,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/images\/camp-image.jpg": {
+		"ft": 16384,
+		"iS": 133069,
+		"oA": 0,
+		"oAP": "\/assets\/images\/camp-image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/images\/campaign-logo.png": {
 		"ft": 32768,
 		"iS": 1983,
@@ -399,12 +409,12 @@
 		"oAP": "\/assets\/images\/dashboar-banner.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/images\/dos-bg-1.jpg": {
 		"ft": 16384,
-		"iS": 25564,
+		"iS": 133069,
 		"oA": 0,
 		"oAP": "\/assets\/images\/dos-bg-1.jpg",
 		"oF": 0,
@@ -419,7 +429,7 @@
 		"oAP": "\/assets\/images\/family-image-1.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -430,7 +440,7 @@
 		"oAP": "\/assets\/images\/footer-image-1.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -441,7 +451,7 @@
 		"oAP": "\/assets\/images\/footer-image-2.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -451,7 +461,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/footer-logo.svg",
 		"oF": 0,
-		"opt": 1,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -462,7 +472,7 @@
 		"oAP": "\/assets\/images\/home-banner-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/images\/icon-abc.svg": {
@@ -471,7 +481,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/icon-abc.svg",
 		"oF": 0,
-		"opt": 1,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -481,7 +491,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/icon-awards.svg",
 		"oF": 0,
-		"opt": 1,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -502,7 +512,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/icon-campaigns.svg",
 		"oF": 0,
-		"opt": 1,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -513,7 +523,7 @@
 		"oAP": "\/assets\/images\/icon-gift.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -524,7 +534,7 @@
 		"oAP": "\/assets\/images\/icon-green-arrow-down.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -534,7 +544,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/icon-lightbulb.svg",
 		"oF": 0,
-		"opt": 1,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -545,7 +555,7 @@
 		"oAP": "\/assets\/images\/icon-lock-1.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -556,7 +566,7 @@
 		"oAP": "\/assets\/images\/icon-lock.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/images\/icon-more.png": {
@@ -566,7 +576,7 @@
 		"oAP": "\/assets\/images\/icon-more.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -576,7 +586,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/icon-opportunities.svg",
 		"oF": 0,
-		"opt": 1,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -587,7 +597,7 @@
 		"oAP": "\/assets\/images\/icon-pdf-blue.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -598,7 +608,7 @@
 		"oAP": "\/assets\/images\/icon-pdf.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/images\/icon-plus.png": {
@@ -608,7 +618,7 @@
 		"oAP": "\/assets\/images\/icon-plus.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -618,7 +628,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/icon-school.svg",
 		"oF": 0,
-		"opt": 1,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -628,7 +638,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/icon-volunteering.svg",
 		"oF": 0,
-		"opt": 1,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -639,7 +649,27 @@
 		"oAP": "\/assets\/images\/image-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/image-10.jpg": {
+		"ft": 16384,
+		"iS": 67200,
+		"oA": 0,
+		"oAP": "\/assets\/images\/image-10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/image-11.jpg": {
+		"ft": 16384,
+		"iS": 24000,
+		"oA": 0,
+		"oAP": "\/assets\/images\/image-11.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/images\/image-2.jpg": {
@@ -649,7 +679,7 @@
 		"oAP": "\/assets\/images\/image-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/images\/image-3.jpg": {
@@ -659,7 +689,7 @@
 		"oAP": "\/assets\/images\/image-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/images\/image-4.jpg": {
@@ -669,7 +699,7 @@
 		"oAP": "\/assets\/images\/image-4.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/images\/image-5.jpg": {
@@ -679,7 +709,7 @@
 		"oAP": "\/assets\/images\/image-5.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/images\/image-6.jpg": {
@@ -712,6 +742,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/images\/image-9.jpg": {
+		"ft": 16384,
+		"iS": 60978,
+		"oA": 0,
+		"oAP": "\/assets\/images\/image-9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/images\/logo-mob.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -728,7 +768,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/logo.svg",
 		"oF": 0,
-		"opt": 1,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -1057,6 +1097,19 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/assets\/sass\/_calendar.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/sass\/_campaign.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/_campaign.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2271,21 +2324,21 @@
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
-		"ma": 0,
+		"ma": 1,
 		"oA": 2,
 		"oAP": "\/assets\/stylesheets\/font-awesome.min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"\/assets\/stylesheets\/style.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
-		"ma": 0,
+		"ma": 1,
 		"oA": 2,
 		"oAP": "\/assets\/stylesheets\/style.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"\/banner-home.php": {
 		"ft": 8192,
@@ -4972,7 +5025,7 @@
 		},
 	"\/build\/assets\/images\/home-banner-1.jpg": {
 		"ft": 16384,
-		"iS": 37702,
+		"iS": 37837,
 		"oA": 0,
 		"oAP": "\/build\/assets\/images\/home-banner-1.jpg",
 		"oF": 0,
@@ -5545,21 +5598,21 @@
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
-		"ma": 0,
+		"ma": 1,
 		"oA": 2,
 		"oAP": "\/build\/assets\/stylesheets\/font-awesome.min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"\/build\/assets\/stylesheets\/style.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
-		"ma": 0,
+		"ma": 1,
 		"oA": 2,
 		"oAP": "\/build\/assets\/stylesheets\/style.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"\/build\/banner-home.php": {
 		"ft": 8192,
@@ -8347,6 +8400,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/campaign-story.php",
+		"oF": 0
+		},
+	"\/campain-detail.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/campain-detail.php",
 		"oF": 0
 		},
 	"\/campains.php": {
