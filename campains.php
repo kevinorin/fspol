@@ -12,7 +12,7 @@
     <div class="container padding-none-xs">
         <div class="banner-full-height">
             <div class="banner-text cleafix">
-                <h1>Campaignsz</h1>
+                <h1>Campaigns</h1>
                 <ul class="breadcrumb">
                   <li><a href="index.php">Home</a></li>
                   <li><a href="#">Get Involved</a></li>
